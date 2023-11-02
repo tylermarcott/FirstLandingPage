@@ -28,24 +28,84 @@
         </div>
       </div>
     </section>
-    <section class="container">
-      <div class="row summary-card">
-        <div>
-          Summary/ about section
+    <section>
+      <div class="row summary-background justify-content-center">
+        <div class="col-12 summary-title text-center">
+          About me
         </div>
+        <div class="col-10 summary-card elevatation-2">
+          <div class="row text-center p-3">
+            <h3>
+              Hi, I'm Tyler!
+            </h3>
+            <p class="p-3">
+              I am a junior software engineer with a passion for creativity, team work and full stack design.
+
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse sint amet tempore, in quidem cupiditate nisi
+              harum, repellat odio ducimus modi dolores minima debitis consequatur? Repudiandae eveniet saepe doloremque
+              nihil?
+              Eveniet, ratione est, ipsum eaque eos ipsa qui voluptatum officia nam mollitia, sit necessitatibus
+              voluptatibus vero. Ut dignissimos, maiores totam quaerat blanditiis, quam deleniti incidunt necessitatibus
+              sint, eligendi suscipit? Quod?
+              Sit eveniet praesentium alias eius facilis adipisci hic laborum velit assumenda recusandae aliquam
+              cupiditate et reiciendis quisquam molestiae, itaque harum perferendis temporibus quibusdam? Beatae aut quis
+              optio itaque culpa voluptate!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="row">
+        <div class="col-1">
+          <img class="dev-icon" src="https://img.icons8.com/?size=100&id=39853&format=png" alt="">
+        </div>
+        <div class="col-1">
+          html
+        </div>
+        <div class="col-1">
+          css
+        </div>
+        <div class="col-1">
+          c#
+        </div>
+        <div class="col-1">
+          c++
+        </div>
+        <div class="col-1">
+          sql
+        </div>
+        <div class="col-1">
+          vue
+        </div>
+        <div class="col-1">
+          node
+        </div>
+        <div>
+          postman
+        </div>
+        <div class="col-1">
+          bootstrap
+        </div>
+        <div class="col-1">
+          mongoDB
+        </div>
+        <div class="col-1">
+          maybe other stuff
+        </div>
+
+
+
+
+
+
+
       </div>
     </section>
     <section>
       <div class="row">
         <div>
           Projects summaries and links will go here
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="row">
-        <div>
-          Section with list of skills and associated icons will go here
         </div>
       </div>
     </section>
@@ -71,21 +131,36 @@ export default {
 
 <style scoped lang="scss">
 .header-img {
-  background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=2020&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-image: url(../assets/img/laptop-background.jpg);
   background-size: contain;
-  height: 150vh;
+  background-position: top;
+  height: 100vh;
   overflow: hidden;
 }
 
 .title {
-  color: white;
+  color: #f0f0f0;
   margin-top: 10vh;
   margin-left: 20vh;
   font-size: 60px;
 }
 
+.summary-title {
+  margin-top: 1em;
+  font-size: 40px;
+  color: #f0f0f0;
+}
+
+.summary-background {
+  height: 70vh;
+  background-color: #122331;
+}
+
 .summary-card {
-  height: 50vh;
+  background-color: #f0f0f0;
+  margin: 1em;
+  border-radius: 10px;
+  height: 40vh;
 }
 
 .contact-icons {
@@ -95,6 +170,16 @@ export default {
 .icon {
   cursor: pointer;
   font-size: 50px;
+}
+
+.dev-icon {
+  // height: 20px;
+  // width: 20px;
+  cursor: pointer;
+}
+
+.dev-icon:hover {
+  transform: scale(1.10);
 }
 
 .icon:hover {
