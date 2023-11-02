@@ -139,7 +139,7 @@ export default {
 }
 
 .title {
-  color: #f0f0f0;
+  color: #E1D9D1;
   margin-top: 10vh;
   margin-left: 20vh;
   font-size: 60px;
@@ -148,7 +148,7 @@ export default {
 .summary-title {
   margin-top: 1em;
   font-size: 40px;
-  color: #f0f0f0;
+  color: #E1D9D1;
 }
 
 .summary-background {
@@ -157,7 +157,7 @@ export default {
 }
 
 .summary-card {
-  background-color: #f0f0f0;
+  background-color: #E1D9D1;
   margin: 1em;
   border-radius: 10px;
   height: 40vh;
@@ -169,7 +169,7 @@ export default {
 }
 
 .project-card {
-  background-color: #f0f0f0;
+  background-color: #E1D9D1;
   margin: 1em;
   margin-top: 4em;
   border-radius: 10px;
@@ -182,7 +182,7 @@ export default {
 }
 
 .contact-card {
-  background-color: #f0f0f0;
+  background-color: #E1D9D1;
   margin: 1em;
   margin-top: 4em;
   border-radius: 10px;
@@ -194,6 +194,7 @@ export default {
 }
 
 .icon {
+  color: #E1D9D1;
   cursor: pointer;
   font-size: 50px;
 }
@@ -217,12 +218,13 @@ export default {
 }
 
 .skill-stack {
-  margin-top: 1em;
-  margin-bottom: 1em;
+  background-color: #E1D9D1;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .title-footer {
-  color: white;
+  color: #E1D9D1;
   font-size: 30px;
   margin-left: 20vh;
 }
