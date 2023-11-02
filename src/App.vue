@@ -1,0 +1,41 @@
+<template>
+  <header>
+    <section class="container">
+      <div class="row">
+        some header
+      </div>
+    </section>
+  </header>
+  <main>
+    <router-view />
+  </main>
+  <footer>
+  </footer>
+</template>
+
+<script>
+import { computed } from 'vue'
+import { AppState } from './AppState'
+
+export default {
+  setup() {
+    return {
+      appState: computed(() => AppState)
+    }
+  }
+}
+</script>
+<style lang="scss">
+@import "./assets/scss/main.scss";
+
+:root {
+  --main-height: calc(100vh - 32px - 64px);
+}
+
+
+footer {
+  display: grid;
+  place-content: center;
+  height: 32px;
+}
+</style>
