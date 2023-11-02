@@ -56,42 +56,42 @@
       </div>
     </section>
     <section>
-      <div class="row">
+      <div class="row skill-stack">
         <div class="col-1">
-          <img class="dev-icon" src="https://img.icons8.com/?size=100&id=39853&format=png" alt="">
+          <img class="dev-icon" src="https://img.icons8.com/?size=96&id=PXTY4q2Sq2lG&format=png" alt="">
         </div>
         <div class="col-1">
-          html
+          <img src="https://img.icons8.com/?size=96&id=20909&format=png" alt="">
         </div>
         <div class="col-1">
-          css
+          <img src="https://img.icons8.com/?size=96&id=7gdY5qNXaKC0&format=png" alt="">
         </div>
         <div class="col-1">
-          c#
+          <img src="https://img.icons8.com/?size=96&id=rY6agKizO9eb&format=png" alt="">
         </div>
         <div class="col-1">
-          c++
+          <img src="https://img.icons8.com/?size=96&id=54087&format=png" alt="">
         </div>
         <div class="col-1">
-          sql
+          <img src="https://img.icons8.com/?size=96&id=9nLaR5KFGjN0&format=png" alt="">
         </div>
         <div class="col-1">
-          vue
+          <img src="https://img.icons8.com/?size=96&id=55251&format=png" alt="">
         </div>
         <div class="col-1">
-          node
-        </div>
-        <div>
-          postman
+          <img src="https://img.icons8.com/?size=96&id=40669&format=png" alt="">
         </div>
         <div class="col-1">
-          bootstrap
+          <img src="https://img.icons8.com/?size=96&id=g9mmSxx3SwAI&format=png" alt="">
         </div>
         <div class="col-1">
-          mongoDB
+          <img src="https://img.icons8.com/?size=128&id=QEQQKirln6Tf&format=png" alt="">
+        </div>
+        <div class="col-1 mongodb-icon">
+          <img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" alt="">
         </div>
         <div class="col-1">
-          maybe other stuff
+
         </div>
 
 
@@ -103,16 +103,16 @@
       </div>
     </section>
     <section>
-      <div class="row">
-        <div>
+      <div class="row project-background justify-content-center">
+        <div class="col-10 project-card">
           Projects summaries and links will go here
         </div>
       </div>
     </section>
     <section>
-      <div class="row">
-        <div>
-          contanct info down here, either put links to email, linkedin and github at top or bottom
+      <div class="row contact-background justify-content-center">
+        <div class="col-6 contact-card">
+
         </div>
       </div>
     </section>
@@ -163,6 +163,32 @@ export default {
   height: 40vh;
 }
 
+.project-background {
+  height: 70vh;
+  background-color: #122331;
+}
+
+.project-card {
+  background-color: #f0f0f0;
+  margin: 1em;
+  margin-top: 4em;
+  border-radius: 10px;
+  height: 40vh;
+}
+
+.contact-background {
+  height: 100vh;
+  background-color: #010200;
+}
+
+.contact-card {
+  background-color: #f0f0f0;
+  margin: 1em;
+  margin-top: 4em;
+  border-radius: 10px;
+  height: 80vh;
+}
+
 .contact-icons {
   margin-top: 11vh;
 }
@@ -178,12 +204,21 @@ export default {
   cursor: pointer;
 }
 
+// .mongodb-icon {
+//   height: 5vh;
+// }
+
 .dev-icon:hover {
   transform: scale(1.10);
 }
 
 .icon:hover {
   transform: scale(1.2);
+}
+
+.skill-stack {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .title-footer {
