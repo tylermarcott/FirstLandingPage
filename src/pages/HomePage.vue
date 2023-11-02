@@ -72,13 +72,14 @@ export default {
 <style scoped lang="scss">
 .header-img {
   background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=2020&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-  height: 140vh;
+  background-size: contain;
+  height: 150vh;
   overflow: hidden;
 }
 
 .title {
   color: white;
-  margin-top: 20vh;
+  margin-top: 10vh;
   margin-left: 20vh;
   font-size: 60px;
 }
@@ -88,7 +89,7 @@ export default {
 }
 
 .contact-icons {
-  margin-top: 23vh;
+  margin-top: 11vh;
 }
 
 .icon {
