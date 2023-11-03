@@ -20,6 +20,9 @@
           </div>
         </div>
       </div>
+
+      <!-- FIXME: maybe invert the dark and light colors. dark background and light text, might be a little better/ easier to read...? -->
+
       <div class="row">
         <div class="col-12">
           <p class="title-footer">
@@ -64,34 +67,34 @@
           <img class="dev-icon" src="https://img.icons8.com/?size=96&id=PXTY4q2Sq2lG&format=png" alt="">
         </div>
         <div class="col-1">
-          <img src="https://img.icons8.com/?size=96&id=20909&format=png" alt="">
+          <img class="dev-icon" src="https://img.icons8.com/?size=96&id=20909&format=png" alt="">
         </div>
         <div class="col-1">
-          <img src="https://img.icons8.com/?size=96&id=7gdY5qNXaKC0&format=png" alt="">
+          <img class="dev-icon" src="https://img.icons8.com/?size=96&id=7gdY5qNXaKC0&format=png" alt="">
         </div>
         <div class="col-1">
-          <img src="https://img.icons8.com/?size=96&id=rY6agKizO9eb&format=png" alt="">
+          <img class="dev-icon" src="https://img.icons8.com/?size=96&id=rY6agKizO9eb&format=png" alt="">
         </div>
         <div class="col-1">
-          <img src="https://img.icons8.com/?size=96&id=54087&format=png" alt="">
+          <img class="dev-icon" src="https://img.icons8.com/?size=96&id=54087&format=png" alt="">
         </div>
         <div class="col-1">
-          <img src="https://img.icons8.com/?size=96&id=9nLaR5KFGjN0&format=png" alt="">
+          <img class="dev-icon" src="https://img.icons8.com/?size=96&id=9nLaR5KFGjN0&format=png" alt="">
         </div>
         <div class="col-1">
-          <img src="https://img.icons8.com/?size=96&id=55251&format=png" alt="">
+          <img class="dev-icon" src="https://img.icons8.com/?size=96&id=55251&format=png" alt="">
         </div>
         <div class="col-1">
-          <img src="https://img.icons8.com/?size=96&id=40669&format=png" alt="">
+          <img class="dev-icon" src="https://img.icons8.com/?size=96&id=40669&format=png" alt="">
         </div>
         <div class="col-1">
-          <img src="https://img.icons8.com/?size=96&id=g9mmSxx3SwAI&format=png" alt="">
+          <img class="dev-icon" src="https://img.icons8.com/?size=96&id=g9mmSxx3SwAI&format=png" alt="">
         </div>
         <div class="col-1 mongodb-icon">
-          <img src="https://img.icons8.com/?size=96&id=74402&format=png" alt="">
+          <img class="dev-icon" src="https://img.icons8.com/?size=96&id=74402&format=png" alt="">
         </div>
         <div class="col-1">
-          <img src="https://img.icons8.com/?size=96&id=33039&format=png" alt="">
+          <img class="dev-icon" src="https://img.icons8.com/?size=96&id=33039&format=png" alt="">
         </div>
 
 
