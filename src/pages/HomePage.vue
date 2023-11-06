@@ -56,6 +56,15 @@
                 multiple
                 different people into a singular vision. ADD MORE....
               </p>
+              <p class="p-4">
+                With a background in automotive performance, I bring the organized and meticulous mindset required to work
+                on performance vehicles into my coding practices. This results in clean and concise code... ADD MORE
+              </p>
+              <p class="p-4">
+                Outside of coding, I have many hobbies including cooking, snowboarding, playing the acoustic guitar and
+                much more! I strive to stay healthy in body and mind, and create for myself a healthy balance between
+                working and having fun. ADD MORE
+              </p>
             </div>
             <div class="col-6 text-center">
               <img src="../assets/img/headshot.jpg" class="headshot" alt="">
@@ -67,7 +76,7 @@
     <section>
       <div class="row skill-stack justify-content-between px-3">
         <div class="col-12 skill-stack-title">
-          My Skills
+          My Skills... this needs some works still
         </div>
         <div class="col-1">
           <img class="dev-icon" src="https://img.icons8.com/?size=96&id=PXTY4q2Sq2lG&format=png" alt="">
@@ -114,10 +123,24 @@
     <section>
       <div class="row project-background justify-content-center">
         <div class="col-10 project-card">
-          Projects summaries and links will go here
-          <div>
-            Stackify
+          <h3 class="p-3">
+            Portfolio
+          </h3>
+          <div class="row single-project">
+            <div class="col-6">
+              <img src="" alt="">
+            </div>
+            <div class="col-6">
+              <div class="row">
+                <h4>
+                  Stackify
+                </h4>
+              </div>
+            </div>
           </div>
+
+
+
           <div>
             Keepr
           </div>
@@ -229,7 +252,7 @@ export default {
 }
 
 .project-background {
-  height: 70vh;
+  height: 200vh;
   background-color: #010200;
   border: solid 1px #E1D9D1;
 }
@@ -240,8 +263,16 @@ export default {
   margin: 1em;
   margin-top: 4em;
   border-radius: 10px;
-  height: 40vh;
+  height: 180vh;
   border: solid 1px #E1D9D1;
+}
+
+.single-project {
+  height: 50vh;
+}
+
+.project-image {
+  max-height: 30vh;
 }
 
 .contact-background {
