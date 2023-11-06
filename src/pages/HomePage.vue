@@ -126,7 +126,7 @@
           <h3 class="p-3">
             Portfolio
           </h3>
-          <div class="row single-project">
+          <div class="row mb-5 single-project">
             <div class="col-6">
               <img src="../assets/img/StackifySnapshot.png" class="project-image" alt="">
             </div>
@@ -151,7 +151,7 @@
           </div>
 
 
-          <div class="row single-project">
+          <div class="row mb-5 single-project">
             <div class="col-6">
               <div class="row project-description">
                 <h4>
@@ -176,7 +176,7 @@
           </div>
 
 
-          <div class="row single-project">
+          <div class="row mb-5 single-project">
             <div class="col-6">
               <img src="../assets/img/StackifySnapshot.png" class="project-image" alt="">
             </div>
@@ -334,7 +334,7 @@ export default {
 }
 
 .project-background {
-  height: 240vh;
+  height: 245vh;
   background-color: #010200;
   border: solid 1px #E1D9D1;
 }
@@ -345,7 +345,7 @@ export default {
   margin: 1em;
   margin-top: 4em;
   border-radius: 10px;
-  height: 220vh;
+  height: 240vh;
   border: solid 1px #E1D9D1;
 }
 
