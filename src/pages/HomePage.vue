@@ -8,19 +8,19 @@
         </div>
         <div class="col-4 contact-icons">
           <div class="row text-light">
-            <div class="col-3 icon text-center">
+            <div class="col-3 text-center icon">
               <a href="https://github.com/tylermarcott" target="_blank" rel="noopener noreferrer">
-                <i class="mdi mdi-github"></i>
+                <i class="mdi mdi-github icon-color"></i>
               </a>
             </div>
             <div class="col-3 icon text-center">
               <a href="https://www.linkedin.com/in/tyler-marcott-225277204/" target="_blank" rel="noopener noreferrer">
-                <i class="mdi mdi-linkedin"></i>
+                <i class="mdi mdi-linkedin icon-color"></i>
               </a>
             </div>
             <div class="col-3 icon text-center">
               <a href="mailto:tylerjmarcott@gmail.com?subject=Hello%20Tyler!&body=Hello%2C%20I'm%20interested%20in...">
-                <i class="mdi mdi-email"></i>
+                <i class="mdi mdi-email icon-color"></i>
               </a>
             </div>
           </div>
@@ -32,7 +32,7 @@
       <div class="row">
         <div class="col-12">
           <p class="title-footer">
-            Full Stack Software Developer ..... maybe link down to contact info here?
+            Full Stack Software Developer
           </p>
         </div>
       </div>
@@ -43,11 +43,11 @@
           About me
         </div>
         <div class="col-10 summary-card elevatation-2">
-          <div class="row text-center p-3">
-            <h3>
+          <div class="row p-3">
+            <h4>
               Hi, I'm Tyler!
-            </h3>
-            <p class="p-3">
+            </h4>
+            <p class="p-4">
               I am a junior software engineer with a passion for creativity, team work and full stack design.
 
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse sint amet tempore, in quidem cupiditate nisi
@@ -182,44 +182,60 @@ export default {
   color: #E1D9D1;
   margin-top: 10vh;
   margin-left: 20vh;
-  font-size: 60px;
+  font-size: 70px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.title-footer {
+  color: #E1D9D1;
+  font-size: 40px;
+  margin-left: 20vh;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
 }
 
 .summary-title {
   padding-left: 2em;
   margin-top: 1em;
   font-size: 40px;
+  font-weight: 300;
   color: #E1D9D1;
 }
 
 .summary-background {
   height: 70vh;
-  background-color: #122331;
+  background-color: #010200;
+  border: solid 1px #E1D9D1;
 }
 
 .summary-card {
-  background-color: #E1D9D1;
+  background-color: #122331;
+  color: #E1D9D1;
   margin: 1em;
   border-radius: 10px;
   height: 40vh;
+  border: solid 1px #E1D9D1;
 }
 
 .project-background {
   height: 70vh;
-  background-color: #122331;
+  background-color: #010200;
+  border: solid 1px #E1D9D1;
 }
 
 .project-card {
-  background-color: #E1D9D1;
+  background-color: #122331;
+  color: #E1D9D1;
   margin: 1em;
   margin-top: 4em;
   border-radius: 10px;
   height: 40vh;
+  border: solid 1px #E1D9D1;
 }
 
 .contact-background {
   height: 100vh;
-  background-color: #010200;
+  background-color: #122331;
 }
 
 .contact-card {
@@ -235,9 +251,17 @@ export default {
 }
 
 .icon {
-  color: #E1D9D1;
   cursor: pointer;
+  transition: transform 0.3s ease-in-out; //NOTE: the ease transition needs to go on the actual class, not the hover class.
   font-size: 50px;
+}
+
+.icon-color {
+  color: #2899C3;
+}
+
+.icon-color:hover {
+  color: #E1D9D1;
 }
 
 .dev-icon {
@@ -245,10 +269,6 @@ export default {
   // width: 20px;
   cursor: pointer;
 }
-
-// .mongodb-icon {
-//   height: 5vh;
-// }
 
 .dev-icon:hover {
   transform: scale(1.10);
@@ -269,11 +289,5 @@ export default {
   margin-top: 0.3em;
   font-size: 40px;
   color: #010200;
-}
-
-.title-footer {
-  color: #E1D9D1;
-  font-size: 30px;
-  margin-left: 20vh;
 }
 </style>

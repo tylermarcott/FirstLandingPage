@@ -1,10 +1,5 @@
 <template>
   <header>
-    <section class="container">
-      <div class="row">
-        some header? Maybe or maybe not put something up here
-      </div>
-    </section>
   </header>
   <main>
     <router-view />
