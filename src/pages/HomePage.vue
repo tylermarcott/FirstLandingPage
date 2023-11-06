@@ -9,13 +9,19 @@
         <div class="col-4 contact-icons">
           <div class="row text-light">
             <div class="col-3 icon text-center">
-              <i class="mdi mdi-github"></i>
+              <a href="https://github.com/tylermarcott" target="_blank" rel="noopener noreferrer">
+                <i class="mdi mdi-github"></i>
+              </a>
             </div>
             <div class="col-3 icon text-center">
-              <i class="mdi mdi-linkedin"></i>
+              <a href="https://www.linkedin.com/in/tyler-marcott-225277204/" target="_blank" rel="noopener noreferrer">
+                <i class="mdi mdi-linkedin"></i>
+              </a>
             </div>
             <div class="col-3 icon text-center">
-              <i class="mdi mdi-email"></i>
+              <a href="mailto:tylerjmarcott@gmail.com?subject=Hello%20Tyler!&body=Hello%2C%20I'm%20interested%20in...">
+                <i class="mdi mdi-email"></i>
+              </a>
             </div>
           </div>
         </div>
