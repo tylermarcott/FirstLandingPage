@@ -44,21 +44,11 @@
         </div>
         <div class="col-10 summary-card elevatation-2">
           <div class="row p-3">
-            <h4>
+            <h4 class="summary-intro">
               Hi, I'm Tyler!
             </h4>
             <p class="p-4">
-              I am a junior software engineer with a passion for creativity, team work and full stack design.
-
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse sint amet tempore, in quidem cupiditate nisi
-              harum, repellat odio ducimus modi dolores minima debitis consequatur? Repudiandae eveniet saepe doloremque
-              nihil?
-              Eveniet, ratione est, ipsum eaque eos ipsa qui voluptatum officia nam mollitia, sit necessitatibus
-              voluptatibus vero. Ut dignissimos, maiores totam quaerat blanditiis, quam deleniti incidunt necessitatibus
-              sint, eligendi suscipit? Quod?
-              Sit eveniet praesentium alias eius facilis adipisci hic laborum velit assumenda recusandae aliquam
-              cupiditate et reiciendis quisquam molestiae, itaque harum perferendis temporibus quibusdam? Beatae aut quis
-              optio itaque culpa voluptate!
+              I am a junior software engineer with a passion for creativity, team work and full stack design. FUCK
             </p>
           </div>
         </div>
@@ -200,6 +190,10 @@ export default {
   font-size: 40px;
   font-weight: 300;
   color: #E1D9D1;
+}
+
+.summary-intro {
+  font-style: italic;
 }
 
 .summary-background {
