@@ -42,15 +42,24 @@
         <div class="col-12 summary-title">
           About me
         </div>
-        <div class="col-10 summary-card elevatation-2">
+        <div class="col-10 summary-card elevation-2">
           <div class="row p-3">
-            <h4 class="summary-intro">
-              Hi, I'm Tyler!
-            </h4>
-            <!-- TODO: left off working on this. Everything above is looking pretty good. I need to create my about section below, but I kinda hit a writer's block lol -->
-            <p class="p-4">
-              I am a junior software engineer with a passion for creativity, team work and full stack design. FUCK
-            </p>
+            <div class="col-6">
+              <h4 class="summary-intro">
+                Hi, I'm Tyler!
+              </h4>
+              <!-- TODO: left off working on this. Everything above is looking pretty good. I need to create my about section below, but I kinda hit a writer's block lol -->
+              <p class="p-4">
+                I am a junior software engineer with a passion for creativity, team work and full stack design. I
+                thoroughly
+                enjoy the process of organizing, planning and executing a project, as well as combining ideas from
+                multiple
+                different people into a singular vision. ADD MORE....
+              </p>
+            </div>
+            <div class="col-6 text-center">
+              <img src="../assets/img/headshot.jpg" class="headshot" alt="">
+            </div>
           </div>
         </div>
       </div>
@@ -198,7 +207,7 @@ export default {
 }
 
 .summary-background {
-  height: 70vh;
+  height: 120vh;
   background-color: #010200;
   border: solid 1px #E1D9D1;
 }
@@ -208,8 +217,15 @@ export default {
   color: #E1D9D1;
   margin: 1em;
   border-radius: 10px;
-  height: 40vh;
+  height: 90vh;
   border: solid 1px #E1D9D1;
+}
+
+.headshot {
+  max-height: 75vh;
+  margin-top: 5vh;
+  max-width: 70vh;
+  border-radius: 10px;
 }
 
 .project-background {
