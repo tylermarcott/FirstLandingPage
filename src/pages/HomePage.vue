@@ -47,6 +47,7 @@
             <h4 class="summary-intro">
               Hi, I'm Tyler!
             </h4>
+            <!-- TODO: left off working on this. Everything above is looking pretty good. I need to create my about section below, but I kinda hit a writer's block lol -->
             <p class="p-4">
               I am a junior software engineer with a passion for creativity, team work and full stack design. FUCK
             </p>
