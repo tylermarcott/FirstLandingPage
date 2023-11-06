@@ -76,7 +76,7 @@
     <section>
       <div class="row skill-stack justify-content-between px-3">
         <div class="col-12 skill-stack-title">
-          My Skills... this needs some works still
+          My Skills
         </div>
         <div class="col-1">
           <img class="dev-icon" src="https://img.icons8.com/?size=96&id=PXTY4q2Sq2lG&format=png" alt="">
@@ -128,52 +128,134 @@
           </h3>
           <div class="row single-project">
             <div class="col-6">
-              <img src="" alt="">
+              <img src="../assets/img/StackifySnapshot.png" class="project-image" alt="">
             </div>
             <div class="col-6">
-              <div class="row">
+              <div class="row project-description">
                 <h4>
                   Stackify
                 </h4>
+                <p class="ms-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate amet laboriosam, numquam quis
+                  maiores eius optio, eos rerum et obcaecati hic animi in. Doloremque sint nesciunt fugiat temporibus
+                  distinctio voluptas.
+                  Consequuntur sit voluptate velit accusamus reprehenderit unde quidem ullam molestias numquam
+                  perspiciatis vel quod officia maiores, facere eveniet distinctio magni, provident dolore consequatur
+                  mollitia nesciunt enim placeat possimus optio. Dolor.
+                  Neque porro dignissimos quibusdam ipsam cum recusandae, ea eum dolore sapiente alias voluptate ipsa!
+                  Enim eligendi harum assumenda beatae dolorum necessitatibus consectetur dolor cupiditate ad quaerat, sed
+                  sint inventore. Rem?
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row single-project">
+            <div class="col-6">
+              <div class="row project-description">
+                <h4>
+                  Keepr
+                </h4>
+                <p class="ms-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate amet laboriosam, numquam quis
+                  maiores eius optio, eos rerum et obcaecati hic animi in. Doloremque sint nesciunt fugiat temporibus
+                  distinctio voluptas.
+                  Consequuntur sit voluptate velit accusamus reprehenderit unde quidem ullam molestias numquam
+                  perspiciatis vel quod officia maiores, facere eveniet distinctio magni, provident dolore consequatur
+                  mollitia nesciunt enim placeat possimus optio. Dolor.
+                  Neque porro dignissimos quibusdam ipsam cum recusandae, ea eum dolore sapiente alias voluptate ipsa!
+                  Enim eligendi harum assumenda beatae dolorum necessitatibus consectetur dolor cupiditate ad quaerat, sed
+                  sint inventore. Rem?
+                </p>
+              </div>
+            </div>
+            <div class="col-6">
+              <img src="../assets/img/StackifySnapshot.png" class="project-image" alt="">
+            </div>
+          </div>
+
+
+          <div class="row single-project">
+            <div class="col-6">
+              <img src="../assets/img/StackifySnapshot.png" class="project-image" alt="">
+            </div>
+            <div class="col-6">
+              <div class="row project-description">
+                <h4>
+                  Scare St.
+                </h4>
+                <p class="ms-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate amet laboriosam, numquam quis
+                  maiores eius optio, eos rerum et obcaecati hic animi in. Doloremque sint nesciunt fugiat temporibus
+                  distinctio voluptas.
+                  Consequuntur sit voluptate velit accusamus reprehenderit unde quidem ullam molestias numquam
+                  perspiciatis vel quod officia maiores, facere eveniet distinctio magni, provident dolore consequatur
+                  mollitia nesciunt enim placeat possimus optio. Dolor.
+                  Neque porro dignissimos quibusdam ipsam cum recusandae, ea eum dolore sapiente alias voluptate ipsa!
+                  Enim eligendi harum assumenda beatae dolorum necessitatibus consectetur dolor cupiditate ad quaerat, sed
+                  sint inventore. Rem?
+                </p>
               </div>
             </div>
           </div>
 
 
 
-          <div>
-            Keepr
+          <div class="row single-project">
+            <div class="col-6">
+              <div class="row project-description">
+                <h4>
+                  Tower
+                </h4>
+                <p class="ms-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate amet laboriosam, numquam quis
+                  maiores eius optio, eos rerum et obcaecati hic animi in. Doloremque sint nesciunt fugiat temporibus
+                  distinctio voluptas.
+                  Consequuntur sit voluptate velit accusamus reprehenderit unde quidem ullam molestias numquam
+                  perspiciatis vel quod officia maiores, facere eveniet distinctio magni, provident dolore consequatur
+                  mollitia nesciunt enim placeat possimus optio. Dolor.
+                  Neque porro dignissimos quibusdam ipsam cum recusandae, ea eum dolore sapiente alias voluptate ipsa!
+                  Enim eligendi harum assumenda beatae dolorum necessitatibus consectetur dolor cupiditate ad quaerat, sed
+                  sint inventore. Rem?
+                </p>
+              </div>
+            </div>
+            <div class="col-6">
+              <img src="../assets/img/StackifySnapshot.png" class="project-image" alt="">
+            </div>
           </div>
-          <div>
-            Tower
-          </div>
-          <div>
-            maybe others like scare st or allspice..? tbd
-          </div>
+
+
+
+
+
+
         </div>
       </div>
     </section>
+    <!-- FIXME: add form control on here, so people can't put in BS stuff into the form fields lol. Probably will look better, who knows, maybe someone will try to mess with it as a test -->
     <section>
       <div class="row contact-background justify-content-center">
         <div class="col-6 contact-card">
           <form action="">
             <div>
-              <h3>
+              <h3 class="m-3">
                 Contact me!
               </h3>
-              <div class="mb-3">
+              <div class="m-3">
                 <label for="name" class="form-label">Name</label>
                 <input type="string" class="form-control" id="nameInput" required="true">
               </div>
-              <div class="mb-3">
+              <div class="m-3">
                 <label for="email" class="form-label">Email</label>
                 <input type="email" class="form-control" id="emailInput" required="true">
               </div>
-              <div class="mb-3">
+              <div class="m-3">
                 <label for="message" class="form-label">Message</label>
                 <textarea type="message" class="form-control" id="messageInput" required="true" rows="10"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary ms-3">Submit</button>
             </div>
           </form>
         </div>
@@ -252,7 +334,7 @@ export default {
 }
 
 .project-background {
-  height: 200vh;
+  height: 240vh;
   background-color: #010200;
   border: solid 1px #E1D9D1;
 }
@@ -263,16 +345,21 @@ export default {
   margin: 1em;
   margin-top: 4em;
   border-radius: 10px;
-  height: 180vh;
+  height: 220vh;
   border: solid 1px #E1D9D1;
 }
 
 .single-project {
   height: 50vh;
+  padding: 2em;
 }
 
 .project-image {
-  max-height: 30vh;
+  max-height: 43vh;
+}
+
+.project-description {
+  margin-left: 1em;
 }
 
 .contact-background {
@@ -281,11 +368,23 @@ export default {
 }
 
 .contact-card {
-  background-color: #E1D9D1;
+  background-color: #393d40;
+  color: #E1D9D1;
   margin: 1em;
   margin-top: 4em;
   border-radius: 10px;
-  height: 80vh;
+  height: 81.5vh;
+  border: solid 1px #E1D9D1;
+}
+
+input:required {
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+textarea:required {
+  border: 1px solid #ccc;
+  outline: none;
 }
 
 .contact-icons {
@@ -321,15 +420,15 @@ export default {
 }
 
 .skill-stack {
-  background-color: #E1D9D1;
+  background-color: #122331;
   padding-top: 1em;
-  padding-bottom: 1em;
+  padding-bottom: 2.2em;
 }
 
 .skill-stack-title {
   padding-left: 1em;
   margin-top: 0.3em;
   font-size: 40px;
-  color: #010200;
+  color: #E1D9D1;
 }
 </style>
