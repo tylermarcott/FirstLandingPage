@@ -292,7 +292,7 @@ export default {
           email: this.email,
           message: this.message
         })
-
+        logger.log('email was sent successfully')
       } catch (error) {
         logger.log({ error })
       }
