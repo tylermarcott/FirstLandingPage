@@ -27,6 +27,8 @@
         </div>
       </div>
 
+      <!-- NOTE: maybe increase the length to the original photo at the top, and feather/ increase opacity at the bottom so it can kinda fade into the black for a better/ less harsh transition -->
+
       <!-- FIXME: maybe invert the dark and light colors. dark background and light text, might be a little better/ easier to read...? -->
 
       <div class="row">
@@ -115,25 +117,23 @@
         <div class="col-1">
           <img class="dev-icon" src="https://img.icons8.com/?size=96&id=33039&format=png" alt="">
         </div>
-
-
-
-
-
-
-
       </div>
     </section>
     <section>
       <!-- FIXME: move 'portfolio' in the background above the card -->
       <div class="row project-background justify-content-center">
+        <div class="col-12 summary-title">
+          A little about me
+        </div>
+
+        <!-- NOTE: see how the project image will spill out onto the right side? It actually looks really good, try to do the same thing on the left side as well. -->
+
+        <!-- FIXME: need to be able to add some margin or padding that will correct the 2 images to make them spill out on the left side of the page -->
+
         <div class="col-10 project-card">
-          <h3 class="p-3">
-            Portfolio
-          </h3>
           <div class="row mb-5 single-project">
-            <div class="col-6">
-              <img src="../assets/img/StackifySnapshot.png" class="project-image" alt="">
+            <div class="col-6 project-offset">
+              <img src="../assets/img/StackifySnapshot.png" class="project-image absolute" alt="">
             </div>
             <div class="col-6">
               <div class="row project-description">
@@ -349,7 +349,8 @@ export default {
   padding: 5em;
   height: 136vh;
   background-color: #010200;
-  border: solid 1px #E1D9D1;
+  // border: solid 1px #E1D9D1;
+  box-shadow: 0px 0px 20px #eeececb0 inset;
 }
 
 .summary-card {
@@ -358,7 +359,9 @@ export default {
   margin: 1em;
   border-radius: 10px;
   height: 90vh;
-  border: solid 1px #E1D9D1;
+  // border: solid 1px #E1D9D1;
+  box-shadow: 0px 0px 8px #eeececb0;
+
 }
 
 .headshot {
@@ -370,24 +373,37 @@ export default {
 
 .project-background {
   height: 270vh;
-  padding: 5em;
+  padding-left: 5em;
+  padding-right: 5em;
   background-color: #010200;
-  border: solid 1px #E1D9D1;
+  box-shadow: 0px 0px 20px #eeececb0 inset;
+  // border: solid 1px #E1D9D1;
 }
 
 .project-card {
   background-color: #122331;
   color: #E1D9D1;
   margin: 1em;
-  margin-top: 4em;
   border-radius: 10px;
   height: 240vh;
-  border: solid 1px #E1D9D1;
+  box-shadow: 0px 0px 8px #eeececb0;
+}
+
+.project-offset {
+  position: relative;
 }
 
 .single-project {
   height: 50vh;
   padding: 2em;
+}
+
+.project-title {
+  padding-left: 2em;
+  margin-top: 1em;
+  font-size: 40px;
+  font-weight: 400;
+  color: #E1D9D1;
 }
 
 .project-image {
@@ -410,7 +426,7 @@ export default {
   margin-top: 4em;
   border-radius: 10px;
   height: 81.5vh;
-  border: solid 1px #E1D9D1;
+  box-shadow: 0px 0px 8px #eeececb0;
 }
 
 input:required {
@@ -467,5 +483,10 @@ textarea:required {
   margin-bottom: 1em;
   font-size: 40px;
   color: #E1D9D1;
+}
+
+.absolute {
+  position: absolute;
+  left: -100px;
 }
 </style>
