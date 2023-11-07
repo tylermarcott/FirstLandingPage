@@ -7,20 +7,20 @@
           Tyler Marcott
         </div>
         <div class="col-4 contact-icons">
-          <div class="row text-light">
+          <div class="row text-light justify-content-end">
             <div class="col-3 text-center icon">
               <a href="https://github.com/tylermarcott" target="_blank" rel="noopener noreferrer">
-                <i class="mdi mdi-github icon-color"></i>
+                <i class="mdi mdi-github icon-color" title="Link to my GitHub!"></i>
               </a>
             </div>
             <div class="col-3 icon text-center">
               <a href="https://www.linkedin.com/in/tyler-marcott-225277204/" target="_blank" rel="noopener noreferrer">
-                <i class="mdi mdi-linkedin icon-color"></i>
+                <i class="mdi mdi-linkedin icon-color" title="Link to my LinkedIn!"></i>
               </a>
             </div>
             <div class="col-3 icon text-center">
               <a href="mailto:tylerjmarcott@gmail.com?subject=Hello%20Tyler!&body=Hello%2C%20I'm%20interested%20in...">
-                <i class="mdi mdi-email icon-color"></i>
+                <i class="mdi mdi-email icon-color" title="Send me an email!"></i>
               </a>
             </div>
           </div>
@@ -40,13 +40,13 @@
     <section>
       <div class="row summary-background justify-content-center">
         <div class="col-12 summary-title">
-          About me
+          A little about me
         </div>
         <div class="col-10 summary-card elevation-2">
           <div class="row p-3">
             <div class="col-6">
               <h4 class="summary-intro">
-                Hi, I'm Tyler!
+                Hi, I'm Tyler! 👋🏼
               </h4>
               <!-- TODO: left off working on this. Everything above is looking pretty good. I need to create my about section below, but I kinda hit a writer's block lol -->
               <p class="p-4">
@@ -71,13 +71,17 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section>
-      <div class="row skill-stack justify-content-between px-3">
         <div class="col-12 skill-stack-title">
           My Skills
         </div>
+      </div>
+    </section>
+
+    <!-- FIXME: I think this stack is causing overflow, make sure to fix this. -->
+
+
+    <section>
+      <div class="row skill-stack justify-content-between px-3">
         <div class="col-1">
           <img class="dev-icon" src="https://img.icons8.com/?size=96&id=PXTY4q2Sq2lG&format=png" alt="">
         </div>
@@ -238,24 +242,25 @@
     <section>
       <div class="row contact-background justify-content-center">
         <div class="col-6 contact-card">
-          <form action="">
+          <form>
             <div>
               <h3 class="m-3">
                 Contact me!
               </h3>
               <div class="m-3">
                 <label for="name" class="form-label">Name</label>
-                <input type="string" class="form-control" id="nameInput" required="true">
+                <input type="string" class="form-control" id="nameInput" v-model="name" required="true">
               </div>
               <div class="m-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="emailInput" required="true">
+                <input type="email" class="form-control" id="emailInput" v-model="email" required="true">
               </div>
               <div class="m-3">
                 <label for="message" class="form-label">Message</label>
-                <textarea type="message" class="form-control" id="messageInput" required="true" rows="10"></textarea>
+                <textarea type="message" class="form-control" id="messageInput" v-model="message" required="true"
+                  rows="10"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary ms-3">Submit</button>
+              <button type="submit" value="send" class="btn btn-primary ms-3">Submit</button>
             </div>
           </form>
         </div>
@@ -265,9 +270,35 @@
 </template>
 
 <script>
+import emailjs from 'emailjs-com';
+import { logger } from "../utils/Logger.js";
 export default {
-  setup() {
-    return {}
+  name: 'ContactUs',
+  data() {
+    return {
+      name: '',
+      email: '',
+      message: ''
+    }
+  },
+  methods: {
+    sendEmail(e) {
+      try {
+        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target,
+          'YOUR_USER_ID', {
+          name: this.name,
+          email: this.email,
+          message: this.message
+        })
+
+      } catch (error) {
+        logger.log({ error })
+      }
+      // Reset form field
+      this.name = ''
+      this.email = ''
+      this.message = ''
+    },
   }
 }
 </script>
@@ -303,7 +334,7 @@ export default {
   padding-left: 2em;
   margin-top: 1em;
   font-size: 40px;
-  font-weight: 300;
+  font-weight: 400;
   color: #E1D9D1;
 }
 
@@ -312,7 +343,7 @@ export default {
 }
 
 .summary-background {
-  height: 120vh;
+  height: 125vh;
   background-color: #010200;
   border: solid 1px #E1D9D1;
 }
@@ -334,7 +365,7 @@ export default {
 }
 
 .project-background {
-  height: 245vh;
+  height: 260vh;
   background-color: #010200;
   border: solid 1px #E1D9D1;
 }
@@ -421,13 +452,14 @@ textarea:required {
 
 .skill-stack {
   background-color: #122331;
-  padding-top: 1em;
-  padding-bottom: 2.2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .skill-stack-title {
-  padding-left: 1em;
-  margin-top: 0.3em;
+  padding-left: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
   font-size: 40px;
   color: #E1D9D1;
 }
