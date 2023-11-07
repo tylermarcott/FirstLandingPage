@@ -269,6 +269,8 @@
   </div>
 </template>
 
+
+<!-- FIXME: this does not work, look into why. The form submits, and the emailJS is setup and verified with my email. -->
 <script>
 import emailjs from 'emailjs-com';
 import { logger } from "../utils/Logger.js";
