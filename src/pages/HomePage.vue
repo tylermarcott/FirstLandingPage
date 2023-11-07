@@ -125,6 +125,7 @@
       </div>
     </section>
     <section>
+      <!-- FIXME: move 'portfolio' in the background above the card -->
       <div class="row project-background justify-content-center">
         <div class="col-10 project-card">
           <h3 class="p-3">
@@ -345,7 +346,8 @@ export default {
 }
 
 .summary-background {
-  height: 125vh;
+  padding: 5em;
+  height: 136vh;
   background-color: #010200;
   border: solid 1px #E1D9D1;
 }
@@ -367,7 +369,8 @@ export default {
 }
 
 .project-background {
-  height: 260vh;
+  height: 270vh;
+  padding: 5em;
   background-color: #010200;
   border: solid 1px #E1D9D1;
 }
