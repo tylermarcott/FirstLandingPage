@@ -122,16 +122,10 @@
       </div>
     </section>
     <section>
-      <!-- FIXME: move 'portfolio' in the background above the card -->
       <div class="row project-background justify-content-center">
         <div class="col-12 summary-title">
-          A little about me
+          My Portfolio
         </div>
-
-        <!-- NOTE: see how the project image will spill out onto the right side? It actually looks really good, try to do the same thing on the left side as well. -->
-
-        <!-- FIXME: need to be able to add some margin or padding that will correct the 2 images to make them spill out on the left side of the page -->
-
         <div class="col-10 project-card">
           <div class="row mt-5 mb-5 single-project">
             <div class="col-6 project-offset">
