@@ -59,10 +59,15 @@
                 as well as a polished final product.
               </p>
               <p class="summary-paragraph">
-                Outside of coding, I have many hobbies including cooking, reading, snowboarding, playing the acoustic
-                guitar and more! I strive to stay healthy in body and mind, and create for myself a healthy balance
-                between working and having fun. I believe that in order to bring your best self to the table for someone
+                Outside of coding, I enjoy trying new recipes, losing myself in a good book, snowboarding with friends,
+                playing acoustic
+                guitar and more. I strive to stay healthy in body and mind, and create for myself a healthy balance
+                between working and play. I believe that in order to bring your best self to the table for someone
                 else, you have to take care of yourself first and foremost!
+              </p>
+              <p class="summary-paragraph">
+                Curious to see how I can contribute to your team with my unique blend of passion, precision and
+                creativity? Let’s connect!
               </p>
             </div>
             <div class="col-6 text-center">
