@@ -26,11 +26,6 @@
           </div>
         </div>
       </div>
-
-      <!-- NOTE: maybe increase the length to the original photo at the top, and feather/ increase opacity at the bottom so it can kinda fade into the black for a better/ less harsh transition -->
-
-      <!-- FIXME: maybe invert the dark and light colors. dark background and light text, might be a little better/ easier to read...? -->
-
       <div class="row">
         <div class="col-12">
           <p class="title-footer">
@@ -51,21 +46,23 @@
                 Hi, I'm Tyler! 👋🏼
               </h4>
               <!-- TODO: left off working on this. Everything above is looking pretty good. I need to create my about section below, but I kinda hit a writer's block lol -->
-              <p class="p-4">
+              <p class="summary-paragraph">
                 I am a junior software engineer with a passion for creativity, team work and full stack design. I
-                thoroughly
-                enjoy the process of organizing, planning and executing a project, as well as combining ideas from
-                multiple
-                different people into a singular vision. ADD MORE....
+                thoroughly enjoy the process of organizing, planning and executing a project, and combining my teammate's
+                ideas into a singular vision. I aim to design applications with top-tier accessibility and creativity
+                centered around customer ease of use and practicality. I also aim to bring a positive mindset and sense of
+                welcoming to any team I participate in.
               </p>
-              <p class="p-4">
+              <p class="summary-paragraph">
                 With a background in automotive performance, I bring the organized and meticulous mindset required to work
-                on performance vehicles into my coding practices. This results in clean and concise code... ADD MORE
+                on high-performance vehicles into my coding practices. This results in clean, concise and reusable code,
+                as well as a polished final product.
               </p>
-              <p class="p-4">
-                Outside of coding, I have many hobbies including cooking, snowboarding, playing the acoustic guitar and
-                much more! I strive to stay healthy in body and mind, and create for myself a healthy balance between
-                working and having fun. ADD MORE
+              <p class="summary-paragraph">
+                Outside of coding, I have many hobbies including cooking, reading, snowboarding, playing the acoustic
+                guitar and more! I strive to stay healthy in body and mind, and create for myself a healthy balance
+                between working and having fun. I believe that in order to bring your best self to the table for someone
+                else, you have to take care of yourself first and foremost!
               </p>
             </div>
             <div class="col-6 text-center">
@@ -363,7 +360,12 @@ export default {
   border-radius: 10px;
   height: 90vh;
   box-shadow: 0px 0px 8px #989696b0;
+}
 
+.summary-paragraph {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
 }
 
 .headshot {
