@@ -45,13 +45,13 @@
               <h4 class="summary-intro">
                 Hi, I'm Tyler! 👋🏼
               </h4>
-              <!-- TODO: left off working on this. Everything above is looking pretty good. I need to create my about section below, but I kinda hit a writer's block lol -->
               <p class="summary-paragraph">
-                I am a junior software engineer with a passion for creativity, team work and full stack design. I
-                thoroughly enjoy the process of organizing, planning and executing a project, and combining my teammate's
-                ideas into a singular vision. I aim to design applications with top-tier accessibility and creativity
-                centered around customer ease of use and practicality. I also aim to bring a positive mindset and sense of
-                welcoming to any team I participate in.
+                I am a Junior Software Developer with a passion for creativity, team work and full stack design. I
+                thoroughly enjoy the process of organizing, planning and executing a project, as well as combining my
+                teammate's
+                ideas into a singular vision. I strive to design applications with top-tier accessibility and creativity
+                centered around customer ease of use and practicality. My goal is to enhance any team with not just my
+                technical skills, but also a positive and inclusive attitude.
               </p>
               <p class="summary-paragraph">
                 With a background in automotive performance, I bring the organized and meticulous mindset required to work
