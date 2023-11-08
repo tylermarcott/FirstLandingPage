@@ -353,7 +353,7 @@ export default {
 
 .summary-background {
   padding: 5em;
-  height: 136vh;
+  height: 157vh;
   background-color: #010200;
   box-shadow: 0px 0px 20px #eeececb0 inset, 0px 10px 20px 2px #eeececb0;
 }
@@ -362,8 +362,9 @@ export default {
   background-color: #122331;
   color: #E1D9D1;
   margin: 1em;
+  padding-top: 1em;
   border-radius: 10px;
-  height: 90vh;
+  height: 99vh;
   box-shadow: 0px 0px 8px #989696b0;
 }
 
@@ -386,7 +387,6 @@ export default {
   padding-right: 5em;
   background-color: #010200;
   box-shadow: 0px 0px 20px #eeececb0 inset;
-  // border: solid 1px #E1D9D1;
 }
 
 .project-card {
@@ -488,7 +488,7 @@ textarea:required {
 
 .skill-stack-title {
   padding-left: 2em;
-  margin-top: 1em;
+  margin-top: 3.2em;
   margin-bottom: 1em;
   font-size: 40px;
   color: #E1D9D1;
