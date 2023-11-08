@@ -318,9 +318,7 @@ export default {
   background-size: contain;
   background-position: top;
   height: 100vh;
-  // overflow: hidden;
-  // box-shadow: 0px 0px 20px #eeececb0 inset;
-  box-shadow: 0px 8px 10px -5px #e0dbdb29;
+  box-shadow: 0px -15px 15px 0px #414141b0 inset;
 }
 
 .title {
@@ -355,7 +353,7 @@ export default {
   padding: 5em;
   height: 136vh;
   background-color: #010200;
-  box-shadow: 0px 0px 20px #eeececb0 inset;
+  box-shadow: 0px 0px 20px #eeececb0 inset, 0px 10px 20px 2px #eeececb0;
 }
 
 .summary-card {
@@ -364,8 +362,7 @@ export default {
   margin: 1em;
   border-radius: 10px;
   height: 90vh;
-  // border: solid 1px #E1D9D1;
-  box-shadow: 0px 0px 8px #eeececb0;
+  box-shadow: 0px 0px 8px #989696b0;
 
 }
 
@@ -391,7 +388,7 @@ export default {
   margin: 1em;
   border-radius: 10px;
   height: 240vh;
-  box-shadow: 0px 0px 8px #eeececb0;
+  box-shadow: 0px 0px 8px #989696b0;
 }
 
 .project-offset {
@@ -431,7 +428,7 @@ export default {
   margin-top: 4em;
   border-radius: 10px;
   height: 81.5vh;
-  box-shadow: 0px 0px 8px #eeececb0;
+  box-shadow: 0px 0px 8px #989696b0;
 }
 
 input:required {
