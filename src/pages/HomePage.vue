@@ -1,6 +1,6 @@
 <template>
   <!-- FIXME: make sure to remove overflow -->
-  <div>
+  <div class="overflow-correction">
     <section class="header-img">
       <div class="row">
         <div class="col-5 title">
@@ -131,9 +131,9 @@
         <!-- FIXME: need to be able to add some margin or padding that will correct the 2 images to make them spill out on the left side of the page -->
 
         <div class="col-10 project-card">
-          <div class="row mb-5 single-project">
+          <div class="row mt-5 mb-5 single-project">
             <div class="col-6 project-offset">
-              <img src="../assets/img/StackifySnapshot.png" class="project-image absolute" alt="">
+              <img src="../assets/img/StackifySnapshot.png" class="project-image absolute-left" alt="">
             </div>
             <div class="col-6">
               <div class="row project-description">
@@ -176,14 +176,14 @@
               </div>
             </div>
             <div class="col-6">
-              <img src="../assets/img/StackifySnapshot.png" class="project-image" alt="">
+              <img src="../assets/img/StackifySnapshot.png" class="project-image absolute-right" alt="">
             </div>
           </div>
 
 
           <div class="row mb-5 single-project">
             <div class="col-6">
-              <img src="../assets/img/StackifySnapshot.png" class="project-image" alt="">
+              <img src="../assets/img/StackifySnapshot.png" class="project-image absolute-left-altered" alt="">
             </div>
             <div class="col-6">
               <div class="row project-description">
@@ -227,7 +227,7 @@
               </div>
             </div>
             <div class="col-6">
-              <img src="../assets/img/StackifySnapshot.png" class="project-image" alt="">
+              <img src="../assets/img/StackifySnapshot.png" class="project-image absolute-right" alt="">
             </div>
           </div>
 
@@ -309,12 +309,18 @@ export default {
 
 
 <style scoped lang="scss">
+.overflow-correction {
+  overflow: hidden;
+}
+
 .header-img {
   background-image: url(../assets/img/laptop-background.jpg);
   background-size: contain;
   background-position: top;
   height: 100vh;
-  overflow: hidden;
+  // overflow: hidden;
+  // box-shadow: 0px 0px 20px #eeececb0 inset;
+  box-shadow: 0px 8px 10px -5px #e0dbdb29;
 }
 
 .title {
@@ -349,7 +355,6 @@ export default {
   padding: 5em;
   height: 136vh;
   background-color: #010200;
-  // border: solid 1px #E1D9D1;
   box-shadow: 0px 0px 20px #eeececb0 inset;
 }
 
@@ -485,8 +490,18 @@ textarea:required {
   color: #E1D9D1;
 }
 
-.absolute {
+.absolute-left {
   position: absolute;
-  left: -100px;
+  left: -80px;
+}
+
+.absolute-right {
+  position: absolute;
+  right: 120px;
+}
+
+.absolute-left-altered {
+  position: absolute;
+  left: 120px;
 }
 </style>
