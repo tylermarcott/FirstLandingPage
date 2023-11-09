@@ -175,7 +175,7 @@
               </div>
             </div>
             <div class="col-6">
-              <img src="../assets/img/StackifySnapshot.png" class="project-image-right absolute-right" alt="">
+              <img src="../assets/img/KeeprSnapshot.png" class="project-image-right absolute-right" alt="">
             </div>
           </div>
 
