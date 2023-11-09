@@ -226,7 +226,7 @@
               </div>
             </div>
             <div class="col-6">
-              <img src="../assets/img/StackifySnapshot.png" class="project-image-right absolute-right" alt="">
+              <img src="../assets/img/TowerSnapshot.png" class="project-image-right absolute-right" alt="">
             </div>
           </div>
 
@@ -471,12 +471,12 @@ export default {
 
 .project-image-left {
   max-height: 43vh;
-  box-shadow: -4px 4px 8px #555353b0;
+  box-shadow: -3px 3px 8px #555353b0;
 }
 
 .project-image-right {
   max-height: 43vh;
-  box-shadow: 2px 2px 8px #555353b0;
+  box-shadow: 3px 3px 8px #555353b0;
 }
 
 .project-description {
