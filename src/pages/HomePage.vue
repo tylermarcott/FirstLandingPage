@@ -129,7 +129,7 @@
     </section>
     <section>
       <div class="row project-background justify-content-center">
-        <div class="col-12 summary-title">
+        <div class="col-12 project-title">
           My Portfolio
         </div>
         <div class="col-10 project-card">
@@ -409,6 +409,41 @@ export default {
   border-radius: 10px;
 }
 
+.dev-icon {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out; //NOTE: the ease transition needs to go on the actual class, not the hover class.
+}
+
+.dev-icon:hover {
+  transform: scale(1.10);
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+
+.skill-stack {
+  background-color: #122331;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.skill-stack-title {
+  padding-left: 2em;
+  margin-top: 3.2em;
+  margin-bottom: 1em;
+  font-size: 40px;
+  color: #E1D9D1;
+}
+
+.project-title {
+  padding-left: 2em;
+  margin-top: 3.2em;
+  margin-bottom: 0.5em;
+  font-size: 40px;
+  color: #E1D9D1;
+}
+
 .project-background {
   height: 270vh;
   padding-left: 5em;
@@ -420,7 +455,9 @@ export default {
 .project-card {
   background-color: #122331;
   color: #E1D9D1;
-  margin: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
   border-radius: 10px;
   height: 240vh;
   box-shadow: 0px 0px 8px #989696b0;
@@ -433,14 +470,6 @@ export default {
 .single-project {
   height: 50vh;
   padding: 2em;
-}
-
-.project-title {
-  padding-left: 2em;
-  margin-top: 1em;
-  font-size: 40px;
-  font-weight: 400;
-  color: #E1D9D1;
 }
 
 .project-image {
@@ -474,33 +503,6 @@ input:required {
 textarea:required {
   border: 1px solid #ccc;
   outline: none;
-}
-
-.dev-icon {
-  cursor: pointer;
-  transition: transform 0.3s ease-in-out; //NOTE: the ease transition needs to go on the actual class, not the hover class.
-}
-
-.dev-icon:hover {
-  transform: scale(1.10);
-}
-
-.icon:hover {
-  transform: scale(1.2);
-}
-
-.skill-stack {
-  background-color: #122331;
-  padding-top: 2em;
-  padding-bottom: 2em;
-}
-
-.skill-stack-title {
-  padding-left: 2em;
-  margin-top: 3.2em;
-  margin-bottom: 1em;
-  font-size: 40px;
-  color: #E1D9D1;
 }
 
 // .hover-text {
