@@ -67,10 +67,10 @@
               </p>
               <p class="summary-paragraph">
                 Curious to see how I can contribute to your team with my unique blend of passion, precision and
-                creativity? Let’s connect!
+                creativity? Let's connect!
               </p>
             </div>
-            <div class="col-6 text-center">
+            <div class="col-6 text-center mt-3">
               <img src="../assets/img/headshot.jpg" class="headshot" alt="">
             </div>
           </div>
@@ -135,13 +135,13 @@
         <div class="col-10 project-card">
           <div class="row mt-5 mb-5 single-project">
             <div class="col-6 project-offset">
-              <img src="../assets/img/StackifySnapshot.png" class="project-image absolute-left" alt="">
+              <img src="../assets/img/StackifySnapshot.png" class="project-image-left absolute-left" alt="">
             </div>
             <div class="col-6">
               <div class="row project-description">
-                <h4>
+                <h3 class="fst-italic">
                   Stackify
-                </h4>
+                </h3>
                 <p class="ms-2">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate amet laboriosam, numquam quis
                   maiores eius optio, eos rerum et obcaecati hic animi in. Doloremque sint nesciunt fugiat temporibus
@@ -149,9 +149,6 @@
                   Consequuntur sit voluptate velit accusamus reprehenderit unde quidem ullam molestias numquam
                   perspiciatis vel quod officia maiores, facere eveniet distinctio magni, provident dolore consequatur
                   mollitia nesciunt enim placeat possimus optio. Dolor.
-                  Neque porro dignissimos quibusdam ipsam cum recusandae, ea eum dolore sapiente alias voluptate ipsa!
-                  Enim eligendi harum assumenda beatae dolorum necessitatibus consectetur dolor cupiditate ad quaerat, sed
-                  sint inventore. Rem?
                 </p>
               </div>
             </div>
@@ -161,9 +158,9 @@
           <div class="row mb-5 single-project">
             <div class="col-6">
               <div class="row project-description">
-                <h4>
+                <h3 class="fst-italic">
                   Keepr
-                </h4>
+                </h3>
                 <p class="ms-2">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate amet laboriosam, numquam quis
                   maiores eius optio, eos rerum et obcaecati hic animi in. Doloremque sint nesciunt fugiat temporibus
@@ -178,20 +175,20 @@
               </div>
             </div>
             <div class="col-6">
-              <img src="../assets/img/StackifySnapshot.png" class="project-image absolute-right" alt="">
+              <img src="../assets/img/StackifySnapshot.png" class="project-image-right absolute-right" alt="">
             </div>
           </div>
 
 
           <div class="row mb-5 single-project">
             <div class="col-6">
-              <img src="../assets/img/StackifySnapshot.png" class="project-image absolute-left-altered" alt="">
+              <img src="../assets/img/StackifySnapshot.png" class="project-image-left absolute-left-altered" alt="">
             </div>
             <div class="col-6">
               <div class="row project-description">
-                <h4>
+                <h3 class="fst-italic">
                   Scare St.
-                </h4>
+                </h3>
                 <p class="ms-2">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate amet laboriosam, numquam quis
                   maiores eius optio, eos rerum et obcaecati hic animi in. Doloremque sint nesciunt fugiat temporibus
@@ -212,9 +209,9 @@
           <div class="row single-project">
             <div class="col-6">
               <div class="row project-description">
-                <h4>
+                <h3 class="fst-italic">
                   Tower
-                </h4>
+                </h3>
                 <p class="ms-2">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate amet laboriosam, numquam quis
                   maiores eius optio, eos rerum et obcaecati hic animi in. Doloremque sint nesciunt fugiat temporibus
@@ -229,7 +226,7 @@
               </div>
             </div>
             <div class="col-6">
-              <img src="../assets/img/StackifySnapshot.png" class="project-image absolute-right" alt="">
+              <img src="../assets/img/StackifySnapshot.png" class="project-image-right absolute-right" alt="">
             </div>
           </div>
 
@@ -472,8 +469,14 @@ export default {
   padding: 2em;
 }
 
-.project-image {
+.project-image-left {
   max-height: 43vh;
+  box-shadow: -4px 4px 8px #555353b0;
+}
+
+.project-image-right {
+  max-height: 43vh;
+  box-shadow: 2px 2px 8px #555353b0;
 }
 
 .project-description {
