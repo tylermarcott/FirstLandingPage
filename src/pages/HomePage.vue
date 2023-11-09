@@ -165,12 +165,13 @@
                   Keepr
                 </h3>
                 <p class="ms-2">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate amet laboriosam, numquam quis
-                  maiores eius optio, eos rerum et obcaecati hic animi in. Doloremque sint nesciunt fugiat temporibus
-                  distinctio voluptas.
-                  Consequuntur sit voluptate velit accusamus reprehenderit unde quidem ullam molestias numquam
-                  perspiciatis vel quod officia maiores, facere eveniet distinctio magni, provident dolore consequatur
-                  mollitia nesciunt enim placeat possimus optio. Dolor.
+                  Keepr is a social media application twist on Pinterest. Users are able to view other user's Keeps
+                  (photos with a caption) and Vaults (collections of keeps). If the user creates an account, they have the
+                  ability to create and manage their own keeps and vaults, as well as edit various account details.
+                </p>
+                <p class="ms-2">
+                  Keepr uses a Vue.js front end with a C# .NET backend, and a mySQL database maintained from an EC2/ AWS
+                  server.
                 </p>
               </div>
             </div>
@@ -537,5 +538,4 @@ textarea:required {
 .absolute-left-altered {
   position: absolute;
   left: 120px;
-}
-</style>
+}</style>
