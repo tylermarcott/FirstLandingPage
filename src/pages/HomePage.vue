@@ -120,7 +120,7 @@
           <img class="dev-icon" src="https://img.icons8.com/?size=96&id=74402&format=png" alt="">
         </div>
         <div class="col-1">
-          <img class="dev-icon" src="https://img.icons8.com/?size=96&id=33039&format=png" alt="">
+          <img class="dev-icon aws-icon" src="https://img.icons8.com/?size=128&id=wU62u24brJ44&format=png" alt="">
         </div>
         <div class="col-1">
           <img class="dev-icon" src="https://img.icons8.com/?size=96&id=22813&format=png" alt="">
@@ -409,6 +409,10 @@ export default {
 
 .icon:hover {
   transform: scale(1.2);
+}
+
+.aws-icon {
+  max-width: 13vh;
 }
 
 .skill-stack {
