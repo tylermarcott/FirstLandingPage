@@ -143,12 +143,15 @@
                   Stackify
                 </h3>
                 <p class="ms-2">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate amet laboriosam, numquam quis
-                  maiores eius optio, eos rerum et obcaecati hic animi in. Doloremque sint nesciunt fugiat temporibus
-                  distinctio voluptas.
-                  Consequuntur sit voluptate velit accusamus reprehenderit unde quidem ullam molestias numquam
-                  perspiciatis vel quod officia maiores, facere eveniet distinctio magni, provident dolore consequatur
-                  mollitia nesciunt enim placeat possimus optio. Dolor.
+                  Stackify is a full-stack application designed to help amateur event planners and DJs manage their
+                  event's music selection. Users can create events, then create playlists inside their events. The
+                  playlists can be tailored to be any length, as well as integrating silent time-blocks for when they need
+                  a length of time without music playing in their event.
+                </p>
+                <p class="ms-2">
+                  Stackify is integrated with Spotify's API and PKCE auth, which allows you to log directly into your
+                  Spotify Premium account within the application. Stackify utilizes a Vue.js front-end and a Node.js
+                  backend, with MongoDB for database storage.
                 </p>
               </div>
             </div>
@@ -179,7 +182,7 @@
 
           <div class="row mb-5 single-project">
             <div class="col-6">
-              <img src="../assets/img/ScareStSnapshot.png" class="project-image-left absolute-left-altered size-adjust"
+              <img src="../assets/img/ScareStSnapshot.png" class="project-image-left-ss absolute-left-altered size-adjust"
                 alt="">
             </div>
             <div class="col-6">
@@ -467,13 +470,19 @@ export default {
 
 .project-image-left {
   max-height: 43vh;
-  box-shadow: -3px 3px 8px #555353b0;
+  box-shadow: -3px -3px 8px #555353b0;
+  border-radius: 3px;
+}
+
+.project-image-left-ss {
+  max-height: 43vh;
+  box-shadow: -4px -4px 8px #555353b0;
   border-radius: 3px;
 }
 
 .project-image-right {
   max-height: 43vh;
-  box-shadow: 3px 3px 8px #555353b0;
+  box-shadow: 5px 5px 8px #555353b0;
   border-radius: 3px;
 }
 
