@@ -80,13 +80,16 @@
         </div>
       </div>
     </section>
-
-    <!-- FIXME: I think this stack is causing overflow, make sure to fix this. -->
-
-
+    <!-- TODO: I want to create an effect that shows the name of the technology on hover. I messed with it a bit but can't get it. Come back to this when you are done and work on it. -->
     <section>
-      <div class="row skill-stack justify-content-between px-3">
+      <div class="row skill-stack justify-content-between px-4">
+        <!-- <div class="col-1 hover-text">
+          hover test
+        </div> -->
         <div class="col-1">
+          <!-- <p class="hover-text">
+            TEST TEXT
+          </p> -->
           <img class="dev-icon" src="https://img.icons8.com/?size=96&id=PXTY4q2Sq2lG&format=png" alt="">
         </div>
         <div class="col-1">
@@ -118,6 +121,9 @@
         </div>
         <div class="col-1">
           <img class="dev-icon" src="https://img.icons8.com/?size=96&id=33039&format=png" alt="">
+        </div>
+        <div class="col-1">
+          <img class="dev-icon" src="https://img.icons8.com/?size=96&id=22813&format=png" alt="">
         </div>
       </div>
     </section>
@@ -333,6 +339,34 @@ export default {
   font-style: italic;
 }
 
+.contact-icons {
+  margin-top: 11vh;
+}
+
+.icon {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out; //NOTE: the ease transition needs to go on the actual class, not the hover class.
+  font-size: 50px;
+}
+
+.dev-icon:hover .hover-text {
+  visibility: visible;
+  color: red;
+}
+
+.icon-color {
+  color: #2899C3;
+}
+
+.icon-color:hover {
+  color: #E1D9D1;
+}
+
+.hover-text {
+  // visibility: hidden;
+  color: white;
+}
+
 .summary-title {
   padding-left: 2em;
   margin-top: 1em;
@@ -442,28 +476,9 @@ textarea:required {
   outline: none;
 }
 
-.contact-icons {
-  margin-top: 11vh;
-}
-
-.icon {
+.dev-icon {
   cursor: pointer;
   transition: transform 0.3s ease-in-out; //NOTE: the ease transition needs to go on the actual class, not the hover class.
-  font-size: 50px;
-}
-
-.icon-color {
-  color: #2899C3;
-}
-
-.icon-color:hover {
-  color: #E1D9D1;
-}
-
-.dev-icon {
-  // height: 20px;
-  // width: 20px;
-  cursor: pointer;
 }
 
 .dev-icon:hover {
@@ -487,6 +502,11 @@ textarea:required {
   font-size: 40px;
   color: #E1D9D1;
 }
+
+// .hover-text {
+//   position: relative;
+//   op
+// }
 
 .absolute-left {
   position: absolute;
