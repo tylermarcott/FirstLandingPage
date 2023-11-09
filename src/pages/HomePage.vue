@@ -168,21 +168,19 @@
                   Consequuntur sit voluptate velit accusamus reprehenderit unde quidem ullam molestias numquam
                   perspiciatis vel quod officia maiores, facere eveniet distinctio magni, provident dolore consequatur
                   mollitia nesciunt enim placeat possimus optio. Dolor.
-                  Neque porro dignissimos quibusdam ipsam cum recusandae, ea eum dolore sapiente alias voluptate ipsa!
-                  Enim eligendi harum assumenda beatae dolorum necessitatibus consectetur dolor cupiditate ad quaerat, sed
-                  sint inventore. Rem?
                 </p>
               </div>
             </div>
             <div class="col-6">
-              <img src="../assets/img/KeeprSnapshot.png" class="project-image-right absolute-right" alt="">
+              <img src="../assets/img/KeeprSnapshot.png" class="project-image-right absolute-right size-adjust" alt="">
             </div>
           </div>
 
 
           <div class="row mb-5 single-project">
             <div class="col-6">
-              <img src="../assets/img/ScareStSnapshot.png" class="project-image-left absolute-left-altered" alt="">
+              <img src="../assets/img/ScareStSnapshot.png" class="project-image-left absolute-left-altered size-adjust"
+                alt="">
             </div>
             <div class="col-6">
               <div class="row project-description">
@@ -196,9 +194,6 @@
                   Consequuntur sit voluptate velit accusamus reprehenderit unde quidem ullam molestias numquam
                   perspiciatis vel quod officia maiores, facere eveniet distinctio magni, provident dolore consequatur
                   mollitia nesciunt enim placeat possimus optio. Dolor.
-                  Neque porro dignissimos quibusdam ipsam cum recusandae, ea eum dolore sapiente alias voluptate ipsa!
-                  Enim eligendi harum assumenda beatae dolorum necessitatibus consectetur dolor cupiditate ad quaerat, sed
-                  sint inventore. Rem?
                 </p>
               </div>
             </div>
@@ -219,14 +214,11 @@
                   Consequuntur sit voluptate velit accusamus reprehenderit unde quidem ullam molestias numquam
                   perspiciatis vel quod officia maiores, facere eveniet distinctio magni, provident dolore consequatur
                   mollitia nesciunt enim placeat possimus optio. Dolor.
-                  Neque porro dignissimos quibusdam ipsam cum recusandae, ea eum dolore sapiente alias voluptate ipsa!
-                  Enim eligendi harum assumenda beatae dolorum necessitatibus consectetur dolor cupiditate ad quaerat, sed
-                  sint inventore. Rem?
                 </p>
               </div>
             </div>
             <div class="col-6">
-              <img src="../assets/img/TowerSnapshot.png" class="project-image-right absolute-right" alt="">
+              <img src="../assets/img/TowerSnapshot.png" class="project-image-right absolute-righ size-adjust" alt="">
             </div>
           </div>
 
@@ -442,7 +434,7 @@ export default {
 }
 
 .project-background {
-  height: 270vh;
+  height: 264vh;
   padding-left: 5em;
   padding-right: 5em;
   background-color: #010200;
@@ -456,7 +448,7 @@ export default {
   margin-right: 1em;
   margin-bottom: 1em;
   border-radius: 10px;
-  height: 240vh;
+  height: 232vh;
   box-shadow: 0px 0px 8px #989696b0;
 }
 
@@ -472,11 +464,17 @@ export default {
 .project-image-left {
   max-height: 43vh;
   box-shadow: -3px 3px 8px #555353b0;
+  border-radius: 3px;
 }
 
 .project-image-right {
   max-height: 43vh;
   box-shadow: 3px 3px 8px #555353b0;
+  border-radius: 3px;
+}
+
+.size-adjust {
+  max-height: 40vh;
 }
 
 .project-description {
