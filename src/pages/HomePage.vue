@@ -182,7 +182,7 @@
 
           <div class="row mb-5 single-project">
             <div class="col-6">
-              <img src="../assets/img/StackifySnapshot.png" class="project-image-left absolute-left-altered" alt="">
+              <img src="../assets/img/ScareStSnapshot.png" class="project-image-left absolute-left-altered" alt="">
             </div>
             <div class="col-6">
               <div class="row project-description">
