@@ -193,10 +193,8 @@
                 </h3>
                 <p class="ms-2">
                   Scare St. is trivia-based horror game where the user will choose a character and try to make it through
-                  all the houses on Scare St. Upon entering each house, a user will be presented with a set of tiles that
-                  can hold different scenarios. Answering trivia questions correctly or opening courage potions will add
-                  courage to the player's courage bar. Answer trivia questions wrong or opening a jump scare will negate
-                  courage.
+                  all the houses on Scare St. This application was built at a Halloween Hackathon by a team 4 under a
+                  tight deadline.
                 </p>
                 <p class="ms-2">
                   Scare st. uses of a Vue.js front end that utilizes a movie trivia API, and a Node.js backend and MongoDB
@@ -207,7 +205,6 @@
           </div>
 
 
-
           <div class="row single-project">
             <div class="col-6">
               <div class="row project-description">
@@ -215,17 +212,17 @@
                   Tower
                 </h3>
                 <p class="ms-2">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate amet laboriosam, numquam quis
-                  maiores eius optio, eos rerum et obcaecati hic animi in. Doloremque sint nesciunt fugiat temporibus
-                  distinctio voluptas.
-                  Consequuntur sit voluptate velit accusamus reprehenderit unde quidem ullam molestias numquam
-                  perspiciatis vel quod officia maiores, facere eveniet distinctio magni, provident dolore consequatur
-                  mollitia nesciunt enim placeat possimus optio. Dolor.
+                  Tower is a full-stack independently built event based application, where users can create and manage
+                  events, as well as purchase tickets to other people's events.
+                </p>
+                <p class="ms-2">
+                  Tower uses a Vue.js front end and a Node.js backend with a MongoDB database. This application is also
+                  hosted using AWS, EC2, Nginx and Docker.
                 </p>
               </div>
             </div>
             <div class="col-6">
-              <img src="../assets/img/TowerSnapshot.png" class="project-image-right absolute-righ size-adjust" alt="">
+              <img src="../assets/img/TowerSnapshot.png" class="project-image-right absolute-right size-adjust" alt="">
             </div>
           </div>
 
@@ -541,4 +538,5 @@ textarea:required {
 .absolute-left-altered {
   position: absolute;
   left: 120px;
-}</style>
+}
+</style>
