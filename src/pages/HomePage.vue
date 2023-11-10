@@ -192,12 +192,15 @@
                   Scare St.
                 </h3>
                 <p class="ms-2">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate amet laboriosam, numquam quis
-                  maiores eius optio, eos rerum et obcaecati hic animi in. Doloremque sint nesciunt fugiat temporibus
-                  distinctio voluptas.
-                  Consequuntur sit voluptate velit accusamus reprehenderit unde quidem ullam molestias numquam
-                  perspiciatis vel quod officia maiores, facere eveniet distinctio magni, provident dolore consequatur
-                  mollitia nesciunt enim placeat possimus optio. Dolor.
+                  Scare St. is trivia-based horror game where the user will choose a character and try to make it through
+                  all the houses on Scare St. Upon entering each house, a user will be presented with a set of tiles that
+                  can hold different scenarios. Answering trivia questions correctly or opening courage potions will add
+                  courage to the player's courage bar. Answer trivia questions wrong or opening a jump scare will negate
+                  courage.
+                </p>
+                <p class="ms-2">
+                  Scare st. uses of a Vue.js front end that utilizes a movie trivia API, and a Node.js backend and MongoDB
+                  database for storing player high scores.
                 </p>
               </div>
             </div>
