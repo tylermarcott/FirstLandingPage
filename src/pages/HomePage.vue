@@ -132,6 +132,12 @@
         <div class="col-12 project-title">
           My Portfolio
         </div>
+
+
+
+
+        <!-- TODO: make sure you review/ correct these descriptions, these descriptions are in rough draft. -->
+
         <div class="col-10 project-card">
           <div class="row mt-5 mb-5 single-project">
             <div class="col-6 project-offset">
