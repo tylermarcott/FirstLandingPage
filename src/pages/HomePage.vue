@@ -109,14 +109,12 @@ Ok, so what left do i have to do on my landing page to make it polished?
     <!-- TODO: I want to create an effect that shows the name of the technology on hover. I messed with it a bit but can't get it. Come back to this when you are done and work on it. -->
     <section>
       <div class="row skill-stack justify-content-between px-4">
-        <!-- <div class="col-1 hover-text">
-          hover test
-        </div> -->
         <div class="col-1">
-          <!-- <p class="hover-text">
+          <span v-if="hover" class="hover-text">
             TEST TEXT
-          </p> -->
-          <img class="dev-icon" src="https://img.icons8.com/?size=96&id=PXTY4q2Sq2lG&format=png" alt="">
+          </span>
+          <img @mouseover="hover = true" @mouseleave="hover = false" class="dev-icon"
+            src="https://img.icons8.com/?size=96&id=PXTY4q2Sq2lG&format=png" alt="">
         </div>
         <div class="col-1">
           <img class="dev-icon" src="https://img.icons8.com/?size=96&id=20909&format=png" alt="">
@@ -308,7 +306,8 @@ export default {
     return {
       name: '',
       email: '',
-      message: ''
+      message: '',
+      hover: false
     }
   },
   methods: {
