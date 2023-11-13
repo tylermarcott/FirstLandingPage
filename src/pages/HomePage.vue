@@ -1,5 +1,31 @@
+
+
+
+<!-- TODO NOTES;
+
+Ok, so what left do i have to do on my landing page to make it polished?
+
+1: add some sort of label or text that appears on hover for dev icons
+
+2: run portfolio project descriptions through GPT and see if there needs to be any changes
+
+3: figure out why contact form isn't working to send emails to you.
+
+4: an overall check of spacing, spelling etc, one final comb through and maybe some peer review with Sam or one of the boys
+
+5: add GitHub links on hover for each of the projects so people can view your code. Will need to be able to have an icon in there eventually that will take you to the app as well.
+
+
+-->
+
+
+
+
+
+
+
+
 <template>
-  <!-- FIXME: make sure to remove overflow -->
   <div class="overflow-correction">
     <section class="header-img">
       <div class="row">
