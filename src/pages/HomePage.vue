@@ -249,7 +249,11 @@ Ok, so what left do i have to do on my landing page to make it polished?
         <div class="col-10 project-card">
           <div class="row mt-5 mb-5 single-project">
             <div class="col-6 project-offset">
-              <img src="../assets/img/StackifySnapshot.png" class="project-image-left absolute-left project-hover" alt="">
+              <img @mouseover="stackifyhover = true" @mouseleave="stackifyhover = false"
+                src="../assets/img/StackifySnapshot.png" class="project-image-left absolute-left project-hover" alt="">
+              <div class="text-light stackify-links">
+                <i class="mdi mdi-github"></i>
+              </div>
             </div>
             <div class="col-6">
               <div class="row project-description">
@@ -399,7 +403,8 @@ export default {
       bshover: false,
       mongohover: false,
       awshover: false,
-      dockerhover: false
+      dockerhover: false,
+      stackifyhover: false
     }
   },
   methods: {
@@ -597,6 +602,7 @@ export default {
   max-height: 43vh;
   box-shadow: -3px -3px 8px #555353b0;
   border-radius: 3px;
+  z-index: 2;
 }
 
 .project-image-left-ss {
@@ -628,6 +634,19 @@ export default {
   transform: scale(1.05);
   cursor: pointer;
   opacity: 0.2;
+
+  .stackify-links {
+    z-index: 100;
+  }
+}
+
+.stackify-links {
+  position: relative;
+  right: -20vh;
+  bottom: -20vh;
+  cursor: pointer;
+  z-index: 1;
+  font-size: 50px;
 }
 
 .contact-background {
