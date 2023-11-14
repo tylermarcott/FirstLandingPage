@@ -465,10 +465,6 @@ export default {
   font-size: 50px;
 }
 
-.dev-icon {
-  transition: ease-in-out 5s;
-}
-
 .icon-color {
   color: #2899C3;
 }
@@ -527,12 +523,14 @@ export default {
 .hover-text {
   opacity: 1;
   color: #E1D9D1;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .dev-icon {
   cursor: pointer;
-  transition: transform 0.3s ease-in-out; //NOTE: the ease transition needs to go on the actual class, not the hover class.
+  transition: transform 0.5s ease-in-out; //NOTE: the ease transition needs to go on the actual class, not the hover class.
 }
 
 .dev-icon:hover {
