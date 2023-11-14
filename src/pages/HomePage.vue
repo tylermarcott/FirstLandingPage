@@ -111,47 +111,124 @@ Ok, so what left do i have to do on my landing page to make it polished?
     <section>
       <div class="row skill-stack justify-content-between px-4">
         <div class="col-1 text-center icon-spacing">
-          <span v-if="hover" class="hover-text">
+          <span v-if="jshover" class="hover-text">
             Javascript
           </span>
           <span v-else class="placeholder">
             placeholder
           </span>
-          <img @mouseover="hover = true" @mouseleave="hover = false" class="dev-icon"
+          <img @mouseover="jshover = true" @mouseleave="jshover = false" class="dev-icon"
             src="https://img.icons8.com/?size=96&id=PXTY4q2Sq2lG&format=png" alt="">
         </div>
-        <div class="col-1">
-          <img class="dev-icon" src="https://img.icons8.com/?size=96&id=20909&format=png" alt="">
+        <div class="col-1 text-center icon-spacing">
+          <span v-if="htmlhover" class="hover-text">
+            HTML
+          </span>
+          <span v-else class="placeholder">
+            placeholder
+          </span>
+          <img @mouseover="htmlhover = true" @mouseleave="htmlhover = false" class="dev-icon"
+            src="https://img.icons8.com/?size=96&id=20909&format=png" alt="">
         </div>
-        <div class="col-1">
-          <img class="dev-icon" src="https://img.icons8.com/?size=96&id=7gdY5qNXaKC0&format=png" alt="">
+        <div class="col-1 text-center icon-spacing">
+          <span v-if="csshover" class="hover-text">
+            CSS
+          </span>
+          <span v-else class="placeholder">
+            placeholder
+          </span>
+          <img @mouseover="csshover = true" @mouseleave="csshover = false" class="dev-icon"
+            src="https://img.icons8.com/?size=96&id=7gdY5qNXaKC0&format=png" alt="">
         </div>
-        <div class="col-1">
-          <img class="dev-icon" src="https://img.icons8.com/?size=96&id=rY6agKizO9eb&format=png" alt="">
+        <div class="col-1 text-center icon-spacing">
+          <span v-if="vuehover" class="hover-text">
+            Vue.js
+          </span>
+          <span v-else class="placeholder">
+            placeholder
+          </span>
+          <img @mouseover="vuehover = true" @mouseleave="vuehover = false" class="dev-icon"
+            src="https://img.icons8.com/?size=96&id=rY6agKizO9eb&format=png" alt="">
         </div>
-        <div class="col-1">
-          <img class="dev-icon" src="https://img.icons8.com/?size=96&id=54087&format=png" alt="">
+        <div class="col-1 text-center icon-spacing">
+          <span v-if="nodehover" class="hover-text">
+            Node.js
+          </span>
+          <span v-else class="placeholder">
+            placeholder
+          </span>
+          <img @mouseover="nodehover = true" @mouseleave="nodehover = false" class="dev-icon"
+            src="https://img.icons8.com/?size=96&id=54087&format=png" alt="">
         </div>
-        <div class="col-1">
-          <img class="dev-icon" src="https://img.icons8.com/?size=96&id=9nLaR5KFGjN0&format=png" alt="">
+        <div class="col-1 text-center icon-spacing">
+          <span v-if="sqlhover" class="hover-text">
+            MySQL
+          </span>
+          <span v-else class="placeholder">
+            placeholder
+          </span>
+          <img @mouseover="sqlhover = true" @mouseleave="sqlhover = false" class="dev-icon"
+            src="https://img.icons8.com/?size=96&id=9nLaR5KFGjN0&format=png" alt="">
         </div>
-        <div class="col-1">
-          <img class="dev-icon" src="https://img.icons8.com/?size=96&id=55251&format=png" alt="">
+        <div class="col-1 text-center icon-spacing">
+          <span v-if="csharphover" class="hover-text">
+            C#
+          </span>
+          <span v-else class="placeholder">
+            placeholder
+          </span>
+          <img @mouseover="csharphover = true" @mouseleave="csharphover = false" class="dev-icon"
+            src="https://img.icons8.com/?size=96&id=55251&format=png" alt="">
         </div>
-        <div class="col-1">
-          <img class="dev-icon" src="https://img.icons8.com/?size=96&id=40669&format=png" alt="">
+        <div class="col-1 text-center icon-spacing">
+          <span v-if="cplusplushover" class="hover-text">
+            C++
+          </span>
+          <span v-else class="placeholder">
+            placeholder
+          </span>
+          <img @mouseover="cplusplushover = true" @mouseleave="cplusplushover = false" class="dev-icon"
+            src="https://img.icons8.com/?size=96&id=40669&format=png" alt="">
         </div>
-        <div class="col-1">
-          <img class="dev-icon" src="https://img.icons8.com/?size=96&id=g9mmSxx3SwAI&format=png" alt="">
+        <div class="col-1 text-center icon-spacing">
+          <span v-if="bshover" class="hover-text">
+            Bootstrap
+          </span>
+          <span v-else class="placeholder">
+            placeholder
+          </span>
+          <img @mouseover="bshover = true" @mouseleave="bshover = false" class="dev-icon"
+            src="https://img.icons8.com/?size=96&id=g9mmSxx3SwAI&format=png" alt="">
         </div>
-        <div class="col-1 mongodb-icon">
-          <img class="dev-icon" src="https://img.icons8.com/?size=96&id=74402&format=png" alt="">
+        <div class="col-1 mongodb-icon text-center icon-spacing">
+          <span v-if="mongohover" class="hover-text">
+            MongoDB
+          </span>
+          <span v-else class="placeholder">
+            placeholder
+          </span>
+          <img @mouseover="mongohover = true" @mouseleave="mongohover = false" class="dev-icon"
+            src="https://img.icons8.com/?size=96&id=74402&format=png" alt="">
         </div>
-        <div class="col-1">
-          <img class="dev-icon aws-icon" src="https://img.icons8.com/?size=128&id=wU62u24brJ44&format=png" alt="">
+        <div class="col-1 text-center icon-spacing">
+          <span v-if="awshover" class="hover-text">
+            AWS
+          </span>
+          <span v-else class="placeholder">
+            placeholder
+          </span>
+          <img @mouseover="awshover = true" @mouseleave="awshover = false" class="dev-icon aws-icon"
+            src="https://img.icons8.com/?size=128&id=wU62u24brJ44&format=png" alt="">
         </div>
-        <div class="col-1">
-          <img class="dev-icon" src="https://img.icons8.com/?size=96&id=22813&format=png" alt="">
+        <div class="col-1 text-center icon-spacing">
+          <span v-if="dockerhover" class="hover-text">
+            Docker
+          </span>
+          <span v-else class="placeholder">
+            placeholder
+          </span>
+          <img @mouseover="dockerhover = true" @mouseleave="dockerhover = false" class="dev-icon"
+            src="https://img.icons8.com/?size=96&id=22813&format=png" alt="">
         </div>
       </div>
     </section>
@@ -311,7 +388,18 @@ export default {
       name: '',
       email: '',
       message: '',
-      hover: false
+      jshover: false,
+      htmlhover: false,
+      csshover: false,
+      vuehover: false,
+      nodehover: false,
+      sqlhover: false,
+      csharphover: false,
+      cplusplushover: false,
+      bshover: false,
+      mongohover: false,
+      awshover: false,
+      dockerhover: false
     }
   },
   methods: {

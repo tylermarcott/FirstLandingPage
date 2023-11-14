@@ -1,8 +1,21 @@
 {
   "javascript.preferences.importModuleSpecifier": "relative",
   "cSpell.words": [
+    "awshover",
+    "bshover",
+    "cplusplushover",
+    "csharphover",
+    "csshover",
+    "dockerhover",
+    "emailjs",
     "headshot",
+    "htmlhover",
+    "jshover",
     "Keepr",
-    "Stackify"
+    "mongohover",
+    "nodehover",
+    "sqlhover",
+    "Stackify",
+    "vuehover"
   ],
 }
