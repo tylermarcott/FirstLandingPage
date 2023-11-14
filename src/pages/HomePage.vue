@@ -7,7 +7,7 @@ Ok, so what left do i have to do on my landing page to make it polished?
 
 1: add some sort of label or text that appears on hover for dev icons ✅
 
-2: run portfolio project descriptions through GPT and see if there needs to be any changes
+2: run portfolio project descriptions through GPT and see if there needs to be any changes ✅
 
 3: figure out why contact form isn't working to send emails to you.
 
@@ -352,7 +352,7 @@ Ok, so what left do i have to do on my landing page to make it polished?
     <section>
       <div class="row contact-background justify-content-center">
         <div class="col-6 contact-card">
-          <form>
+          <form red="form" @submit.prevent="sendEmail">
             <div>
               <h3 class="m-3">
                 Contact me!
@@ -405,23 +405,23 @@ export default {
       dockerhover: false
     }
   },
+  // NOTE: vue lifecycle hook, the created hook will run whatever code is in the code block upon creation of the component
+  created() {
+    emailjs.init('RRmplMbCGEcvXHOSX') //NOTE: init is a built in function in the emailjs library
+  },
   methods: {
-    sendEmail(e) {
-      try {
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target,
-          'YOUR_USER_ID', {
-          name: this.name,
-          email: this.email,
-          message: this.message
-        })
-        logger.log('email was sent successfully')
-      } catch (error) {
-        logger.log({ error })
+    methods: {
+      sendEmail() {
+        emailjs.sendForm('YOUR_SERVICE_ID', 'template_r85grzq', this.$refs.form, 'RRmplMbCGEcvXHOSX')
+          .then((result) => {
+            logger.log('SUCCESS!', result.text);
+          }, (error) => {
+            logger.log('FAILED...', error.text);
+          });
+        this.name = '',
+          this.email = '',
+          this.message = ''
       }
-      // Reset form field
-      this.name = ''
-      this.email = ''
-      this.message = ''
     },
   }
 }
