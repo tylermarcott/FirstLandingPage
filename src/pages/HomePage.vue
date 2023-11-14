@@ -359,15 +359,15 @@ Ok, so what left do i have to do on my landing page to make it polished?
               </h3>
               <div class="m-3">
                 <label for="name" class="form-label">Name</label>
-                <input type="text" name="from_name" required="true" class="form-control">
+                <input type="text" name="from_name" v-model="name" required="true" class="form-control">
               </div>
               <div class="m-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" name="from_email" required="true" class="form-control">
+                <input type="email" name="from_email" v-model="email" required="true" class="form-control">
               </div>
               <div class="m-3">
                 <label for="message" class="form-label">Message</label>
-                <textarea name="message" class="form-control" required="true" rows="10"></textarea>
+                <textarea name="message" class="form-control" v-model="message" required="true" rows="10"></textarea>
               </div>
               <button type="submit" value="Send" class="btn btn-primary ms-3">Submit</button>
             </div>
