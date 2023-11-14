@@ -240,6 +240,7 @@ Ok, so what left do i have to do on my landing page to make it polished?
     </section>
 
 
+    <!-- TODO: ok so this might be a pita, but I might have to make these images background images instead of image tags. This way, I can easily put stuff on top of them instead of trying to do it the way I have been doing it. I want to have the github and app links to show on hovering over the screenshot of the project. -->
 
     <section>
       <div class="row project-background justify-content-center">
