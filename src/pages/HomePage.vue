@@ -352,7 +352,7 @@ Ok, so what left do i have to do on my landing page to make it polished?
     <section>
       <div class="row contact-background justify-content-center">
         <div class="col-6 contact-card">
-          <form red="form" @submit.prevent="sendEmail">
+          <form ref="form" @submit.prevent="sendEmail">
             <div>
               <h3 class="m-3">
                 Contact me!
@@ -404,10 +404,6 @@ export default {
       awshover: false,
       dockerhover: false
     }
-  },
-  // NOTE: vue lifecycle hook, the created hook will run whatever code is in the code block upon creation of the component
-  created() {
-    emailjs.init('RRmplMbCGEcvXHOSX') //NOTE: init is a built in function in the emailjs library
   },
   methods: {
     methods: {
