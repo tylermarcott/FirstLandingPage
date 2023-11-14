@@ -15,6 +15,7 @@ Ok, so what left do i have to do on my landing page to make it polished?
 
 5: add GitHub links on hover for each of the projects so people can view your code. Will need to be able to have an icon in there eventually that will take you to the app as well.
 
+6: add alts and tags on stuff
 
 -->
 
@@ -109,9 +110,12 @@ Ok, so what left do i have to do on my landing page to make it polished?
     <!-- TODO: I want to create an effect that shows the name of the technology on hover. I messed with it a bit but can't get it. Come back to this when you are done and work on it. -->
     <section>
       <div class="row skill-stack justify-content-between px-4">
-        <div class="col-1">
+        <div class="col-1 text-center icon-spacing">
           <span v-if="hover" class="hover-text">
-            TEST TEXT
+            Javascript
+          </span>
+          <span v-else class="placeholder">
+            placeholder
           </span>
           <img @mouseover="hover = true" @mouseleave="hover = false" class="dev-icon"
             src="https://img.icons8.com/?size=96&id=PXTY4q2Sq2lG&format=png" alt="">
@@ -373,9 +377,8 @@ export default {
   font-size: 50px;
 }
 
-.dev-icon:hover .hover-text {
-  visibility: visible;
-  color: red;
+.dev-icon {
+  transition: ease-in-out 5s;
 }
 
 .icon-color {
@@ -384,11 +387,6 @@ export default {
 
 .icon-color:hover {
   color: #E1D9D1;
-}
-
-.hover-text {
-  // visibility: hidden;
-  color: white;
 }
 
 .summary-title {
@@ -433,6 +431,17 @@ export default {
   border-radius: 10px;
 }
 
+.placeholder {
+  opacity: 0;
+}
+
+
+.hover-text {
+  opacity: 1;
+  color: #E1D9D1;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
 .dev-icon {
   cursor: pointer;
   transition: transform 0.3s ease-in-out; //NOTE: the ease transition needs to go on the actual class, not the hover class.
@@ -444,6 +453,10 @@ export default {
 
 .icon:hover {
   transform: scale(1.2);
+}
+
+.icon-spacing {
+  height: 20vh;
 }
 
 .aws-icon {
