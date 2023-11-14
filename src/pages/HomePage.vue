@@ -249,7 +249,7 @@ Ok, so what left do i have to do on my landing page to make it polished?
         <div class="col-10 project-card">
           <div class="row mt-5 mb-5 single-project">
             <div class="col-6 project-offset">
-              <img src="../assets/img/StackifySnapshot.png" class="project-image-left absolute-left" alt="">
+              <img src="../assets/img/StackifySnapshot.png" class="project-image-left absolute-left project-hover" alt="">
             </div>
             <div class="col-6">
               <div class="row project-description">
@@ -514,7 +514,6 @@ export default {
   opacity: 0;
 }
 
-
 .hover-text {
   opacity: 1;
   color: #E1D9D1;
@@ -618,6 +617,17 @@ export default {
 
 .project-description {
   margin-left: 1em;
+}
+
+.project-hover {
+  transition: ease-in-out 1s;
+  opacity: 1;
+}
+
+.project-hover:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  opacity: 0.2;
 }
 
 .contact-background {
