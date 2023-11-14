@@ -382,7 +382,7 @@ Ok, so what left do i have to do on my landing page to make it polished?
 
 <!-- FIXME: this does not work, look into why. The form submits, and the emailJS is setup and verified with my email. -->
 <script>
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 import { logger } from "../utils/Logger.js";
 export default {
   name: 'ContactUs',
@@ -406,19 +406,17 @@ export default {
     }
   },
   methods: {
-    methods: {
-      sendEmail() {
-        emailjs.sendForm('YOUR_SERVICE_ID', 'template_r85grzq', this.$refs.form, 'RRmplMbCGEcvXHOSX')
-          .then((result) => {
-            logger.log('SUCCESS!', result.text);
-          }, (error) => {
-            logger.log('FAILED...', error.text);
-          });
-        this.name = '',
-          this.email = '',
-          this.message = ''
-      }
-    },
+    sendEmail() {
+      emailjs.sendForm('tylers_service', 'template_r85grzq', this.$refs.form, 'RRmplMbCGEcvXHOSX')
+        .then((result) => {
+          logger.log('SUCCESS!', result.text);
+        }, (error) => {
+          logger.log('FAILED...', error.text);
+        });
+      this.name = '',
+        this.email = '',
+        this.message = ''
+    }
   }
 }
 </script>
