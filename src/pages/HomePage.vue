@@ -348,7 +348,7 @@ Ok, so what left do i have to do on my landing page to make it polished?
         </div>
       </div>
     </section>
-    <!-- FIXME: add form control on here, so people can't put in BS stuff into the form fields lol. Probably will look better, who knows, maybe someone will try to mess with it as a test -->
+    <!-- FIXME: ok form works now, but I need to create a function to clear the form once it's submitted -->
     <section>
       <div class="row contact-background justify-content-center">
         <div class="col-6 contact-card">
@@ -359,18 +359,17 @@ Ok, so what left do i have to do on my landing page to make it polished?
               </h3>
               <div class="m-3">
                 <label for="name" class="form-label">Name</label>
-                <input type="string" class="form-control" id="nameInput" v-model="name" required="true">
+                <input type="text" name="from_name" required="true" class="form-control">
               </div>
               <div class="m-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="emailInput" v-model="email" required="true">
+                <input type="email" name="from_email" required="true" class="form-control">
               </div>
               <div class="m-3">
                 <label for="message" class="form-label">Message</label>
-                <textarea type="message" class="form-control" id="messageInput" v-model="message" required="true"
-                  rows="10"></textarea>
+                <textarea name="message" class="form-control" required="true" rows="10"></textarea>
               </div>
-              <button type="submit" value="send" class="btn btn-primary ms-3">Submit</button>
+              <button type="submit" value="Send" class="btn btn-primary ms-3">Submit</button>
             </div>
           </form>
         </div>
@@ -385,7 +384,6 @@ Ok, so what left do i have to do on my landing page to make it polished?
 import emailjs from '@emailjs/browser';
 import { logger } from "../utils/Logger.js";
 export default {
-  name: 'ContactUs',
   data() {
     return {
       name: '',
@@ -409,9 +407,9 @@ export default {
     sendEmail() {
       emailjs.sendForm('tylers_service', 'template_r85grzq', this.$refs.form, 'RRmplMbCGEcvXHOSX')
         .then((result) => {
-          logger.log('SUCCESS!', result.text);
+          logger.log('Successful email sent!', result.text);
         }, (error) => {
-          logger.log('FAILED...', error.text);
+          logger.log('The email did not send, check logs.', error.text);
         });
       this.name = '',
         this.email = '',
