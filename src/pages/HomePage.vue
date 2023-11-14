@@ -9,7 +9,7 @@ Ok, so what left do i have to do on my landing page to make it polished?
 
 2: run portfolio project descriptions through GPT and see if there needs to be any changes ✅
 
-3: figure out why contact form isn't working to send emails to you.
+3: figure out why contact form isn't working to send emails to you. ✅
 
 4: an overall check of spacing, spelling etc, one final comb through and maybe some peer review with Sam or one of the boys
 
@@ -61,6 +61,9 @@ Ok, so what left do i have to do on my landing page to make it polished?
         </div>
       </div>
     </section>
+
+
+
     <section>
       <div class="row summary-background justify-content-center">
         <div class="col-12 summary-title">
@@ -107,6 +110,9 @@ Ok, so what left do i have to do on my landing page to make it polished?
         </div>
       </div>
     </section>
+
+
+
     <!-- TODO: still need to find a way to make the text transition instead of just slamming in like it currently does. -->
     <section>
       <div class="row skill-stack justify-content-between px-4">
@@ -232,17 +238,14 @@ Ok, so what left do i have to do on my landing page to make it polished?
         </div>
       </div>
     </section>
+
+
+
     <section>
       <div class="row project-background justify-content-center">
         <div class="col-12 project-title">
           My Portfolio
         </div>
-
-
-
-
-        <!-- TODO: make sure you review/ correct these descriptions, these descriptions are in rough draft. -->
-
         <div class="col-10 project-card">
           <div class="row mt-5 mb-5 single-project">
             <div class="col-6 project-offset">
@@ -339,16 +342,12 @@ Ok, so what left do i have to do on my landing page to make it polished?
               <img src="../assets/img/TowerSnapshot.png" class="project-image-right absolute-right size-adjust" alt="">
             </div>
           </div>
-
-
-
-
-
-
         </div>
       </div>
     </section>
-    <!-- FIXME: ok form works now, but I need to create a function to clear the form once it's submitted -->
+
+
+
     <section>
       <div class="row contact-background justify-content-center">
         <div class="col-6 contact-card">
@@ -379,10 +378,10 @@ Ok, so what left do i have to do on my landing page to make it polished?
 </template>
 
 
-<!-- FIXME: this does not work, look into why. The form submits, and the emailJS is setup and verified with my email. -->
 <script>
 import emailjs from '@emailjs/browser';
 import { logger } from "../utils/Logger.js";
+import Pop from "../utils/Pop.js";
 export default {
   data() {
     return {
@@ -408,6 +407,7 @@ export default {
       emailjs.sendForm('tylers_service', 'template_r85grzq', this.$refs.form, 'RRmplMbCGEcvXHOSX')
         .then((result) => {
           logger.log('Successful email sent!', result.text);
+          Pop.toast('Thanks for sending me a message, I will respond as soon as I can!', 'success', 'top')
         }, (error) => {
           logger.log('The email did not send, check logs.', error.text);
         });
@@ -644,11 +644,6 @@ textarea:required {
   border: 1px solid #ccc;
   outline: none;
 }
-
-// .hover-text {
-//   position: relative;
-//   op
-// }
 
 .absolute-left {
   position: absolute;
