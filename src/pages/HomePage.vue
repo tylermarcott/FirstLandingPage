@@ -5,7 +5,7 @@
 
 Ok, so what left do i have to do on my landing page to make it polished?
 
-1: add some sort of label or text that appears on hover for dev icons
+1: add some sort of label or text that appears on hover for dev icons ✅
 
 2: run portfolio project descriptions through GPT and see if there needs to be any changes
 
@@ -107,7 +107,7 @@ Ok, so what left do i have to do on my landing page to make it polished?
         </div>
       </div>
     </section>
-    <!-- TODO: I want to create an effect that shows the name of the technology on hover. I messed with it a bit but can't get it. Come back to this when you are done and work on it. -->
+    <!-- TODO: still need to find a way to make the text transition instead of just slamming in like it currently does. -->
     <section>
       <div class="row skill-stack justify-content-between px-4">
         <div class="col-1 text-center icon-spacing">
@@ -260,7 +260,8 @@ Ok, so what left do i have to do on my landing page to make it polished?
                   a length of time without music playing in their event.
                 </p>
                 <p class="ms-2">
-                  Stackify is integrated with Spotify's API and PKCE auth, which allows you to log directly into your
+                  Stackify is integrated with Spotify's API and PKCE auth, which allows the user to log directly into
+                  their
                   Spotify Premium account within the application. Stackify utilizes a Vue.js front-end and a Node.js
                   backend, with MongoDB for database storage.
                 </p>
@@ -303,9 +304,11 @@ Ok, so what left do i have to do on my landing page to make it polished?
                   Scare St.
                 </h3>
                 <p class="ms-2">
-                  Scare St. is trivia-based horror game where the user will choose a character and try to make it through
-                  all the houses on Scare St. This application was built at a Halloween Hackathon by a team 4 under a
-                  tight deadline.
+                  Scare St. is trivia-based horror game where the user chooses a character and tries to make it through
+                  all the houses on Scare St. In each house, users are prompted with various sets of horror-based trivia
+                  questions. Answer 3 questions right to move on to the next house. Answering wrong questions will
+                  subtract courage from your courage bar. If your courage is depleted, you run back to the beginning. This
+                  application was built at a Halloween Hackathon by a team 4 under a tight deadline.
                 </p>
                 <p class="ms-2">
                   Scare st. uses of a Vue.js front end that utilizes a movie trivia API, and a Node.js backend and MongoDB
