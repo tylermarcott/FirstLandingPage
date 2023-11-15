@@ -627,17 +627,16 @@ export default {
 }
 
 .project-hover {
-  transition: ease-in-out 1s;
+  transition: ease-in-out 0.8s;
   opacity: 1;
 }
 
 .project-hover:hover {
-  transform: scale(1.05);
   cursor: pointer;
   opacity: 0.2;
 
   .stackify-links {
-    z-index: 100;
+    z-index: 1000;
   }
 }
 
@@ -648,6 +647,11 @@ export default {
   cursor: pointer;
   z-index: 1;
   font-size: 50px;
+}
+
+.stackify-links:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px 5px white;
 }
 
 .contact-background {
