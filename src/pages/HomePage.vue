@@ -85,8 +85,6 @@
     </section>
 
 
-
-    <!-- TODO: still need to find a way to make the text transition instead of just slamming in like it currently does. -->
     <section>
       <div class="row skill-stack justify-content-between px-4">
         <div class="col-1 text-center icon-spacing">
@@ -212,9 +210,6 @@
       </div>
     </section>
 
-
-    <!-- TODO: I want to add some transform fancies on the github icons, then do one last lookover on the project. It should be basically done. -->
-    <!-- TODO: make sure to add alts and tags to relevant stuff -->
 
     <section>
       <div class="row project-background justify-content-center">
@@ -348,15 +343,16 @@
               </h3>
               <div class="m-3">
                 <label for="name" class="form-label">Name</label>
-                <input type="text" name="from_name" v-model="name" required="true" class="form-control">
+                <input type="text" name="from_name" v-model="name" required="true" class="form-control input-color">
               </div>
               <div class="m-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" name="from_email" v-model="email" required="true" class="form-control">
+                <input type="email" name="from_email" v-model="email" required="true" class="form-control input-color">
               </div>
               <div class="m-3">
                 <label for="message" class="form-label">Message</label>
-                <textarea name="message" class="form-control" v-model="message" required="true" rows="10"></textarea>
+                <textarea name="message" class="form-control input-color" v-model="message" required="true"
+                  rows="10"></textarea>
               </div>
               <button type="submit" value="Send" class="btn btn-primary ms-3">Submit</button>
             </div>
@@ -515,7 +511,7 @@ export default {
 
 .dev-icon {
   cursor: pointer;
-  transition: transform 0.5s ease-in-out; //NOTE: the ease transition needs to go on the actual class, not the hover class.
+  transition: transform 0.5s ease-in-out;
 }
 
 .dev-icon:hover {
@@ -805,6 +801,10 @@ input:required {
 textarea:required {
   border: 1px solid #ccc;
   outline: none;
+}
+
+.input-color {
+  background-color: rgb(214, 214, 214);
 }
 
 .absolute-left {
