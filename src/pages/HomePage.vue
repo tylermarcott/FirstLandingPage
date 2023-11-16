@@ -74,7 +74,7 @@
               </p>
             </div>
             <div class="col-6 text-center mt-3 position-relative">
-              <img src="../assets/img/headshot.jpg" class="headshot" alt="">
+              <img src="src/assets/img/headshot.jpg" class="headshot" alt="">
             </div>
           </div>
         </div>
