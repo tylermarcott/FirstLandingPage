@@ -100,7 +100,7 @@ Ok, so what left do i have to do on my landing page to make it polished?
                 creativity? Let's connect!
               </p>
             </div>
-            <div class="col-6 text-center mt-3">
+            <div class="col-6 text-center mt-3 position-relative">
               <img src="../assets/img/headshot.jpg" class="headshot" alt="">
             </div>
           </div>
@@ -249,12 +249,14 @@ Ok, so what left do i have to do on my landing page to make it polished?
         </div>
         <div class="col-10 project-card">
           <div class="row mt-5 mb-5 single-project">
-            <div class="col-6 project-offset">
-              <img @mouseover="stackifyhover = true" @mouseleave="stackifyhover = false"
-                src="../assets/img/StackifySnapshot.png" class="project-image-left absolute-left project-hover" alt="">
-              <div class="text-light stackify-links">
-                <i class="mdi mdi-github"></i>
+            <div class="col-6 project-container">
+              <!-- <img @mouseover="stackifyhover = true" @mouseleave="stackifyhover = false"
+                src="../assets/img/StackifySnapshot.png" class="project-image-left absolute-left project-hover" alt=""> -->
+              <div class="project-image-left absolute-left project-hover stackify-img">
               </div>
+              <a href="https://github.com/tylermarcott/StackifyCapstone" target="_blank" rel="noopener noreferrer">
+                <i class="mdi mdi-github stackify-links" title="Link to my GitHub!"></i>
+              </a>
             </div>
             <div class="col-6">
               <div class="row project-description">
@@ -551,6 +553,7 @@ export default {
 
 .skill-stack {
   background-color: #122331;
+  box-shadow: 0 0 2px 2px #122331;
   padding-top: 2em;
   padding-bottom: 2em;
 }
@@ -590,17 +593,22 @@ export default {
   box-shadow: 0px 0px 8px #989696b0;
 }
 
-.project-offset {
-  position: relative;
-}
-
 .single-project {
   height: 50vh;
   padding: 2em;
 }
 
+.stackify-img {
+  background-image: url('../assets/img/StackifySnapshot.png');
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  width: 80vh;
+  transition: opacity 0.8s ease-in-out;
+}
+
 .project-image-left {
-  max-height: 43vh;
+  max-height: 44vh;
   box-shadow: -3px -3px 8px #555353b0;
   border-radius: 3px;
   z-index: 2;
@@ -618,6 +626,10 @@ export default {
   border-radius: 3px;
 }
 
+.project-container {
+  position: relative;
+}
+
 .size-adjust {
   max-height: 40vh;
 }
@@ -626,37 +638,36 @@ export default {
   margin-left: 1em;
 }
 
-.project-hover {
-  transition: ease-in-out 0.8s;
-  opacity: 1;
-}
-
-.project-hover:hover {
-  cursor: pointer;
-  opacity: 0.2;
-
-  .stackify-links {
-    z-index: 1000;
-  }
-}
-
 .stackify-links {
-  position: relative;
-  right: -20vh;
-  bottom: -20vh;
-  cursor: pointer;
-  z-index: 1;
-  font-size: 50px;
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  font-size: 70px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  color: #E1D9D1;
 }
 
-.stackify-links:hover {
-  transform: scale(1.1);
-  box-shadow: 5px 5px 5px 5px white;
+.project-container:hover .stackify-img {
+  opacity: 0.2;
+}
+
+.project-container:hover {
+  .stackify-links {
+    opacity: 1;
+    z-index: 3;
+    cursor: pointer;
+  }
+
+  .stackify-img {
+    opacity: 0.2;
+  }
 }
 
 .contact-background {
   height: 100vh;
   background-color: #122331;
+  box-shadow: 0 0 2px 2px #122331;
 }
 
 .contact-card {
