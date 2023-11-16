@@ -721,8 +721,8 @@ export default {
 
 .keepr-links {
   position: absolute;
-  top: 30%;
-  left: 52.5%;
+  top: 35%;
+  left: 55%;
   font-size: 70px;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
@@ -781,7 +781,7 @@ export default {
 
 .tower-links {
   position: absolute;
-  top: 30%;
+  top: 38%;
   left: 52%;
   font-size: 70px;
   opacity: 0;
@@ -828,6 +828,6 @@ textarea:required {
 .absolute-left-altered {
   position: absolute;
   left: -80px;
-  bottom: 58px;
+  bottom: 45px;
 }
 </style>
