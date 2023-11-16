@@ -308,9 +308,12 @@ Ok, so what left do i have to do on my landing page to make it polished?
 
 
           <div class="row mb-5 single-project">
-            <div class="col-6">
-              <img src="../assets/img/ScareStSnapshot.png" class="project-image-left-ss absolute-left-altered size-adjust"
-                alt="">
+            <div class="col-6 scarest-container">
+              <div class="project-image-left-ss absolute-left-altered size-adjust scarest-img">
+              </div>
+              <a href="https://github.com/tylermarcott/KeeprFinalCheckpoint" target="_blank" rel="noopener noreferrer">
+                <i class="mdi mdi-github scarest-links" title="Link to Keepr on GitHub!"></i>
+              </a>
             </div>
             <div class="col-6">
               <div class="row project-description">
@@ -349,8 +352,12 @@ Ok, so what left do i have to do on my landing page to make it polished?
                 </p>
               </div>
             </div>
-            <div class="col-6">
-              <img src="../assets/img/TowerSnapshot.png" class="project-image-right absolute-right size-adjust" alt="">
+            <div class="col-6 tower-container">
+              <div class="project-image-right absolute-right size-adjust tower-img">
+              </div>
+              <a href="https://github.com/tylermarcott/KeeprFinalCheckpoint" target="_blank" rel="noopener noreferrer">
+                <i class="mdi mdi-github tower-links" title="Link to Keepr on GitHub!"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -748,8 +755,8 @@ export default {
 
 .scarest-links {
   position: absolute;
-  top: 30%;
-  left: 52.5%;
+  top: 32%;
+  left: 35%;
   font-size: 70px;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
@@ -779,7 +786,7 @@ export default {
 .tower-links {
   position: absolute;
   top: 30%;
-  left: 52.5%;
+  left: 52%;
   font-size: 70px;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
@@ -819,11 +826,12 @@ textarea:required {
 
 .absolute-right {
   position: absolute;
-  right: 120px;
+  right: -80px;
 }
 
 .absolute-left-altered {
   position: absolute;
-  left: 120px;
+  left: -80px;
+  bottom: 58px;
 }
 </style>
