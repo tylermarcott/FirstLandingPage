@@ -623,7 +623,7 @@ export default {
   background-position: center;
   background-size: cover;
   height: 60vh;
-  width: 78vh;
+  width: 80vh;
   margin-left: 0.5em;
   transition: opacity 0.8s ease-in-out;
 }
@@ -660,17 +660,13 @@ export default {
 }
 
 .project-image-right {
-  max-height: 43vh;
+  max-height: 45vh;
   box-shadow: 5px 5px 8px #555353b0;
   border-radius: 3px;
 }
 
 .project-container {
   position: relative;
-}
-
-.size-adjust {
-  max-height: 39vh;
 }
 
 .project-description {
