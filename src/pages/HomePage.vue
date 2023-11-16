@@ -17,6 +17,8 @@ Ok, so what left do i have to do on my landing page to make it polished?
 
 6: add alts and tags on stuff
 
+7: Break landing page up into components maybe?
+
 -->
 
 
@@ -250,12 +252,10 @@ Ok, so what left do i have to do on my landing page to make it polished?
         <div class="col-10 project-card">
           <div class="row mt-5 mb-5 single-project">
             <div class="col-6 project-container">
-              <!-- <img @mouseover="stackifyhover = true" @mouseleave="stackifyhover = false"
-                src="../assets/img/StackifySnapshot.png" class="project-image-left absolute-left project-hover" alt=""> -->
               <div class="project-image-left absolute-left project-hover stackify-img">
               </div>
               <a href="https://github.com/tylermarcott/StackifyCapstone" target="_blank" rel="noopener noreferrer">
-                <i class="mdi mdi-github stackify-links" title="Link to my GitHub!"></i>
+                <i class="mdi mdi-github stackify-links" title="Link to Stackify on GitHub!"></i>
               </a>
             </div>
             <div class="col-6">
@@ -297,8 +297,12 @@ Ok, so what left do i have to do on my landing page to make it polished?
                 </p>
               </div>
             </div>
-            <div class="col-6">
-              <img src="../assets/img/KeeprSnapshot.png" class="project-image-right absolute-right size-adjust" alt="">
+            <div class="col-6 keepr-container">
+              <div class="project-image-right size-adjust keepr-img">
+              </div>
+              <a href="https://github.com/tylermarcott/KeeprFinalCheckpoint" target="_blank" rel="noopener noreferrer">
+                <i class="mdi mdi-github keepr-links" title="Link to Keepr on GitHub!"></i>
+              </a>
             </div>
           </div>
 
@@ -607,6 +611,34 @@ export default {
   transition: opacity 0.8s ease-in-out;
 }
 
+.keepr-img {
+  background-image: url('../assets/img/KeeprSnapshot.png');
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 78vh;
+  margin-left: 0.5em;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.scarest-img {
+  background-image: url('../assets/img/ScareStSnapshot.png');
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  width: 80vh;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.tower-img {
+  background-image: url('../assets/img/TowerSnapshot.png');
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  width: 80vh;
+  transition: opacity 0.8s ease-in-out;
+}
+
 .project-image-left {
   max-height: 44vh;
   box-shadow: -3px -3px 8px #555353b0;
@@ -631,7 +663,7 @@ export default {
 }
 
 .size-adjust {
-  max-height: 40vh;
+  max-height: 39vh;
 }
 
 .project-description {
@@ -648,7 +680,7 @@ export default {
   color: #E1D9D1;
 }
 
-.project-container:hover .stackify-img {
+.project-container:hover .project-img {
   opacity: 0.2;
 }
 
@@ -662,6 +694,96 @@ export default {
   .stackify-img {
     opacity: 0.2;
   }
+}
+
+.keepr-container:hover .keepr-img {
+  opacity: 0.2;
+}
+
+.keepr-container:hover {
+  .keepr-links {
+    opacity: 1;
+    z-index: 3;
+    cursor: pointer;
+  }
+
+  .keepr-img {
+    opacity: 0.2;
+  }
+}
+
+.keepr-container {
+  position: relative;
+}
+
+.keepr-links {
+  position: absolute;
+  top: 30%;
+  left: 52.5%;
+  font-size: 70px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  color: #E1D9D1;
+}
+
+.scarest-container:hover .scarest-img {
+  opacity: 0.2;
+}
+
+.scarest-container:hover {
+  .scarest-links {
+    opacity: 1;
+    z-index: 3;
+    cursor: pointer;
+  }
+
+  .scarest-img {
+    opacity: 0.2;
+  }
+}
+
+.scarest-container {
+  position: relative;
+}
+
+.scarest-links {
+  position: absolute;
+  top: 30%;
+  left: 52.5%;
+  font-size: 70px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  color: #E1D9D1;
+}
+
+.tower-container:hover .tower-img {
+  opacity: 0.2;
+}
+
+.tower-container:hover {
+  .tower-links {
+    opacity: 1;
+    z-index: 3;
+    cursor: pointer;
+  }
+
+  .tower-img {
+    opacity: 0.2;
+  }
+}
+
+.tower-container {
+  position: relative;
+}
+
+.tower-links {
+  position: absolute;
+  top: 30%;
+  left: 52.5%;
+  font-size: 70px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  color: #E1D9D1;
 }
 
 .contact-background {
