@@ -284,7 +284,7 @@
               <div class="project-image-left-ss absolute-left-altered size-adjust scarest-img">
               </div>
               <a href="https://github.com/tylermarcott/KeeprFinalCheckpoint" target="_blank" rel="noopener noreferrer">
-                <i class="mdi mdi-github scarest-links" title="Link to Keepr on GitHub!"></i>
+                <i class="mdi mdi-github scarest-links" title="Link to Scare St. on GitHub!"></i>
               </a>
             </div>
             <div class="col-6">
@@ -328,7 +328,7 @@
               <div class="project-image-right absolute-right size-adjust tower-img">
               </div>
               <a href="https://github.com/tylermarcott/KeeprFinalCheckpoint" target="_blank" rel="noopener noreferrer">
-                <i class="mdi mdi-github tower-links" title="Link to Keepr on GitHub!"></i>
+                <i class="mdi mdi-github tower-links" title="Link to Tower on GitHub!"></i>
               </a>
             </div>
           </div>
@@ -652,7 +652,12 @@ export default {
   font-size: 70px;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
+  transition: ease-in-out 0.5s;
   color: #E1D9D1;
+}
+
+.stackify-links:hover {
+  transform: scale(1.15);
 }
 
 .project-container:hover .project-img {
@@ -698,7 +703,12 @@ export default {
   font-size: 70px;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
+  transition: ease-in-out 0.5s;
   color: #E1D9D1;
+}
+
+.keepr-links:hover {
+  transform: scale(1.15);
 }
 
 .scarest-container:hover .scarest-img {
@@ -728,7 +738,12 @@ export default {
   font-size: 70px;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
+  transition: ease-in-out 0.5s;
   color: #E1D9D1;
+}
+
+.scarest-links:hover {
+  transform: scale(1.15);
 }
 
 .tower-container:hover .tower-img {
@@ -758,7 +773,12 @@ export default {
   font-size: 70px;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
+  transition: ease-in-out 0.5s;
   color: #E1D9D1;
+}
+
+.tower-links:hover {
+  transform: scale(1.15);
 }
 
 .contact-background {
