@@ -1,33 +1,4 @@
 
-
-
-<!-- TODO NOTES;
-
-Ok, so what left do i have to do on my landing page to make it polished?
-
-1: add some sort of label or text that appears on hover for dev icons ✅
-
-2: run portfolio project descriptions through GPT and see if there needs to be any changes ✅
-
-3: figure out why contact form isn't working to send emails to you. ✅
-
-4: an overall check of spacing, spelling etc, one final comb through and maybe some peer review with Sam or one of the boys
-
-5: add GitHub links on hover for each of the projects so people can view your code. Will need to be able to have an icon in there eventually that will take you to the app as well.
-
-6: add alts and tags on stuff
-
-7: Break landing page up into components maybe?
-
--->
-
-
-
-
-
-
-
-
 <template>
   <div class="overflow-correction">
     <section class="header-img">
@@ -242,7 +213,8 @@ Ok, so what left do i have to do on my landing page to make it polished?
     </section>
 
 
-    <!-- TODO: ok so this might be a pita, but I might have to make these images background images instead of image tags. This way, I can easily put stuff on top of them instead of trying to do it the way I have been doing it. I want to have the github and app links to show on hovering over the screenshot of the project. -->
+    <!-- TODO: I want to add some transform fancies on the github icons, then do one last lookover on the project. It should be basically done. -->
+    <!-- TODO: make sure to add alts and tags to relevant stuff -->
 
     <section>
       <div class="row project-background justify-content-center">
