@@ -211,6 +211,8 @@
     </section>
 
 
+    <!-- FIXME: need to add media queries to compensate for smaller screen sizes, on Sam's laptop, she said that the images are skewed. I need to size these down. See the screenshots that she sent to you. -->
+
     <section>
       <div class="row project-background justify-content-center">
         <div class="col-12 project-title">
@@ -331,7 +333,7 @@
       </div>
     </section>
 
-
+    <!-- FIXME: put contact me outside of card to match the rest of the page, Sam says that it looks unsymmetrical bc of this. -->
 
     <section>
       <div class="row contact-background justify-content-center">
