@@ -410,6 +410,23 @@ export default {
 
 
 <style scoped lang="scss">
+@media (max-width: 1400px) {
+  .project-image-left {
+    max-height: 20vh;
+  }
+
+  .stackify-img {
+    height: 10vh;
+    width: 30vh;
+  }
+}
+
+
+
+
+
+
+
 .overflow-correction {
   overflow: hidden;
 }
