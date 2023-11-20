@@ -316,8 +316,7 @@
                   events, as well as purchase tickets to other people's events.
                 </p>
                 <p class="ms-2">
-                  Tower uses a Vue.js front end and a Node.js backend with a MongoDB database. This application is also
-                  hosted using AWS, EC2, Nginx and Docker.
+                  Tower uses a Vue.js front end and a Node.js backend with a MongoDB database.
                 </p>
               </div>
             </div>
