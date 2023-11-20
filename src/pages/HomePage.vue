@@ -3,7 +3,7 @@
   <div class="overflow-correction">
     <section class="header-img">
       <div class="row">
-        <div class="col-5 title">
+        <div class="col-12 col-md-5 title">
           Tyler Marcott
         </div>
         <div class="col-4 contact-icons">
@@ -410,23 +410,6 @@ export default {
 
 
 <style scoped lang="scss">
-@media (max-width: 1400px) {
-  .project-image-left {
-    max-height: 20vh;
-  }
-
-  .stackify-img {
-    height: 10vh;
-    width: 30vh;
-  }
-}
-
-
-
-
-
-
-
 .overflow-correction {
   overflow: hidden;
 }
@@ -843,5 +826,18 @@ textarea:required {
   position: absolute;
   left: -80px;
   bottom: 45px;
+}
+
+
+// NOTE: media queries, just like in plain css, have to be AFTER the styles that they are changing.
+@media (min-width: 1440px) {
+  .project-image-left {
+    max-height: 20vh;
+  }
+
+  .stackify-img {
+    height: 10vh;
+    width: 30vh;
+  }
 }
 </style>
