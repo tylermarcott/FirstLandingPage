@@ -470,7 +470,7 @@ export default {
 
 .summary-background {
   padding: 5em;
-  height: 157vh;
+  height: 146vh;
   background-color: #010200;
   box-shadow: 0px 0px 20px #eeececb0 inset, 0px 10px 20px 2px #eeececb0;
 }
@@ -540,7 +540,7 @@ export default {
 
 .skill-stack-title {
   padding-left: 2em;
-  margin-top: 3.2em;
+  margin-top: 2em;
   margin-bottom: 1em;
   font-size: 40px;
   color: #E1D9D1;
@@ -555,7 +555,7 @@ export default {
 }
 
 .project-background {
-  height: 264vh;
+  height: 261vh;
   padding-left: 5em;
   padding-right: 5em;
   background-color: #010200;
@@ -569,7 +569,7 @@ export default {
   margin-right: 1em;
   margin-bottom: 1em;
   border-radius: 10px;
-  height: 232vh;
+  height: 228vh;
   box-shadow: 0px 0px 8px #989696b0;
 }
 
@@ -779,12 +779,14 @@ export default {
 }
 
 .contact-title {
+  padding-top: 0.5em;
   margin-top: 4em;
   margin-left: 4.5em;
 }
 
 .contact-background {
-  height: 85vh;
+  min-height: 90vh;
+  margin-top: 2em;
   background-color: #010200;
 }
 
@@ -860,6 +862,19 @@ textarea:required {
   .project-image-right {
     max-height: 40vh;
     max-width: 70vh;
+  }
+
+  .contact-background {
+    height: 90vh;
+  }
+
+  .contact-card {
+    height: 70vh;
+  }
+
+  .contact-title {
+    margin-top: 3.5em;
+    margin-left: 4.5em;
   }
 }
 </style>

@@ -26,4 +26,16 @@ export default {
 :root {
   --main-height: calc(100vh - 32px - 64px);
 }
+
+header {
+  background-color: #010200;
+}
+
+main {
+  background-color: #010200;
+}
+
+footer {
+  background-color: #010200;
+}
 </style>
