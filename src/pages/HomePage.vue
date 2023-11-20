@@ -885,5 +885,25 @@ textarea:required {
     margin-top: 3em;
   }
 
+  .stackify-links {
+    top: 32%;
+    left: 30%;
+  }
+
+  .keepr-links {
+    top: 32%;
+    left: 56.5%;
+  }
+
+  .scarest-links {
+    top: 33%;
+    left: 30%;
+  }
+
+  .tower-links {
+    top: 35%;
+    left: 56.5%;
+  }
+
 }
 </style>
