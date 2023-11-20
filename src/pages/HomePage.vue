@@ -876,5 +876,14 @@ textarea:required {
     margin-top: 3.5em;
     margin-left: 4.5em;
   }
+
+  .summary-background {
+    height: 150vh;
+  }
+
+  .contact-title {
+    margin-top: 3em;
+  }
+
 }
 </style>
