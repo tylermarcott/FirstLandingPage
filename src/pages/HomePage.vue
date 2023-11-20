@@ -267,7 +267,7 @@
               </div>
             </div>
             <div class="col-6 keepr-container">
-              <div class="project-image-right size-adjust keepr-img">
+              <div class="project-image-right keepr-img">
               </div>
               <a href="https://github.com/tylermarcott/KeeprFinalCheckpoint" target="_blank" rel="noopener noreferrer">
                 <i class="mdi mdi-github keepr-links" title="Link to Keepr on GitHub!"></i>
@@ -278,7 +278,7 @@
 
           <div class="row mb-5 single-project">
             <div class="col-6 scarest-container">
-              <div class="project-image-left-ss absolute-left-altered size-adjust scarest-img">
+              <div class="project-image-left-ss absolute-left-altered scarest-img">
               </div>
               <a href="https://github.com/tylermarcott/KeeprFinalCheckpoint" target="_blank" rel="noopener noreferrer">
                 <i class="mdi mdi-github scarest-links" title="Link to Scare St. on GitHub!"></i>
@@ -321,7 +321,7 @@
               </div>
             </div>
             <div class="col-6 tower-container">
-              <div class="project-image-right absolute-right size-adjust tower-img">
+              <div class="project-image-right absolute-right tower-img">
               </div>
               <a href="https://github.com/tylermarcott/KeeprFinalCheckpoint" target="_blank" rel="noopener noreferrer">
                 <i class="mdi mdi-github tower-links" title="Link to Tower on GitHub!"></i>
@@ -831,13 +831,35 @@ textarea:required {
 
 // NOTE: media queries, just like in plain css, have to be AFTER the styles that they are changing.
 @media (min-width: 1440px) {
-  .project-image-left {
-    max-height: 20vh;
+
+  .header-img {
+    height: 86vh;
   }
 
-  .stackify-img {
-    height: 10vh;
-    width: 30vh;
+  .headshot {
+    max-height: 65vh;
+    margin-top: 8vh;
+    max-width: 70vh;
+  }
+
+  .project-image-left {
+    max-height: 40vh;
+    max-width: 70vh;
+  }
+
+  .project-image-right {
+    max-height: 40vh;
+    max-width: 70vh;
+  }
+
+  .project-image-left-ss {
+    max-height: 40vh;
+    max-width: 70vh;
+  }
+
+  .project-image-right {
+    max-height: 40vh;
+    max-width: 70vh;
   }
 }
 </style>
