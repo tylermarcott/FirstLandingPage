@@ -267,7 +267,7 @@
               </div>
             </div>
             <div class="col-6 keepr-container">
-              <div class="project-image-right keepr-img">
+              <div class="project-image-right absolute-right keepr-img">
               </div>
               <a href="https://github.com/tylermarcott/KeeprFinalCheckpoint" target="_blank" rel="noopener noreferrer">
                 <i class="mdi mdi-github keepr-links" title="Link to Keepr on GitHub!"></i>
@@ -779,12 +779,12 @@ export default {
 }
 
 .contact-title {
-  margin-top: 2.5em;
+  margin-top: 4em;
   margin-left: 4.5em;
 }
 
 .contact-background {
-  height: 100vh;
+  height: 85vh;
   background-color: #010200;
 }
 
@@ -794,7 +794,7 @@ export default {
   margin: 1em;
   margin-top: 4em;
   border-radius: 10px;
-  height: 81.5vh;
+  height: 68vh;
   box-shadow: 0px 0px 8px #989696b0;
 }
 
