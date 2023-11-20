@@ -328,6 +328,9 @@
               </a>
             </div>
           </div>
+          <h3 class="contact-title">
+            Contact me!
+          </h3>
         </div>
       </div>
     </section>
@@ -339,9 +342,6 @@
         <div class="col-6 contact-card">
           <form ref="form" @submit.prevent="sendEmail">
             <div>
-              <h3 class="m-3">
-                Contact me!
-              </h3>
               <div class="m-3">
                 <label for="name" class="form-label">Name</label>
                 <input type="text" name="from_name" v-model="name" required="true" class="form-control input-color">
@@ -559,7 +559,7 @@ export default {
   padding-left: 5em;
   padding-right: 5em;
   background-color: #010200;
-  box-shadow: 0px 0px 20px #eeececb0 inset;
+  box-shadow: 0px 15px 30px -10px #989696b0 inset;
 }
 
 .project-card {
@@ -778,10 +778,14 @@ export default {
   transform: scale(1.15);
 }
 
+.contact-title {
+  margin-top: 2.5em;
+  margin-left: 4.5em;
+}
+
 .contact-background {
   height: 100vh;
-  background-color: #122331;
-  box-shadow: 0 0 2px 2px #122331;
+  background-color: #010200;
 }
 
 .contact-card {
