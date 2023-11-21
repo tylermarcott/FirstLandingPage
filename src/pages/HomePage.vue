@@ -796,7 +796,7 @@ export default {
   margin: 1em;
   margin-top: 4em;
   border-radius: 10px;
-  height: 68vh;
+  height: 70vh;
   box-shadow: 0px 0px 8px #989696b0;
 }
 
@@ -869,7 +869,7 @@ textarea:required {
   }
 
   .contact-card {
-    height: 70vh;
+    height: 75vh;
   }
 
   .contact-title {
