@@ -213,6 +213,8 @@
 
     <!-- FIXME: need to add media queries to compensate for smaller screen sizes, on Sam's laptop, she said that the images are skewed. I need to size these down. See the screenshots that she sent to you. -->
 
+    <!-- test -->
+
     <section>
       <div class="row project-background justify-content-center">
         <div class="col-12 project-title">
@@ -858,6 +860,8 @@ textarea:required {
     max-height: 40vh;
     max-width: 70vh;
   }
+
+
 
   .project-image-right {
     max-height: 40vh;
