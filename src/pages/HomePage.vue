@@ -278,36 +278,14 @@
           </div>
 
 
-          <div class="row mb-5 single-project">
-            <div class="col-6 scarest-container">
-              <div class="project-image-left-ss absolute-left-altered scarest-img">
+          <div class="row single-project">
+            <div class="col-6 tower-container">
+              <div class="project-image-left-ss absolute-left-altered tower-img">
               </div>
-              <a href="https://github.com/tylermarcott/KeeprFinalCheckpoint" target="_blank" rel="noopener noreferrer">
-                <i class="mdi mdi-github scarest-links" title="Link to Scare St. on GitHub!"></i>
+              <a href="https://github.com/tylermarcott/TowerCheckpoint" target="_blank" rel="noopener noreferrer">
+                <i class="mdi mdi-github tower-links" title="Link to Tower on GitHub!"></i>
               </a>
             </div>
-            <div class="col-6">
-              <div class="row project-description">
-                <h3 class="fst-italic">
-                  Scare St.
-                </h3>
-                <p class="ms-2">
-                  Scare St. is trivia-based horror game where the user chooses a character and tries to make it through
-                  all the houses on Scare St. In each house, users are prompted with various sets of horror-based trivia
-                  questions. Answer 3 questions right to move on to the next house. Answering wrong questions will
-                  subtract courage from your courage bar. If your courage is depleted, you run back to the beginning. This
-                  application was built at a Halloween Hackathon by a team 4 under a tight deadline.
-                </p>
-                <p class="ms-2">
-                  Scare st. uses of a Vue.js front end that utilizes a movie trivia API, and a Node.js backend and MongoDB
-                  database for storing player high scores.
-                </p>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="row single-project">
             <div class="col-6">
               <div class="row project-description">
                 <h3 class="fst-italic">
@@ -321,13 +299,6 @@
                   Tower uses a Vue.js front end and a Node.js backend with a MongoDB database.
                 </p>
               </div>
-            </div>
-            <div class="col-6 tower-container">
-              <div class="project-image-right absolute-right tower-img">
-              </div>
-              <a href="https://github.com/tylermarcott/KeeprFinalCheckpoint" target="_blank" rel="noopener noreferrer">
-                <i class="mdi mdi-github tower-links" title="Link to Tower on GitHub!"></i>
-              </a>
             </div>
           </div>
           <h3 class="contact-title">
@@ -599,15 +570,6 @@ export default {
   transition: opacity 0.8s ease-in-out;
 }
 
-.scarest-img {
-  background-image: url('../assets/img/ScareStSnapshot.png');
-  background-position: center;
-  background-size: cover;
-  height: 50vh;
-  width: 80vh;
-  transition: opacity 0.8s ease-in-out;
-}
-
 .tower-img {
   background-image: url('../assets/img/TowerSnapshot.png');
   background-position: center;
@@ -710,41 +672,6 @@ export default {
   transform: scale(1.15);
 }
 
-.scarest-container:hover .scarest-img {
-  opacity: 0.2;
-}
-
-.scarest-container:hover {
-  .scarest-links {
-    opacity: 1;
-    z-index: 3;
-    cursor: pointer;
-  }
-
-  .scarest-img {
-    opacity: 0.2;
-  }
-}
-
-.scarest-container {
-  position: relative;
-}
-
-.scarest-links {
-  position: absolute;
-  top: 32%;
-  left: 35%;
-  font-size: 70px;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-  transition: ease-in-out 0.5s;
-  color: #E1D9D1;
-}
-
-.scarest-links:hover {
-  transform: scale(1.15);
-}
-
 .tower-container:hover .tower-img {
   opacity: 0.2;
 }
@@ -767,8 +694,8 @@ export default {
 
 .tower-links {
   position: absolute;
-  top: 38%;
-  left: 52%;
+  top: 32%;
+  left: 35%;
   font-size: 70px;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
@@ -899,15 +826,9 @@ textarea:required {
     left: 56.5%;
   }
 
-  .scarest-links {
-    top: 33%;
+  .tower-links {
+    top: 27%;
     left: 30%;
   }
-
-  .tower-links {
-    top: 35%;
-    left: 56.5%;
-  }
-
 }
 </style>
