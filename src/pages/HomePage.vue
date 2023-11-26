@@ -443,7 +443,7 @@ export default {
 
 .summary-background {
   padding: 5em;
-  height: 146vh;
+  height: 148vh;
   background-color: #010200;
   box-shadow: 0px 0px 20px #eeececb0 inset, 0px 10px 20px 2px #eeececb0;
 }
@@ -528,7 +528,7 @@ export default {
 }
 
 .project-background {
-  height: 261vh;
+  height: 205vh;
   padding-left: 5em;
   padding-right: 5em;
   background-color: #010200;
@@ -542,7 +542,7 @@ export default {
   margin-right: 1em;
   margin-bottom: 1em;
   border-radius: 10px;
-  height: 228vh;
+  height: 169vh;
   box-shadow: 0px 0px 8px #989696b0;
 }
 
@@ -714,7 +714,7 @@ export default {
 }
 
 .contact-background {
-  min-height: 90vh;
+  min-height: 80vh;
   margin-top: 2em;
   background-color: #010200;
 }
