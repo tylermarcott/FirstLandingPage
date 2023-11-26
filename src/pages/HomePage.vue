@@ -834,7 +834,7 @@ textarea:required {
 
 
 // NOTE: media queries, just like in plain css, have to be AFTER the styles that they are changing.
-@media (min-width: 1440px) {
+@media (max-width: 1440px) {
 
   .header-img {
     height: 86vh;
