@@ -868,10 +868,26 @@ textarea:required {
   .summary-card {
     margin: 0.5vh;
     padding-top: 0em;
-    height: 99vh;
+    height: 206vh;
   }
 
+  .summary-paragraph {
+    padding-left: 0em;
+    padding-right: 0em;
+    padding-top: 1em;
+  }
 
+  .summary-background {
+    padding: 2em;
+    height: 255vh;
+  }
+
+  .headshot {
+    max-height: 58vh;
+    margin-top: 0vh;
+    max-width: 70vh;
+    border-radius: 10px;
+  }
 
 }
 
