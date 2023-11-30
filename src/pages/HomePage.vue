@@ -844,13 +844,19 @@ textarea:required {
   }
 
   .contact-icons {
-    margin-top: -8vh;
-    margin-left: 28vh;
+    margin-top: -10vh;
+    margin-left: 35vh;
   }
 
   .icon {
-    padding: 25px;
+    padding: 20px;
     font-size: 30px;
+  }
+
+  .title-footer {
+    font-size: 30px;
+    margin-top: -3vh;
+    margin-left: 3vh;
   }
 }
 </style>
