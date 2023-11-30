@@ -42,9 +42,9 @@
         <div class="col-12 summary-title">
           A little about me
         </div>
-        <div class="col-10 summary-card elevation-2">
+        <div class="col-12 col-md-10 summary-card elevation-2">
           <div class="row p-3">
-            <div class="col-6">
+            <div class="col-12 col-md-6">
               <h4 class="summary-intro">
                 Hi, I'm Tyler! 👋🏼
               </h4>
@@ -73,7 +73,7 @@
                 creativity? Let's connect!
               </p>
             </div>
-            <div class="col-6 text-center mt-3 position-relative">
+            <div class="col-12 col-md-6 text-center mt-3 position-relative">
               <img src="../assets/img/headshot.jpg" class="headshot" alt="">
             </div>
           </div>
@@ -858,5 +858,22 @@ textarea:required {
     margin-top: -3vh;
     margin-left: 2vh;
   }
+
+  .summary-title {
+    padding: 0vh;
+    margin-top: 0vh;
+    font-size: 30px;
+  }
+
+  .summary-card {
+    margin: 0.5vh;
+    padding-top: 0em;
+    height: 99vh;
+  }
+
+
+
 }
+
+@media (max-width: 375px) {}
 </style>
