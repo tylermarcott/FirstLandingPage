@@ -832,7 +832,7 @@ textarea:required {
 
 @media (max-width: 450px) {
   .header-img {
-    height: 23vh;
+    height: 34vh;
   }
 
   .title {
@@ -844,8 +844,8 @@ textarea:required {
   }
 
   .contact-icons {
-    margin-top: -10vh;
-    margin-left: 35vh;
+    margin-top: -11vh;
+    margin-left: 33vh;
   }
 
   .icon {
@@ -854,9 +854,9 @@ textarea:required {
   }
 
   .title-footer {
-    font-size: 30px;
+    font-size: 25px;
     margin-top: -3vh;
-    margin-left: 3vh;
+    margin-left: 2vh;
   }
 }
 </style>
