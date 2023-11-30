@@ -3,22 +3,22 @@
   <div class="overflow-correction">
     <section class="header-img">
       <div class="row">
-        <div class="col-12 col-md-5 title">
+        <div class="col-8 col-md-5 title">
           Tyler Marcott
         </div>
-        <div class="col-12 col-md-4 contact-icons">
+        <div class="col-4 col-md-4 contact-icons">
           <div class="row text-light justify-content-end">
-            <div class="col-3 text-center icon">
+            <div class="col-1 col-md-3 text-center icon">
               <a href="https://github.com/tylermarcott" target="_blank" rel="noopener noreferrer">
                 <i class="mdi mdi-github icon-color" title="Link to my GitHub!"></i>
               </a>
             </div>
-            <div class="col-3 icon text-center">
+            <div class="col-1 col-md-3 icon text-center">
               <a href="https://www.linkedin.com/in/tyler-marcott-225277204/" target="_blank" rel="noopener noreferrer">
                 <i class="mdi mdi-linkedin icon-color" title="Link to my LinkedIn!"></i>
               </a>
             </div>
-            <div class="col-3 icon text-center">
+            <div class="col-1 col-md-3 icon text-center">
               <a href="mailto:tylerjmarcott@gmail.com?subject=Hello%20Tyler!&body=Hello%2C%20I'm%20interested%20in...">
                 <i class="mdi mdi-email icon-color" title="Send me an email!"></i>
               </a>
@@ -307,8 +307,6 @@
         </div>
       </div>
     </section>
-
-    <!-- FIXME: put contact me outside of card to match the rest of the page, Sam says that it looks unsymmetrical bc of this. -->
 
     <section>
       <div class="row contact-background justify-content-center">
@@ -842,6 +840,17 @@ textarea:required {
     margin-top: -0.6vh;
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
+    margin-left: 1vh;
+  }
+
+  .contact-icons {
+    margin-top: -8vh;
+    margin-left: 28vh;
+  }
+
+  .icon {
+    padding: 25px;
+    font-size: 30px;
   }
 }
 </style>
