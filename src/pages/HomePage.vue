@@ -442,8 +442,6 @@ export default {
 .summary-background {
   padding: 5em;
   height: 148vh;
-  background-color: #010200;
-  box-shadow: 0px 0px 20px #eeececb0 inset, 0px 10px 20px 2px #eeececb0;
 }
 
 .summary-card {
@@ -879,7 +877,7 @@ textarea:required {
 
   .summary-background {
     padding: 2em;
-    height: 255vh;
+    height: 232vh;
   }
 
   .headshot {
@@ -891,8 +889,8 @@ textarea:required {
 
   .skill-stack-title {
     padding-left: 0em;
-    margin-top: -1em;
-    margin-bottom: 0em;
+    margin-top: 1em;
+    margin-bottom: 2em;
     font-size: 30px;
     height: 0vh;
   }
