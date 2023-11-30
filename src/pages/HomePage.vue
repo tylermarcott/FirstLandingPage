@@ -87,7 +87,7 @@
 
     <section>
       <div class="row skill-stack justify-content-between px-4">
-        <div class="col-1 text-center icon-spacing">
+        <div class="col-3 col-md-1 text-center icon-spacing">
           <span v-if="jshover" class="hover-text">
             Javascript
           </span>
@@ -97,7 +97,7 @@
           <img @mouseover="jshover = true" @mouseleave="jshover = false" class="dev-icon"
             src="https://img.icons8.com/?size=96&id=PXTY4q2Sq2lG&format=png" alt="">
         </div>
-        <div class="col-1 text-center icon-spacing">
+        <div class="col-3 col-md-1 text-center icon-spacing">
           <span v-if="htmlhover" class="hover-text">
             HTML
           </span>
@@ -107,7 +107,7 @@
           <img @mouseover="htmlhover = true" @mouseleave="htmlhover = false" class="dev-icon"
             src="https://img.icons8.com/?size=96&id=20909&format=png" alt="">
         </div>
-        <div class="col-1 text-center icon-spacing">
+        <div class="col-3 col-md-1 text-center icon-spacing">
           <span v-if="csshover" class="hover-text">
             CSS
           </span>
@@ -117,7 +117,7 @@
           <img @mouseover="csshover = true" @mouseleave="csshover = false" class="dev-icon"
             src="https://img.icons8.com/?size=96&id=7gdY5qNXaKC0&format=png" alt="">
         </div>
-        <div class="col-1 text-center icon-spacing">
+        <div class="col-3 col-md-1 text-center icon-spacing">
           <span v-if="vuehover" class="hover-text">
             Vue.js
           </span>
@@ -127,7 +127,7 @@
           <img @mouseover="vuehover = true" @mouseleave="vuehover = false" class="dev-icon"
             src="https://img.icons8.com/?size=96&id=rY6agKizO9eb&format=png" alt="">
         </div>
-        <div class="col-1 text-center icon-spacing">
+        <div class="col-3 col-md-1 text-center icon-spacing">
           <span v-if="nodehover" class="hover-text">
             Node.js
           </span>
@@ -137,7 +137,7 @@
           <img @mouseover="nodehover = true" @mouseleave="nodehover = false" class="dev-icon"
             src="https://img.icons8.com/?size=96&id=54087&format=png" alt="">
         </div>
-        <div class="col-1 text-center icon-spacing">
+        <div class="col-3 col-md-1 text-center icon-spacing">
           <span v-if="sqlhover" class="hover-text">
             MySQL
           </span>
@@ -147,7 +147,7 @@
           <img @mouseover="sqlhover = true" @mouseleave="sqlhover = false" class="dev-icon"
             src="https://img.icons8.com/?size=96&id=9nLaR5KFGjN0&format=png" alt="">
         </div>
-        <div class="col-1 text-center icon-spacing">
+        <div class="col-3 col-md-1 text-center icon-spacing">
           <span v-if="csharphover" class="hover-text">
             C#
           </span>
@@ -157,7 +157,7 @@
           <img @mouseover="csharphover = true" @mouseleave="csharphover = false" class="dev-icon"
             src="https://img.icons8.com/?size=96&id=55251&format=png" alt="">
         </div>
-        <div class="col-1 text-center icon-spacing">
+        <div class="col-3 col-md-1 text-center icon-spacing">
           <span v-if="cplusplushover" class="hover-text">
             C++
           </span>
@@ -167,7 +167,7 @@
           <img @mouseover="cplusplushover = true" @mouseleave="cplusplushover = false" class="dev-icon"
             src="https://img.icons8.com/?size=96&id=40669&format=png" alt="">
         </div>
-        <div class="col-1 text-center icon-spacing">
+        <div class="col-3 col-md-1 text-center icon-spacing">
           <span v-if="bshover" class="hover-text">
             Bootstrap
           </span>
@@ -177,7 +177,7 @@
           <img @mouseover="bshover = true" @mouseleave="bshover = false" class="dev-icon"
             src="https://img.icons8.com/?size=96&id=g9mmSxx3SwAI&format=png" alt="">
         </div>
-        <div class="col-1 mongodb-icon text-center icon-spacing">
+        <div class="col-3 col-md-1 mongodb-icon text-center icon-spacing">
           <span v-if="mongohover" class="hover-text">
             MongoDB
           </span>
@@ -187,7 +187,7 @@
           <img @mouseover="mongohover = true" @mouseleave="mongohover = false" class="dev-icon"
             src="https://img.icons8.com/?size=96&id=74402&format=png" alt="">
         </div>
-        <div class="col-1 text-center icon-spacing">
+        <div class="col-3 col-md-1 text-center icon-spacing">
           <span v-if="awshover" class="hover-text">
             AWS
           </span>
@@ -197,7 +197,7 @@
           <img @mouseover="awshover = true" @mouseleave="awshover = false" class="dev-icon aws-icon"
             src="https://img.icons8.com/?size=128&id=wU62u24brJ44&format=png" alt="">
         </div>
-        <div class="col-1 text-center icon-spacing">
+        <div class="col-3 col-md-1 text-center icon-spacing">
           <span v-if="dockerhover" class="hover-text">
             Docker
           </span>
@@ -888,6 +888,21 @@ textarea:required {
     max-width: 70vh;
     border-radius: 10px;
   }
+
+  .skill-stack-title {
+    padding-left: 0em;
+    margin-top: -1em;
+    margin-bottom: 0em;
+    font-size: 30px;
+    height: 0vh;
+  }
+
+  .skill-stack {
+    padding-top: 0em;
+    padding-bottom: 1em;
+  }
+
+
 
 }
 
