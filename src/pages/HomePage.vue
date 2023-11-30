@@ -6,7 +6,7 @@
         <div class="col-12 col-md-5 title">
           Tyler Marcott
         </div>
-        <div class="col-4 contact-icons">
+        <div class="col-12 col-md-4 contact-icons">
           <div class="row text-light justify-content-end">
             <div class="col-3 text-center icon">
               <a href="https://github.com/tylermarcott" target="_blank" rel="noopener noreferrer">
@@ -829,6 +829,19 @@ textarea:required {
   .tower-links {
     top: 27%;
     left: 30%;
+  }
+}
+
+@media (max-width: 450px) {
+  .header-img {
+    height: 23vh;
+  }
+
+  .title {
+    color: #E1D9D1;
+    margin-top: -0.6vh;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
   }
 }
 </style>
