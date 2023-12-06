@@ -933,6 +933,17 @@ textarea:required {
     padding: 1em;
   }
 
+  .keepr-img {
+    height: 30vh;
+    width: 55vh;
+  }
+
+  .absolute-right {
+    position: absolute;
+    right: -176px;
+    top: -620px
+  }
+
 
 }
 
