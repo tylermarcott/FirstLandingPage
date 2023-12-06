@@ -310,7 +310,7 @@
 
     <section>
       <div class="row contact-background justify-content-center">
-        <div class="col-6 contact-card">
+        <div class="col-10 col-md-6 contact-card">
           <form ref="form" @submit.prevent="sendEmail">
             <div>
               <div class="m-3">
