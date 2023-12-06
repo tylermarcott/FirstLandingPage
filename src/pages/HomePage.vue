@@ -924,8 +924,13 @@ textarea:required {
 
   .absolute-left {
     position: absolute;
-    left: -15px;
+    left: 0px;
     bottom: -130px
+  }
+
+  .single-project {
+    height: 100vh;
+    padding: 1em;
   }
 
 
