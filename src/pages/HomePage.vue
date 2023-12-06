@@ -944,6 +944,17 @@ textarea:required {
     top: -620px
   }
 
+  .tower-img {
+    height: 30vh;
+    width: 55vh;
+  }
+
+  .absolute-left-altered {
+    position: absolute;
+    left: 0px;
+    bottom: 95px;
+  }
+
 
 }
 
