@@ -220,7 +220,7 @@
         <div class="col-12 project-title">
           My Portfolio
         </div>
-        <div class="col-10 project-card">
+        <div class="col-12 col-md-10 project-card">
           <div class="row mt-5 mb-5 single-project">
             <div class="col-6 project-container">
               <div class="project-image-left absolute-left project-hover stackify-img">
@@ -229,7 +229,7 @@
                 <i class="mdi mdi-github stackify-links" title="Link to Stackify on GitHub!"></i>
               </a>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-md-6">
               <div class="row project-description">
                 <h3 class="fst-italic">
                   Stackify
@@ -900,7 +900,26 @@ textarea:required {
     padding-bottom: 1em;
   }
 
+  .project-background {
+    height: 205vh;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
 
+  .project-card {
+    margin-left: 0em;
+    margin-right: 0em;
+    height: 169vh;
+  }
+
+  .stackify-img {
+    height: 30vh;
+    width: 55vh;
+  }
+
+  .project-description {
+    margin-left: 0em;
+  }
 
 }
 
