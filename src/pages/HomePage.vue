@@ -287,7 +287,7 @@
               </a>
             </div>
             <div class="col-12 col-md-6">
-              <div class="row project-description">
+              <div class="row project-description tower-adjust">
                 <h3 class="fst-italic">
                   Tower
                 </h3>
@@ -917,6 +917,11 @@ textarea:required {
     width: 55vh;
   }
 
+  .stackify-links {
+    top: -10%;
+    left: 78%;
+  }
+
   .project-description {
     margin-left: 0em;
     margin-top: 10em;
@@ -938,6 +943,11 @@ textarea:required {
     width: 55vh;
   }
 
+  .keepr-links {
+    top: -970%;
+    left: 81%;
+  }
+
   .absolute-right {
     position: absolute;
     right: -176px;
@@ -952,7 +962,16 @@ textarea:required {
   .absolute-left-altered {
     position: absolute;
     left: 0px;
-    bottom: 95px;
+    bottom: 220px;
+  }
+
+  .tower-links {
+    top: -98%;
+    left: 40%;
+  }
+
+  .tower-adjust {
+    margin-top: -10em;
   }
 
 
