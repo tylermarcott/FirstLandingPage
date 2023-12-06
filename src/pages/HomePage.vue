@@ -252,7 +252,7 @@
 
 
           <div class="row mb-5 single-project">
-            <div class="col-6">
+            <div class="col-12 col-md-6">
               <div class="row project-description">
                 <h3 class="fst-italic">
                   Keepr
@@ -279,14 +279,14 @@
 
 
           <div class="row single-project">
-            <div class="col-6 tower-container">
+            <div class="col-12 col-md-6 tower-container">
               <div class="project-image-left-ss absolute-left-altered tower-img">
               </div>
               <a href="https://github.com/tylermarcott/TowerCheckpoint" target="_blank" rel="noopener noreferrer">
                 <i class="mdi mdi-github tower-links" title="Link to Tower on GitHub!"></i>
               </a>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-md-6">
               <div class="row project-description">
                 <h3 class="fst-italic">
                   Tower
@@ -901,7 +901,7 @@ textarea:required {
   }
 
   .project-background {
-    height: 205vh;
+    height: 300vh;
     padding-left: 2em;
     padding-right: 2em;
   }
@@ -909,7 +909,7 @@ textarea:required {
   .project-card {
     margin-left: 0em;
     margin-right: 0em;
-    height: 169vh;
+    height: 280vh;
   }
 
   .stackify-img {
@@ -919,7 +919,15 @@ textarea:required {
 
   .project-description {
     margin-left: 0em;
+    margin-top: 10em;
   }
+
+  .absolute-left {
+    position: absolute;
+    left: -15px;
+    bottom: -130px
+  }
+
 
 }
 
