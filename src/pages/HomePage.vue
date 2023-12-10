@@ -210,11 +210,6 @@
       </div>
     </section>
 
-
-    <!-- FIXME: need to add media queries to compensate for smaller screen sizes, on Sam's laptop, she said that the images are skewed. I need to size these down. See the screenshots that she sent to you. -->
-
-    <!-- test -->
-
     <section>
       <div class="row project-background justify-content-center">
         <div class="col-12 project-title">
@@ -910,6 +905,13 @@ textarea:required {
     margin-left: 0em;
     margin-right: 0em;
     height: 280vh;
+  }
+
+  .project-title {
+    padding-left: 0.2em;
+    margin-top: 1.2em;
+    margin-bottom: 0.4em;
+    font-size: 30px;
   }
 
   .stackify-img {
