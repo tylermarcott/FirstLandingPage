@@ -990,8 +990,6 @@ textarea:required {
     margin-top: -10.5em;
     margin-left: 0em;
   }
-
-
 }
 
 @media (max-width: 375px) {}
