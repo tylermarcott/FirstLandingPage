@@ -974,6 +974,16 @@ textarea:required {
     margin-top: -10em;
   }
 
+  .contact-background {
+    min-height: 100vh;
+    margin-top: 2em;
+    background-color: #010200;
+  }
+
+  .contact-card {
+    height: 85vh;
+  }
+
 
 }
 
