@@ -926,13 +926,13 @@ textarea:required {
 
   .project-description {
     margin-left: 0em;
-    margin-top: 10em;
+    margin-top: 12em;
   }
 
   .absolute-left {
     position: absolute;
     left: 0px;
-    bottom: -130px
+    bottom: -160px
   }
 
   .single-project {
@@ -946,7 +946,7 @@ textarea:required {
   }
 
   .keepr-links {
-    top: -970%;
+    top: -1300%;
     left: 81%;
   }
 
@@ -968,7 +968,7 @@ textarea:required {
   }
 
   .tower-links {
-    top: -98%;
+    top: -30%;
     left: 40%;
   }
 
@@ -978,12 +978,17 @@ textarea:required {
 
   .contact-background {
     min-height: 100vh;
-    margin-top: 2em;
-    background-color: #010200;
+    margin-top: 0em;
   }
 
   .contact-card {
     height: 85vh;
+  }
+
+  .contact-title {
+    padding-top: 0.5em;
+    margin-top: -10.5em;
+    margin-left: 0em;
   }
 
 
