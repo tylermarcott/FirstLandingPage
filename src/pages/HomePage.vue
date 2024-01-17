@@ -42,7 +42,7 @@
         <div class="col-12 summary-title">
           A little about me
         </div>
-        <div class="col-12 col-md-12 summary-card elevation-2">
+        <div class="col-12 col-md-10 summary-card elevation-2">
           <div class="row p-3">
             <div class="col-12 col-md-6">
               <h4 class="summary-intro">
@@ -78,9 +78,6 @@
             </div>
           </div>
         </div>
-        <div class="col-12 skill-stack-title">
-          My Skills
-        </div>
       </div>
     </section>
 
@@ -91,12 +88,15 @@
 
 
 
-
+<!-- FIXME: the only thing that has issues being ran into is the skill stack. I need to make this adjustable. The rest of the cards are fine and just need other minor tweaking. -->
 
 
 
     <section>
       <div class="row skill-stack justify-content-between px-4">
+        <div class="col-12 skill-stack-title">
+          My Skills
+        </div>
         <div class="col-3 col-md-1 text-center icon-spacing">
           <span v-if="jshover" class="hover-text">
             Javascript
@@ -219,6 +219,9 @@
         </div>
       </div>
     </section>
+
+
+
 
     <section>
       <div class="row project-background justify-content-center">
@@ -433,7 +436,7 @@ export default {
 }
 
 .summary-title {
-  padding-left: 2em;
+  padding-left: 1em;
   font-size: 40px;
   font-weight: 400;
   color: #E1D9D1;
@@ -445,7 +448,7 @@ export default {
 
 .summary-background {
   padding: 5em;
-  min-height: 148vh;
+  height: auto;
 }
 
 .summary-card {
@@ -468,7 +471,7 @@ export default {
 .headshot {
   // max-height: auto;
   max-width: 80%;
-  margin-top: 7vh;
+  margin-top: 17vh;
   border-radius: 10px;
 }
 
@@ -506,18 +509,15 @@ export default {
 }
 
 .skill-stack {
-  row-gap: 10em;
-  min-height: 20em;
+  height: auto;
   background-color: #122331;
   box-shadow: 0 0 2px 2px #122331;
-  padding-top: 2em;
+  padding-top: 1em;
   padding-bottom: 2em;
 }
 
 .skill-stack-title {
   padding-left: 2em;
-  margin-top: 2em;
-  margin-bottom: 1em;
   font-size: 40px;
   color: #E1D9D1;
 }
@@ -531,7 +531,7 @@ export default {
 }
 
 .project-background {
-  height: 205vh;
+  height: auto;
   padding-left: 5em;
   padding-right: 5em;
   background-color: #010200;
@@ -812,7 +812,7 @@ textarea:required {
   }
 
   .summary-background {
-    height: 150vh;
+    // height: 150vh;
   }
 
   .contact-title {
@@ -883,8 +883,8 @@ textarea:required {
   }
 
   .summary-background {
-    padding: 2em;
-    height: 232vh;
+    // padding: 2em;
+    // height: 232vh;
   }
 
   .headshot {
@@ -908,7 +908,7 @@ textarea:required {
   }
 
   .project-background {
-    height: 300vh;
+    // height: 300vh;
     padding-left: 2em;
     padding-right: 2em;
   }
