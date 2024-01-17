@@ -38,7 +38,7 @@
 
 
     <section>
-      <div class="row summary-background justify-content-center">
+      <div class="row summary-background justify-content-center align-items-center">
         <div class="col-12 summary-title">
           A little about me
         </div>
@@ -83,6 +83,16 @@
         </div>
       </div>
     </section>
+
+
+
+
+
+
+
+
+
+
 
 
     <section>
@@ -424,7 +434,6 @@ export default {
 
 .summary-title {
   padding-left: 2em;
-  margin-top: 1em;
   font-size: 40px;
   font-weight: 400;
   color: #E1D9D1;
@@ -445,7 +454,8 @@ export default {
   margin: 1em;
   padding-top: 1em;
   border-radius: 10px;
-  min-height: 110vh;
+  // min-height: 110vh;
+  height: auto;
   box-shadow: 0px 0px 8px #989696b0;
 }
 
@@ -456,9 +466,9 @@ export default {
 }
 
 .headshot {
-  max-height: 80%;
+  // max-height: auto;
   max-width: 80%;
-  margin-top: 10vh;
+  margin-top: 7vh;
   border-radius: 10px;
 }
 
@@ -496,6 +506,8 @@ export default {
 }
 
 .skill-stack {
+  row-gap: 10em;
+  min-height: 20em;
   background-color: #122331;
   box-shadow: 0 0 2px 2px #122331;
   padding-top: 2em;
