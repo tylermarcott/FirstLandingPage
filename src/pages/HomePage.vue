@@ -456,9 +456,9 @@ export default {
 }
 
 .headshot {
-  max-height: 75vh;
+  max-height: 80%;
+  max-width: 80%;
   margin-top: 5vh;
-  max-width: 70vh;
   border-radius: 10px;
 }
 
@@ -759,9 +759,9 @@ textarea:required {
   }
 
   .headshot {
-    max-height: 65vh;
-    margin-top: 8vh;
-    max-width: 70vh;
+    // max-height: 65vh;
+    // margin-top: 8vh;
+    // max-width: 70vh;
   }
 
   .project-image-left {
@@ -876,10 +876,10 @@ textarea:required {
   }
 
   .headshot {
-    max-height: 58vh;
-    margin-top: 0vh;
-    max-width: 70vh;
-    border-radius: 10px;
+    // max-height: 58vh;
+    // margin-top: 0vh;
+    // max-width: 70vh;
+    // border-radius: 10px;
   }
 
   .skill-stack-title {
