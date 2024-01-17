@@ -42,7 +42,7 @@
         <div class="col-12 summary-title">
           A little about me
         </div>
-        <div class="col-12 col-md-10 summary-card elevation-2">
+        <div class="col-12 col-md-12 summary-card elevation-2">
           <div class="row p-3">
             <div class="col-12 col-md-6">
               <h4 class="summary-intro">
@@ -436,7 +436,7 @@ export default {
 
 .summary-background {
   padding: 5em;
-  height: 148vh;
+  min-height: 148vh;
 }
 
 .summary-card {
@@ -445,7 +445,7 @@ export default {
   margin: 1em;
   padding-top: 1em;
   border-radius: 10px;
-  height: 99vh;
+  min-height: 110vh;
   box-shadow: 0px 0px 8px #989696b0;
 }
 
@@ -458,7 +458,7 @@ export default {
 .headshot {
   max-height: 80%;
   max-width: 80%;
-  margin-top: 5vh;
+  margin-top: 10vh;
   border-radius: 10px;
 }
 
