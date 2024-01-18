@@ -95,7 +95,7 @@
             placeholder
           </span>
           <img @mouseover="jshover = true" @mouseleave="jshover = false" class="dev-icon"
-            src="https://img.icons8.com/?size=96&id=PXTY4q2Sq2lG&format=png" alt="">
+            src="https://img.icons8.com/?size=96&id=PXTY4q2Sq2lG&format=png" alt="js-icon">
         </div>
         <div class="col-3 col-md-1 text-center icon-spacing">
           <span v-if="htmlhover" class="hover-text">
@@ -105,7 +105,7 @@
             placeholder
           </span>
           <img @mouseover="htmlhover = true" @mouseleave="htmlhover = false" class="dev-icon"
-            src="https://img.icons8.com/?size=96&id=20909&format=png" alt="">
+            src="https://img.icons8.com/?size=96&id=20909&format=png" alt="html-icon">
         </div>
         <div class="col-3 col-md-1 text-center icon-spacing">
           <span v-if="csshover" class="hover-text">
@@ -196,16 +196,6 @@
           </span>
           <img @mouseover="awshover = true" @mouseleave="awshover = false" class="dev-icon aws-icon"
             src="https://img.icons8.com/?size=128&id=wU62u24brJ44&format=png" alt="">
-        </div>
-        <div class="col-3 col-md-1 text-center icon-spacing">
-          <span v-if="dockerhover" class="hover-text">
-            Docker
-          </span>
-          <span v-else class="placeholder">
-            placeholder
-          </span>
-          <img @mouseover="dockerhover = true" @mouseleave="dockerhover = false" class="dev-icon"
-            src="https://img.icons8.com/?size=96&id=22813&format=png" alt="">
         </div>
       </div>
     </section>
