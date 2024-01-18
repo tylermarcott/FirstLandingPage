@@ -211,16 +211,18 @@
           My Portfolio
         </div>
         <div class="col-12 col-md-10 project-card">
-          <div class="row mt-5 mb-5 single-project">
-            <div class="col-6 project-container">
-              <div class="project-image-left absolute-left project-hover stackify-img">
+
+          
+          <div class="row mt-5 mb-5">
+            <div class="col-5 project-container">
+              <div class="absolute-left project-hover stackify-img">
               </div>
               <a href="https://github.com/tylermarcott/StackifyCapstone" target="_blank" rel="noopener noreferrer">
                 <i class="mdi mdi-github stackify-links" title="Link to Stackify on GitHub!"></i>
               </a>
             </div>
-            <div class="col-12 col-md-6">
-              <div class="row project-description">
+            <div class="col-12 col-md-7">
+              <div class="row ms-3">
                 <h3 class="fst-italic">
                   Stackify
                 </h3>
@@ -241,9 +243,9 @@
           </div>
 
 
-          <div class="row mb-5 single-project">
-            <div class="col-12 col-md-6">
-              <div class="row project-description">
+          <div class="row mb-5">
+            <div class="col-12 col-md-7">
+              <div class="row me-3">
                 <h3 class="fst-italic">
                   Keepr
                 </h3>
@@ -258,7 +260,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-6 keepr-container">
+            <div class="col-5 keepr-container">
               <div class="project-image-right absolute-right keepr-img">
               </div>
               <a href="https://github.com/tylermarcott/KeeprFinalCheckpoint" target="_blank" rel="noopener noreferrer">
@@ -268,16 +270,16 @@
           </div>
 
 
-          <div class="row single-project">
-            <div class="col-12 col-md-6 tower-container">
+          <div class="row">
+            <div class="col-12 col-md-5 tower-container">
               <div class="project-image-left-ss absolute-left-altered tower-img">
               </div>
               <a href="https://github.com/tylermarcott/TowerCheckpoint" target="_blank" rel="noopener noreferrer">
                 <i class="mdi mdi-github tower-links" title="Link to Tower on GitHub!"></i>
               </a>
             </div>
-            <div class="col-12 col-md-6">
-              <div class="row project-description tower-adjust">
+            <div class="col-12 col-md-7">
+              <div class="row ms-3 tower-adjust">
                 <h3 class="fst-italic">
                   Tower
                 </h3>
@@ -529,13 +531,8 @@ export default {
   margin-right: 1em;
   margin-bottom: 1em;
   border-radius: 10px;
-  height: 169vh;
+  height: auto;
   box-shadow: 0px 0px 8px #989696b0;
-}
-
-.single-project {
-  height: 50vh;
-  padding: 2em;
 }
 
 .stackify-img {
@@ -545,6 +542,10 @@ export default {
   height: 50vh;
   width: 80vh;
   transition: opacity 0.8s ease-in-out;
+  max-height: 44vh;
+  box-shadow: -3px -3px 8px #555353b0;
+  border-radius: 3px;
+  z-index: 2;
 }
 
 .keepr-img {
@@ -587,10 +588,6 @@ export default {
 
 .project-container {
   position: relative;
-}
-
-.project-description {
-  margin-left: 1em;
 }
 
 .stackify-links {
@@ -889,11 +886,6 @@ textarea:required {
     position: absolute;
     left: 0px;
     bottom: -160px
-  }
-
-  .single-project {
-    height: 100vh;
-    padding: 1em;
   }
 
   .keepr-img {
