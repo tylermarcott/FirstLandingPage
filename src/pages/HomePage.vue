@@ -82,16 +82,6 @@
     </section>
 
 
-
-
-
-
-
-
-<!-- FIXME: the only thing that has issues being ran into is the skill stack. I need to make this adjustable. The rest of the cards are fine and just need other minor tweaking. -->
-
-
-
     <section>
       <div class="row skill-stack justify-content-between px-4">
         <div class="col-12 skill-stack-title">
@@ -221,6 +211,8 @@
     </section>
 
 
+
+    <!-- FIXME: the last glaring issue that I can see is the text running into the project images. Consider getting rid of the position absolute/ position relative on the images. -->
 
 
     <section>
@@ -399,7 +391,7 @@ export default {
   background-image: url(../assets/img/laptop-background.jpg);
   background-size: contain;
   background-position: top;
-  height: 100vh;
+  height: 90vh;
   box-shadow: 0px -15px 15px 0px #414141b0 inset;
 }
 
@@ -526,7 +518,7 @@ export default {
 
 .project-title {
   padding-left: 2em;
-  margin-top: 3.2em;
+  margin-top: 2em;
   margin-bottom: 0.5em;
   font-size: 40px;
   color: #E1D9D1;
@@ -718,7 +710,6 @@ export default {
 
 .contact-background {
   height: auto;
-  margin-top: 2em;
   background-color: #010200;
 }
 
