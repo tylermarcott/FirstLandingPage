@@ -539,10 +539,9 @@ export default {
   background-image: url('../assets/img/StackifySnapshot.png');
   background-position: center;
   background-size: cover;
-  height: 50vh;
-  width: 80vh;
+  height: 40vh;
+  aspect-ratio: 1.8/1;
   transition: opacity 0.8s ease-in-out;
-  max-height: 44vh;
   box-shadow: -3px -3px 8px #555353b0;
   border-radius: 3px;
   z-index: 2;
