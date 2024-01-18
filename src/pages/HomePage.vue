@@ -309,15 +309,17 @@
               </div>
             </div>
           </div>
-          <h3 class="contact-title">
-            Contact me!
-          </h3>
         </div>
       </div>
     </section>
 
     <section>
       <div class="row contact-background justify-content-center">
+        <div class="col-9">
+          <h3 class="contact-title">
+            Contact me!
+          </h3>
+        </div>
         <div class="col-10 col-md-6 contact-card">
           <form ref="form" @submit.prevent="sendEmail">
             <div>
@@ -711,13 +713,11 @@ export default {
 }
 
 .contact-title {
-  padding-top: 0.5em;
-  margin-top: 4em;
-  margin-left: 4.5em;
+  color: #E1D9D1;
 }
 
 .contact-background {
-  min-height: 80vh;
+  height: auto;
   margin-top: 2em;
   background-color: #010200;
 }
@@ -726,9 +726,9 @@ export default {
   background-color: #393d40;
   color: #E1D9D1;
   margin: 1em;
-  margin-top: 4em;
+  padding-bottom: 1em;
   border-radius: 10px;
-  height: 70vh;
+  height: auto;
   box-shadow: 0px 0px 8px #989696b0;
 }
 
@@ -766,16 +766,6 @@ textarea:required {
 // NOTE: media queries, just like in plain css, have to be AFTER the styles that they are changing.
 @media (max-width: 1440px) {
 
-  .header-img {
-    height: 86vh;
-  }
-
-  .headshot {
-    // max-height: 65vh;
-    // margin-top: 8vh;
-    // max-width: 70vh;
-  }
-
   .project-image-left {
     max-height: 40vh;
     max-width: 70vh;
@@ -791,28 +781,14 @@ textarea:required {
     max-width: 70vh;
   }
 
-
-
   .project-image-right {
     max-height: 40vh;
     max-width: 70vh;
   }
 
-  .contact-background {
-    height: 90vh;
-  }
-
-  .contact-card {
-    height: 75vh;
-  }
-
   .contact-title {
     margin-top: 3.5em;
     margin-left: 4.5em;
-  }
-
-  .summary-background {
-    // height: 150vh;
   }
 
   .contact-title {
@@ -882,18 +858,6 @@ textarea:required {
     padding-top: 1em;
   }
 
-  .summary-background {
-    // padding: 2em;
-    // height: 232vh;
-  }
-
-  .headshot {
-    // max-height: 58vh;
-    // margin-top: 0vh;
-    // max-width: 70vh;
-    // border-radius: 10px;
-  }
-
   .skill-stack-title {
     padding-left: 0em;
     margin-top: 1em;
@@ -908,7 +872,6 @@ textarea:required {
   }
 
   .project-background {
-    // height: 300vh;
     padding-left: 2em;
     padding-right: 2em;
   }
@@ -986,15 +949,6 @@ textarea:required {
 
   .tower-adjust {
     margin-top: -10em;
-  }
-
-  .contact-background {
-    min-height: 100vh;
-    margin-top: 0em;
-  }
-
-  .contact-card {
-    height: 85vh;
   }
 
   .contact-title {
