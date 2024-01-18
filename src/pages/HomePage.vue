@@ -202,7 +202,8 @@
 
 
 
-    <!-- FIXME: the last glaring issue that I can see is the text running into the project images. Consider getting rid of the position absolute/ position relative on the images. -->
+    <!-- FIXME: it looks pretty good right now in almost all sizes, but the github buttons are being wonky now. They aren't adjusting position absolute. Need to figure out why. -->
+    <!-- NOTE: it also needs a lot of work on mobile. The changes I have made for non mobile have messed up stuff in mobile pretty good lol -->
 
 
     <section>
@@ -217,12 +218,12 @@
             <div class="col-5 project-container">
               <div class="absolute-left project-hover stackify-img">
               </div>
-              <a href="https://github.com/tylermarcott/StackifyCapstone" target="_blank" rel="noopener noreferrer">
-                <i class="mdi mdi-github stackify-links" title="Link to Stackify on GitHub!"></i>
-              </a>
+                <a href="https://github.com/tylermarcott/StackifyCapstone" target="_blank" rel="noopener noreferrer">
+                  <i class="mdi mdi-github stackify-links" title="Link to Stackify on GitHub!"></i>
+                </a>
             </div>
             <div class="col-12 col-md-7">
-              <div class="row ms-3">
+              <div class="row ms-3 me-1">
                 <h3 class="fst-italic">
                   Stackify
                 </h3>
@@ -245,7 +246,7 @@
 
           <div class="row pb-5">
             <div class="col-12 col-md-7">
-              <div class="row me-3">
+              <div class="row me-3 ms-1">
                 <h3 class="fst-italic">
                   Keepr
                 </h3>
@@ -270,7 +271,7 @@
           </div>
 
 
-          <div class="row mt-5 pt-5">
+          <div class="row pt-5">
             <div class="col-12 col-md-5 tower-container">
               <div class="absolute-left-altered tower-img">
               </div>
@@ -531,7 +532,7 @@ export default {
   margin-right: 1em;
   margin-bottom: 1em;
   border-radius: 10px;
-  padding-bottom: 9em;
+  padding-bottom: 7em;
   height: auto;
   box-shadow: 0px 0px 8px #989696b0;
 }
@@ -540,7 +541,7 @@ export default {
   background-image: url('../assets/img/StackifySnapshot.png');
   background-position: center;
   background-size: cover;
-  height: 40vh;
+  height: 35vh;
   aspect-ratio: 1.8/1;
   transition: opacity 0.8s ease-in-out;
   box-shadow: -3px -3px 8px #555353b0;
@@ -552,7 +553,7 @@ export default {
   background-image: url('../assets/img/KeeprSnapshot.png');
   background-position: center;
   background-size: cover;
-  height: 40vh;
+  height: 35vh;
   aspect-ratio: 1.8/1;
   margin-left: 0.5em;
   margin-top: 1em;
@@ -565,7 +566,7 @@ export default {
   background-image: url('../assets/img/TowerSnapshot.png');
   background-position: center;
   background-size: cover;
-  height: 40vh;
+  height: 35vh;
   aspect-ratio: 1.8/1;
   transition: opacity 0.8s ease-in-out;
   box-shadow: -4px -4px 8px #555353b0;
@@ -578,8 +579,6 @@ export default {
 
 .stackify-links {
   position: absolute;
-  top: 35%;
-  left: 35%;
   font-size: 70px;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
@@ -760,8 +759,8 @@ textarea:required {
   }
 
   .stackify-links {
-    top: 32%;
-    left: 30%;
+    top: -500%;
+    left: 24%;
   }
 
   .keepr-links {
@@ -854,8 +853,7 @@ textarea:required {
   }
 
   .stackify-img {
-    height: 30vh;
-    width: 55vh;
+    height: 40vh;
   }
 
   .stackify-links {
