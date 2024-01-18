@@ -213,7 +213,7 @@
         <div class="col-12 col-md-10 project-card">
 
           
-          <div class="row mt-5 mb-5">
+          <div class="row mt-5 mb-5 align-items-center">
             <div class="col-5 project-container">
               <div class="absolute-left project-hover stackify-img">
               </div>
@@ -243,7 +243,7 @@
           </div>
 
 
-          <div class="row mb-5">
+          <div class="row pb-5">
             <div class="col-12 col-md-7">
               <div class="row me-3">
                 <h3 class="fst-italic">
@@ -270,9 +270,9 @@
           </div>
 
 
-          <div class="row">
+          <div class="row mt-5 pt-5">
             <div class="col-12 col-md-5 tower-container">
-              <div class="project-image-left-ss absolute-left-altered tower-img">
+              <div class="absolute-left-altered tower-img">
               </div>
               <a href="https://github.com/tylermarcott/TowerCheckpoint" target="_blank" rel="noopener noreferrer">
                 <i class="mdi mdi-github tower-links" title="Link to Tower on GitHub!"></i>
@@ -531,6 +531,7 @@ export default {
   margin-right: 1em;
   margin-bottom: 1em;
   border-radius: 10px;
+  padding-bottom: 9em;
   height: auto;
   box-shadow: 0px 0px 8px #989696b0;
 }
@@ -551,37 +552,23 @@ export default {
   background-image: url('../assets/img/KeeprSnapshot.png');
   background-position: center;
   background-size: cover;
-  height: 60vh;
-  width: 80vh;
+  height: 40vh;
+  aspect-ratio: 1.8/1;
   margin-left: 0.5em;
+  margin-top: 1em;
   transition: opacity 0.8s ease-in-out;
+  box-shadow: 5px 5px 8px #555353b0;
+  border-radius: 3px;
 }
 
 .tower-img {
   background-image: url('../assets/img/TowerSnapshot.png');
   background-position: center;
   background-size: cover;
-  height: 50vh;
-  width: 80vh;
+  height: 40vh;
+  aspect-ratio: 1.8/1;
   transition: opacity 0.8s ease-in-out;
-}
-
-.project-image-left {
-  max-height: 44vh;
-  box-shadow: -3px -3px 8px #555353b0;
-  border-radius: 3px;
-  z-index: 2;
-}
-
-.project-image-left-ss {
-  max-height: 43vh;
   box-shadow: -4px -4px 8px #555353b0;
-  border-radius: 3px;
-}
-
-.project-image-right {
-  max-height: 45vh;
-  box-shadow: 5px 5px 8px #555353b0;
   border-radius: 3px;
 }
 
@@ -726,6 +713,7 @@ textarea:required {
 .absolute-left {
   position: absolute;
   left: -80px;
+  top: -120px;
 }
 
 .absolute-right {
@@ -736,7 +724,6 @@ textarea:required {
 .absolute-left-altered {
   position: absolute;
   left: -80px;
-  bottom: 45px;
 }
 
 
