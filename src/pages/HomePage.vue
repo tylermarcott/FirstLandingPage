@@ -797,6 +797,8 @@ textarea:required {
 
   // FIXME: why the fuck is this altering my full sized screen styling, need to look into this, noootttt ok lolol
 
+  // NOTE: might be an issue with min vs max. Need to mess around with this a bit.
+
   // .project-spacing{
   //   padding-bottom: 10em;
   // }
