@@ -428,7 +428,7 @@ export default {
 
 .icon {
   cursor: pointer;
-  transition: transform 0.5s ease-in-out; //NOTE: the ease transition needs to go on the actual class, not the hover class.
+  transition: transform 0.7s ease-in-out; //NOTE: the ease transition needs to go on the actual class, not the hover class.
   font-size: 50px;
 }
 
@@ -596,7 +596,7 @@ export default {
   border-radius: 5px;
   background-color: #393d40;
   color: #E1D9D1;
-  transition: all 1s;
+  transition: all 0.7s;
 }
 
 .live-site-button:hover{
@@ -605,7 +605,7 @@ export default {
 
 .github-links{
   font-size: 50px;
-  transition: all 0.5s;
+  transition: all 0.7s;
 }
 
 .github-links:hover{
