@@ -265,7 +265,7 @@
                   server.
                 </p>
               </div>
-              <div class="row ms-5">
+              <div class="row ms-5 link-adjust">
                 <div class="col-1 text-center github-links">
                   <a href="https://github.com/tylermarcott/KeeprFinalCheckpoint" target="_blank" rel="noopener noreferrer">
                     <i class="mdi mdi-github icon-color" title="Link to Keepr on GitHub!"></i>
@@ -298,7 +298,7 @@
                   Tower uses a Vue.js front end and a Node.js backend with a MongoDB database.
                 </p>
               </div>
-              <div class="row ms-5">
+              <div class="row ms-5 link-adjust">
                 <div class="col-1 text-center github-links">
                   <a href="https://github.com/tylermarcott/TowerCheckpoint" target="_blank" rel="noopener noreferrer">
                     <i class="mdi mdi-github icon-color" title="Link to Tower on GitHub!"></i>
@@ -585,7 +585,8 @@ export default {
 }
 
 .live-site-button{
-  margin: 0px;
+  margin-left: 0.5em;
+  margin-bottom: 0px;
   border-radius: 5px;
   background-color: #393d40;
   color: #E1D9D1;
@@ -813,6 +814,10 @@ textarea:required {
 
   .margin-adjust{
     margin-right: 0em !important;
+    margin-left: 0em !important;
+  }
+
+  .link-adjust{
     margin-left: 0em !important;
   }
 
