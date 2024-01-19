@@ -821,10 +821,6 @@ textarea:required {
     margin-right: 14em;
   }
 
-  .tower-adjust{
-    padding-left: 1.2em;
-  }
-
   .margin-adjust{
     margin-right: 1em !important;
     margin-left: 0em !important;
@@ -834,6 +830,25 @@ textarea:required {
     margin-right: 0.5em !important;
   }
 
+  .stackify-img {
+    max-height: 22vh;
+  }
+
+  .keepr-img {
+    height: 22vh;
+  }
+
+  .tower-img {
+    height: 22vh;
+  }
+
+
+
+
+
+
+
+  
 
 }
 
