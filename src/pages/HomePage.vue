@@ -215,7 +215,7 @@
         </div>
         <div class="col-12 col-md-10 project-card">
           <div class="row mt-5 mb-5 align-items-center">
-            <div class="col-5 project-container">
+            <div class="col-5 relative-container">
               <div class="absolute-left project-hover stackify-img">
               </div>
             </div>
@@ -279,7 +279,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-5 keepr-container">
+            <div class="col-5 relative-container">
               <div class="project-image-right absolute-right keepr-img">
               </div>
             </div>
@@ -287,7 +287,7 @@
 
 
           <div class="row pt-5">
-            <div class="col-12 col-md-5 tower-container">
+            <div class="col-12 col-md-5 relative-container">
               <div class="absolute-left-altered tower-img">
               </div>
             </div>
@@ -613,74 +613,8 @@ export default {
   transform: scale(1.10);
 }
 
-.project-container {
+.relative-container {
   position: relative;
-}
-
-.keepr-container:hover {
-  .keepr-links {
-    opacity: 1;
-    z-index: 3;
-    cursor: pointer;
-  }
-
-  .keepr-img {
-    opacity: 0.2;
-  }
-}
-
-.keepr-container {
-  position: relative;
-}
-
-.keepr-links {
-  position: absolute;
-  top: 35%;
-  left: 55%;
-  font-size: 70px;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-  transition: ease-in-out 0.5s;
-  color: #E1D9D1;
-}
-
-.keepr-links:hover {
-  transform: scale(1.15);
-}
-
-.tower-container:hover .tower-img {
-  opacity: 0.2;
-}
-
-.tower-container:hover {
-  .tower-links {
-    opacity: 1;
-    z-index: 3;
-    cursor: pointer;
-  }
-
-  .tower-img {
-    opacity: 0.2;
-  }
-}
-
-.tower-container {
-  position: relative;
-}
-
-.tower-links {
-  position: absolute;
-  top: 32%;
-  left: 35%;
-  font-size: 70px;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-  transition: ease-in-out 0.5s;
-  color: #E1D9D1;
-}
-
-.tower-links:hover {
-  transform: scale(1.15);
 }
 
 .contact-title {
