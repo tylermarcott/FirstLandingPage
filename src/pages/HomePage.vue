@@ -202,10 +202,7 @@
 
 
 
-    <!-- FIXME: it looks pretty good right now in almost all sizes, but the github buttons are being wonky now. They aren't adjusting position absolute. Need to figure out why. -->
-    <!-- NOTE: it also needs a lot of work on mobile. The changes I have made for non mobile have messed up stuff in mobile pretty good lol -->
-
-    <!-- NOTE: I think the solution to the buttons is to just make it less fancy. Put the button for github and link to live sites below text, leave images static -->
+    <!-- FIXME: everything looks good on mobile except for stackify and tower images are not centered. Keepr IS centered properly, model the other 2 after this to get it to work -->
 
 
     <section>
@@ -775,6 +772,7 @@ textarea:required {
 
   .relative-container {
     position: static;
+    margin-right: 14em;
   }
 
   .project-background {
@@ -817,10 +815,6 @@ textarea:required {
     position: static;
   }
 
-  .relative-container{
-    margin-right: 14em;
-  }
-
   .margin-adjust{
     margin-right: 1em !important;
     margin-left: 0em !important;
@@ -831,7 +825,7 @@ textarea:required {
   }
 
   .stackify-img {
-    max-height: 22vh;
+    max-height: 18vh;
   }
 
   .keepr-img {
