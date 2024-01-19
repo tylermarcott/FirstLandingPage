@@ -255,7 +255,7 @@
           </div>
 
 
-          <div class="row pb-5">
+          <div class="row pb-3">
             <div class="col-12 col-md-7 project-spacing">
               <div class="row me-3 ms-1">
                 <h3 class="fst-italic">
@@ -550,7 +550,7 @@ export default {
   margin-right: 1em;
   margin-bottom: 1em;
   border-radius: 10px;
-  padding-bottom: 7em;
+  padding-bottom: 3em;
   height: auto;
   box-shadow: 0px 0px 8px #989696b0;
 }
