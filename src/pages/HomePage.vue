@@ -287,12 +287,12 @@
 
 
           <div class="row pt-5 project-flip">
-            <div class="col-12 col-md-5 relative-container">
+            <div class="col-12 col-md-5 relative-container tower-adjust">
               <div class="absolute-left-altered tower-img">
               </div>
             </div>
             <div class="col-12 col-md-7 project-spacing">
-              <div class="row ms-3 tower-adjust">
+              <div class="row ms-3">
                 <h3 class="fst-italic">
                   Tower
                 </h3>
@@ -798,7 +798,7 @@ textarea:required {
   }
 
   .project-spacing{
-    // padding-bottom: 14em;
+    padding-bottom: 2em;
   }
 
   .project-flip{
@@ -816,6 +816,13 @@ textarea:required {
   position: static;
 }
 
+.relative-container{
+  margin-right: 14em;
+}
+
+.tower-adjust{
+  padding-left: 1.2em;
+}
 
 
 
