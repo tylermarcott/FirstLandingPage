@@ -219,7 +219,7 @@
               <div class="absolute-left project-hover stackify-img">
               </div>
             </div>
-            <div class="col-12 col-md-7">
+            <div class="col-12 col-md-7 project-spacing">
               <div class="row ms-3 me-1">
                 <h3 class="fst-italic">
                   Stackify
@@ -256,7 +256,7 @@
 
 
           <div class="row pb-5">
-            <div class="col-12 col-md-7">
+            <div class="col-12 col-md-7 project-spacing">
               <div class="row me-3 ms-1">
                 <h3 class="fst-italic">
                   Keepr
@@ -291,7 +291,7 @@
               <div class="absolute-left-altered tower-img">
               </div>
             </div>
-            <div class="col-12 col-md-7">
+            <div class="col-12 col-md-7 project-spacing">
               <div class="row ms-3 tower-adjust">
                 <h3 class="fst-italic">
                   Tower
@@ -794,6 +794,17 @@ textarea:required {
     font-size: 30px;
   }
 }
+
+  // FIXME: why the fuck is this altering my full sized screen styling, need to look into this, noootttt ok lolol
+
+  // .project-spacing{
+  //   padding-bottom: 10em;
+  // }
+
+  // .absolute-left{
+  //   left: 0px;
+  //   top: 100px;
+  // }
 
 @media (max-width: 375px) {}
 </style>
