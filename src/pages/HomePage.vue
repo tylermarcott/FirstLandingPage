@@ -202,9 +202,6 @@
 
 
 
-    <!-- FIXME: everything looks good on mobile except for stackify and tower images are not centered. Keepr IS centered properly, model the other 2 after this to get it to work -->
-
-
     <section>
       <div class="row project-background justify-content-center">
         <div class="col-12 project-title">
@@ -212,8 +209,8 @@
         </div>
         <div class="col-12 col-md-10 project-card">
           <div class="row mt-5 mb-5 align-items-center project-flip">
-            <div class="col-5 relative-container">
-              <div class="absolute-left project-hover stackify-img">
+            <div class="col-10 col-md-5 relative-container">
+              <div class="absolute-left stackify-img">
               </div>
             </div>
             <div class="col-12 col-md-7 project-spacing">
@@ -252,7 +249,7 @@
           </div>
 
 
-          <div class="row pb-3">
+          <div class="row pb-3 justify-content-center">
             <div class="col-12 col-md-7 project-spacing">
               <div class="row me-3 ms-1">
                 <h3 class="fst-italic">
@@ -276,15 +273,17 @@
                 </div>
               </div>
             </div>
-            <div class="col-5 relative-container">
+            <div class="col-10 col-md-5 relative-container">
               <div class="project-image-right absolute-right keepr-img margin-adjust">
               </div>
             </div>
           </div>
 
+          <!-- FIXME: only project that has an issue is tower now. Need to find a way to center. Flex box is not working right for my column -->
 
-          <div class="row pt-5 project-flip">
-            <div class="col-12 col-md-5 relative-container tower-adjust">
+
+          <div class="row pt-5 project-flip justify-content-center">
+            <div class="col-10 col-md-5 relative-container">
               <div class="absolute-left-altered tower-img">
               </div>
             </div>
@@ -561,7 +560,6 @@ export default {
   transition: opacity 0.8s ease-in-out;
   box-shadow: -3px -3px 8px #555353b0;
   border-radius: 3px;
-  z-index: 2;
 }
 
 .keepr-img {
@@ -772,7 +770,7 @@ textarea:required {
 
   .relative-container {
     position: static;
-    margin-right: 14em;
+    // margin-right: 14em;
   }
 
   .project-background {
@@ -829,11 +827,11 @@ textarea:required {
   }
 
   .keepr-img {
-    height: 22vh;
+    height: 18vh;
   }
 
   .tower-img {
-    height: 22vh;
+    height: 18vh;
   }
 
 
