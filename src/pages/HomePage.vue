@@ -205,6 +205,8 @@
     <!-- FIXME: it looks pretty good right now in almost all sizes, but the github buttons are being wonky now. They aren't adjusting position absolute. Need to figure out why. -->
     <!-- NOTE: it also needs a lot of work on mobile. The changes I have made for non mobile have messed up stuff in mobile pretty good lol -->
 
+    <!-- NOTE: I think the solution to the buttons is to just make it less fancy. Put the button for github and link to live sites below text, leave images static -->
+
 
     <section>
       <div class="row project-background justify-content-center">
@@ -212,15 +214,10 @@
           My Portfolio
         </div>
         <div class="col-12 col-md-10 project-card">
-
-          
           <div class="row mt-5 mb-5 align-items-center">
             <div class="col-5 project-container">
               <div class="absolute-left project-hover stackify-img">
               </div>
-                <a href="https://github.com/tylermarcott/StackifyCapstone" target="_blank" rel="noopener noreferrer">
-                  <i class="mdi mdi-github stackify-links" title="Link to Stackify on GitHub!"></i>
-                </a>
             </div>
             <div class="col-12 col-md-7">
               <div class="row ms-3 me-1">
@@ -239,6 +236,20 @@
                   Spotify Premium account within the application. Stackify utilizes a Vue.js front-end and a Node.js
                   backend, with MongoDB for database storage.
                 </p>
+              </div>
+              <div class="row align-items-center">
+                <div class="col-6 text-end">
+                  <a href="https://github.com/tylermarcott/StackifyCapstone" target="_blank" rel="noopener noreferrer">
+                    <i class="mdi mdi-github stackify-links" title="Link to Stackify on GitHub!"></i>
+                  </a>
+                </div>
+                <div class="col-6">
+                  <a href="https://stackify-jch3.onrender.com/#/" target="_blank" rel="noopener noreferrer">
+                    <p class="btn btn-default live-site-button">
+                      View Live Site
+                    </p>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -353,7 +364,6 @@ export default {
       mongohover: false,
       awshover: false,
       dockerhover: false,
-      stackifyhover: false
     }
   },
   methods: {
@@ -573,37 +583,34 @@ export default {
   border-radius: 3px;
 }
 
+.live-site-button{
+  margin: 0px;
+  border-radius: 5px;
+  background-color: #393d40;
+  color: #E1D9D1;
+  transition: all 1s;
+}
+
+.live-site-button:hover{
+  transform: scale(1.1);
+}
+
 .project-container {
   position: relative;
 }
 
 .stackify-links {
-  position: absolute;
-  font-size: 70px;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-  transition: ease-in-out 0.5s;
+  font-size: 50px;
   color: #E1D9D1;
+  transition: all 1s;
 }
 
 .stackify-links:hover {
-  transform: scale(1.15);
+  transform: scale(1.10);
 }
 
 .project-container:hover .project-img {
   opacity: 0.2;
-}
-
-.project-container:hover {
-  .stackify-links {
-    opacity: 1;
-    z-index: 3;
-    cursor: pointer;
-  }
-
-  .stackify-img {
-    opacity: 0.2;
-  }
 }
 
 .keepr-container:hover .keepr-img {
@@ -757,12 +764,6 @@ textarea:required {
   .contact-title {
     margin-top: 3em;
   }
-
-  .stackify-links {
-    top: -500%;
-    left: 24%;
-  }
-
   .keepr-links {
     top: 32%;
     left: 56.5%;
@@ -856,10 +857,6 @@ textarea:required {
     height: 40vh;
   }
 
-  .stackify-links {
-    top: -10%;
-    left: 78%;
-  }
 
   .project-description {
     margin-left: 0em;
