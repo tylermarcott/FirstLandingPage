@@ -280,7 +280,7 @@
               </div>
             </div>
             <div class="col-5 relative-container">
-              <div class="project-image-right absolute-right keepr-img">
+              <div class="project-image-right absolute-right keepr-img margin-adjust">
               </div>
             </div>
           </div>
