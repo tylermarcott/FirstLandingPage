@@ -279,8 +279,6 @@
             </div>
           </div>
 
-          <!-- FIXME: only project that has an issue is tower now. Need to find a way to center. Flex box is not working right for my column -->
-
 
           <div class="row pt-5 project-flip justify-content-center">
             <div class="col-12 col-md-5 relative-container d-flex justify-content-center">
@@ -814,7 +812,7 @@ textarea:required {
   }
 
   .margin-adjust{
-    margin-right: 1em !important;
+    margin-right: 0em !important;
     margin-left: 0em !important;
   }
 
