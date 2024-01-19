@@ -214,7 +214,7 @@
           My Portfolio
         </div>
         <div class="col-12 col-md-10 project-card">
-          <div class="row mt-5 mb-5 align-items-center">
+          <div class="row mt-5 mb-5 align-items-center project-flip">
             <div class="col-5 relative-container">
               <div class="absolute-left project-hover stackify-img">
               </div>
@@ -286,7 +286,7 @@
           </div>
 
 
-          <div class="row pt-5">
+          <div class="row pt-5 project-flip">
             <div class="col-12 col-md-5 relative-container">
               <div class="absolute-left-altered tower-img">
               </div>
@@ -801,6 +801,10 @@ textarea:required {
     // padding-bottom: 14em;
   }
 
+  .project-flip{
+    flex-direction: column-reverse;
+  }
+
   .absolute-left{
     position: static;
   }
@@ -817,11 +821,6 @@ textarea:required {
 
 
 }
-
-
-  // FIXME: why the fuck is this altering my full sized screen styling, need to look into this, noootttt ok lolol
-
-  // NOTE: might be an issue with min vs max. Need to mess around with this a bit.
 
 
 @media (max-width: 375px) {}
