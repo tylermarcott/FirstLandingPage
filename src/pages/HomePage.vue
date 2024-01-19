@@ -177,7 +177,7 @@
           <img @mouseover="bshover = true" @mouseleave="bshover = false" class="dev-icon"
             src="https://img.icons8.com/?size=96&id=g9mmSxx3SwAI&format=png" alt="">
         </div>
-        <div class="col-4 col-md-1 mongodb-icon text-center icon-spacing">
+        <div class="col-6 col-md-1 mongodb-icon text-center icon-spacing">
           <span v-if="mongohover" class="hover-text">
             MongoDB
           </span>
@@ -187,7 +187,7 @@
           <img @mouseover="mongohover = true" @mouseleave="mongohover = false" class="dev-icon"
             src="https://img.icons8.com/?size=96&id=74402&format=png" alt="">
         </div>
-        <div class="col-4 col-md-1 text-center icon-spacing">
+        <div class="col-6 col-md-1 text-center icon-spacing">
           <span v-if="awshover" class="hover-text">
             AWS
           </span>
@@ -200,7 +200,7 @@
       </div>
     </section>
 
-
+<!-- NOTE: d-flex justify-content-center fixed issue with alignment, forces d-flex on non rows, works for columns, interesting.. -->
 
     <section>
       <div class="row project-background justify-content-center">
@@ -209,7 +209,7 @@
         </div>
         <div class="col-12 col-md-10 project-card">
           <div class="row mt-5 mb-5 align-items-center project-flip">
-            <div class="col-10 col-md-5 relative-container">
+            <div class="col-7 col-md-5 relative-container d-flex justify-content-center">
               <div class="absolute-left stackify-img">
               </div>
             </div>
@@ -273,7 +273,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-10 col-md-5 relative-container">
+            <div class="col-10 col-md-5 relative-container d-flex justify-content-center">
               <div class="project-image-right absolute-right keepr-img margin-adjust">
               </div>
             </div>
@@ -283,7 +283,7 @@
 
 
           <div class="row pt-5 project-flip justify-content-center">
-            <div class="col-10 col-md-5 relative-container">
+            <div class="col-12 col-md-5 relative-container d-flex justify-content-center">
               <div class="absolute-left-altered tower-img">
               </div>
             </div>
