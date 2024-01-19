@@ -712,7 +712,7 @@ textarea:required {
 
   .contact-icons {
     margin-top: -11vh;
-    margin-left: 27vh;
+    margin-left: 29vh;
   }
 
   .icon {
