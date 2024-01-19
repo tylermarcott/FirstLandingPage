@@ -698,16 +698,11 @@ textarea:required {
   .contact-title {
     margin-top: 3em;
   }
-  .keepr-links {
-    top: 32%;
-    left: 56.5%;
-  }
-
-  .tower-links {
-    top: 27%;
-    left: 30%;
-  }
 }
+
+
+
+// FIXME: I think pretty much all I need to fix at this point is the project images in mobile.
 
 @media (max-width: 450px) {
   .header-img {
@@ -744,11 +739,20 @@ textarea:required {
     font-size: 30px;
   }
 
+  .summary-background{
+    padding: 2em;
+  }
+
   .summary-card {
     margin: 0.5vh;
     padding-top: 0em;
-    height: 206vh;
   }
+
+  .headshot{
+    margin-top: 0em;
+    margin-bottom: 1em;
+  }
+
 
   .summary-paragraph {
     padding-left: 0em;
@@ -769,6 +773,10 @@ textarea:required {
     padding-bottom: 1em;
   }
 
+  .relative-container {
+    position: static;
+  }
+
   .project-background {
     padding-left: 2em;
     padding-right: 2em;
@@ -777,7 +785,6 @@ textarea:required {
   .project-card {
     margin-left: 0em;
     margin-right: 0em;
-    height: 280vh;
   }
 
   .project-title {
@@ -785,64 +792,6 @@ textarea:required {
     margin-top: 1.2em;
     margin-bottom: 0.4em;
     font-size: 30px;
-  }
-
-  .stackify-img {
-    height: 40vh;
-  }
-
-
-  .project-description {
-    margin-left: 0em;
-    margin-top: 12em;
-  }
-
-  .absolute-left {
-    position: absolute;
-    left: 0px;
-    bottom: -160px
-  }
-
-  .keepr-img {
-    height: 30vh;
-    width: 55vh;
-  }
-
-  .keepr-links {
-    top: -1300%;
-    left: 81%;
-  }
-
-  .absolute-right {
-    position: absolute;
-    right: -176px;
-    top: -620px
-  }
-
-  .tower-img {
-    height: 30vh;
-    width: 55vh;
-  }
-
-  .absolute-left-altered {
-    position: absolute;
-    left: 0px;
-    bottom: 220px;
-  }
-
-  .tower-links {
-    top: -30%;
-    left: 40%;
-  }
-
-  .tower-adjust {
-    margin-top: -10em;
-  }
-
-  .contact-title {
-    padding-top: 0.5em;
-    margin-top: -10.5em;
-    margin-left: 0em;
   }
 }
 
