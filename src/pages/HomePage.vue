@@ -818,11 +818,12 @@ textarea:required {
   }
 
   .link-adjust{
-    margin-left: 0em !important;
+    margin-left: 0.7em !important;
   }
 
   .margin-adjust-tower{
     margin-right: 0.5em !important;
+    margin-left: 0.5em !important;
   }
 
   .stackify-img {
