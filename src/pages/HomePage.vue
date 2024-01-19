@@ -220,17 +220,17 @@
               </div>
             </div>
             <div class="col-12 col-md-7 project-spacing">
-              <div class="row ms-3 me-1">
+              <div class="row ms-3 me-1 margin-adjust">
                 <h3 class="fst-italic">
                   Stackify
                 </h3>
-                <p class="ms-2">
+                <p class="ms-2 para-adjust">
                   Stackify is a full-stack application designed to help amateur event planners and DJs manage their
                   event's music selection. Users can create events, then create playlists inside their events. The
                   playlists can be tailored to be any length, as well as integrating silent time-blocks for when they need
                   a length of time without music playing in their event.
                 </p>
-                <p class="ms-2">
+                <p class="ms-2 para-adjust">
                   Stackify is integrated with Spotify's API and PKCE auth, which allows the user to log directly into
                   their
                   Spotify Premium account within the application. Stackify utilizes a Vue.js front-end and a Node.js
@@ -292,7 +292,7 @@
               </div>
             </div>
             <div class="col-12 col-md-7 project-spacing">
-              <div class="row ms-3">
+              <div class="row ms-3 margin-adjust-tower">
                 <h3 class="fst-italic">
                   Tower
                 </h3>
@@ -705,7 +705,7 @@ textarea:required {
 
 @media (max-width: 450px) {
   .header-img {
-    height: 34vh;
+    height: 24vh;
   }
 
   .title {
@@ -714,11 +714,12 @@ textarea:required {
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
     margin-left: 1vh;
+    margin-bottom: 0.4em;
   }
 
   .contact-icons {
     margin-top: -11vh;
-    margin-left: 33vh;
+    margin-left: 27vh;
   }
 
   .icon {
@@ -813,18 +814,25 @@ textarea:required {
     position: static;
   }
   .absolute-left-altered {
-  position: static;
-}
+    position: static;
+  }
 
-.relative-container{
-  margin-right: 14em;
-}
+  .relative-container{
+    margin-right: 14em;
+  }
 
-.tower-adjust{
-  padding-left: 1.2em;
-}
+  .tower-adjust{
+    padding-left: 1.2em;
+  }
 
+  .margin-adjust{
+    margin-right: 1em !important;
+    margin-left: 0em !important;
+  }
 
+  .margin-adjust-tower{
+    margin-right: 0.5em !important;
+  }
 
 
 }
