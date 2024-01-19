@@ -234,18 +234,18 @@
                   Stackify is integrated with Spotify's API and PKCE auth, which allows the user to log directly into
                   their
                   Spotify Premium account within the application. Stackify utilizes a Vue.js front-end and a Node.js
-                  backend, with MongoDB for database storage.
+                  backend, with MongoDB for database storage. This application is hosted using Render.
                 </p>
               </div>
               <div class="row align-items-center">
                 <div class="col-6 text-end">
                   <a href="https://github.com/tylermarcott/StackifyCapstone" target="_blank" rel="noopener noreferrer">
-                    <i class="mdi mdi-github stackify-links" title="Link to Stackify on GitHub!"></i>
+                    <i class="mdi mdi-github github-links" title="Link to Stackify on GitHub!"></i>
                   </a>
                 </div>
                 <div class="col-6">
                   <a href="https://stackify-jch3.onrender.com/#/" target="_blank" rel="noopener noreferrer">
-                    <p class="btn btn-default live-site-button">
+                    <p class="btn btn-default live-site-button" title="View the site live!">
                       View Live Site
                     </p>
                   </a>
@@ -271,13 +271,17 @@
                   server.
                 </p>
               </div>
+              <div class="row">
+                <div class="col-12 text-center">
+                  <a href="https://github.com/tylermarcott/KeeprFinalCheckpoint" target="_blank" rel="noopener noreferrer">
+                    <i class="mdi mdi-github github-links" title="Link to Keepr on GitHub!"></i>
+                  </a>
+                </div>
+              </div>
             </div>
             <div class="col-5 keepr-container">
               <div class="project-image-right absolute-right keepr-img">
               </div>
-              <a href="https://github.com/tylermarcott/KeeprFinalCheckpoint" target="_blank" rel="noopener noreferrer">
-                <i class="mdi mdi-github keepr-links" title="Link to Keepr on GitHub!"></i>
-              </a>
             </div>
           </div>
 
@@ -286,9 +290,6 @@
             <div class="col-12 col-md-5 tower-container">
               <div class="absolute-left-altered tower-img">
               </div>
-              <a href="https://github.com/tylermarcott/TowerCheckpoint" target="_blank" rel="noopener noreferrer">
-                <i class="mdi mdi-github tower-links" title="Link to Tower on GitHub!"></i>
-              </a>
             </div>
             <div class="col-12 col-md-7">
               <div class="row ms-3 tower-adjust">
@@ -302,6 +303,13 @@
                 <p class="ms-2">
                   Tower uses a Vue.js front end and a Node.js backend with a MongoDB database.
                 </p>
+              </div>
+              <div class="row">
+                <div class="col-12 text-center">
+                  <a href="https://github.com/tylermarcott/TowerCheckpoint" target="_blank" rel="noopener noreferrer">
+                    <i class="mdi mdi-github github-links" title="Link to Tower on GitHub!"></i>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -595,26 +603,18 @@ export default {
   transform: scale(1.1);
 }
 
-.project-container {
-  position: relative;
-}
-
-.stackify-links {
+.github-links{
   font-size: 50px;
   color: #E1D9D1;
   transition: all 1s;
 }
 
-.stackify-links:hover {
+.github-links:hover{
   transform: scale(1.10);
 }
 
-.project-container:hover .project-img {
-  opacity: 0.2;
-}
-
-.keepr-container:hover .keepr-img {
-  opacity: 0.2;
+.project-container {
+  position: relative;
 }
 
 .keepr-container:hover {
