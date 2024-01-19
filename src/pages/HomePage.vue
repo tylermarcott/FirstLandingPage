@@ -237,10 +237,10 @@
                   backend, with MongoDB for database storage. This application is hosted using Render.
                 </p>
               </div>
-              <div class="row align-items-center">
-                <div class="col-6 text-end">
+              <div class="row align-items-center ms-2">
+                <div class="col-1 text-end github-links me-4">
                   <a href="https://github.com/tylermarcott/StackifyCapstone" target="_blank" rel="noopener noreferrer">
-                    <i class="mdi mdi-github github-links" title="Link to Stackify on GitHub!"></i>
+                    <i class="mdi mdi-github icon-color" title="Link to Stackify on GitHub!"></i>
                   </a>
                 </div>
                 <div class="col-6">
@@ -271,10 +271,10 @@
                   server.
                 </p>
               </div>
-              <div class="row">
-                <div class="col-12 text-center">
+              <div class="row ms-5">
+                <div class="col-1 text-center github-links">
                   <a href="https://github.com/tylermarcott/KeeprFinalCheckpoint" target="_blank" rel="noopener noreferrer">
-                    <i class="mdi mdi-github github-links" title="Link to Keepr on GitHub!"></i>
+                    <i class="mdi mdi-github icon-color" title="Link to Keepr on GitHub!"></i>
                   </a>
                 </div>
               </div>
@@ -304,10 +304,10 @@
                   Tower uses a Vue.js front end and a Node.js backend with a MongoDB database.
                 </p>
               </div>
-              <div class="row">
-                <div class="col-12 text-center">
+              <div class="row ms-5">
+                <div class="col-1 text-center github-links">
                   <a href="https://github.com/tylermarcott/TowerCheckpoint" target="_blank" rel="noopener noreferrer">
-                    <i class="mdi mdi-github github-links" title="Link to Tower on GitHub!"></i>
+                    <i class="mdi mdi-github icon-color" title="Link to Tower on GitHub!"></i>
                   </a>
                 </div>
               </div>
@@ -428,7 +428,7 @@ export default {
 
 .icon {
   cursor: pointer;
-  transition: transform 0.3s ease-in-out; //NOTE: the ease transition needs to go on the actual class, not the hover class.
+  transition: transform 0.5s ease-in-out; //NOTE: the ease transition needs to go on the actual class, not the hover class.
   font-size: 50px;
 }
 
@@ -605,12 +605,11 @@ export default {
 
 .github-links{
   font-size: 50px;
-  color: #E1D9D1;
-  transition: all 1s;
+  transition: all 0.5s;
 }
 
 .github-links:hover{
-  transform: scale(1.10);
+  transform: scale(1.2);
 }
 
 .relative-container {
