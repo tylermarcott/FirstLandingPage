@@ -792,20 +792,34 @@ textarea:required {
     margin-bottom: 0.4em;
     font-size: 30px;
   }
+
+  .contact-title{
+    margin-left: 0em;
+  }
+
+  .project-spacing{
+    padding-bottom: 10em;
+  }
+
+  .absolute-left{
+    left: 0px;
+    top: 100px;
+  }
+
+
+
+
+
+
+
+
 }
+
 
   // FIXME: why the fuck is this altering my full sized screen styling, need to look into this, noootttt ok lolol
 
   // NOTE: might be an issue with min vs max. Need to mess around with this a bit.
 
-  // .project-spacing{
-  //   padding-bottom: 10em;
-  // }
-
-  // .absolute-left{
-  //   left: 0px;
-  //   top: 100px;
-  // }
 
 @media (max-width: 375px) {}
 </style>
