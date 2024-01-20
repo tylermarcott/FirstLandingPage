@@ -456,7 +456,6 @@ export default {
   margin: 1em;
   padding-top: 1em;
   border-radius: 10px;
-  // min-height: 110vh;
   height: auto;
   box-shadow: 0px 0px 8px #989696b0;
 }
@@ -513,6 +512,7 @@ export default {
   box-shadow: 0 0 2px 2px #122331;
   padding-top: 1em;
   padding-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .skill-stack-title {
@@ -712,7 +712,7 @@ textarea:required {
   }
 
   .contact-icons {
-    margin-top: -11vh;
+    margin-top: -10vh;
     margin-left: 29vh;
   }
 
@@ -765,6 +765,10 @@ textarea:required {
   .skill-stack {
     padding-top: 0em;
     padding-bottom: 1em;
+    margin-left: 1.3em;
+    margin-right: 1.3em;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #989696b0;
   }
 
   .relative-container {
@@ -775,6 +779,7 @@ textarea:required {
   .project-background {
     padding-left: 2em;
     padding-right: 2em;
+    box-shadow: none;
   }
 
   .project-card {
