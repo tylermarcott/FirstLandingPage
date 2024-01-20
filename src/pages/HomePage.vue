@@ -512,7 +512,6 @@ export default {
   box-shadow: 0 0 2px 2px #122331;
   padding-top: 1em;
   padding-bottom: 2em;
-  margin-bottom: 1em;
 }
 
 .skill-stack-title {
@@ -765,6 +764,7 @@ textarea:required {
   .skill-stack {
     padding-top: 0em;
     padding-bottom: 1em;
+    margin-bottom: 1em;
     margin-left: 1.3em;
     margin-right: 1.3em;
     border-radius: 10px;
