@@ -83,7 +83,7 @@
 
 
     <section>
-      <div class="row skill-stack justify-content-between px-4">
+      <div class="row skill-stack justify-content-between">
         <div class="col-12 skill-stack-title">
           My Skills
         </div>
@@ -512,6 +512,8 @@ export default {
   box-shadow: 0 0 2px 2px #122331;
   padding-top: 1em;
   padding-bottom: 2em;
+  padding-left: 1em;
+  padding-right: 1.5em;
 }
 
 .skill-stack-title {
@@ -754,7 +756,7 @@ textarea:required {
   }
 
   .skill-stack-title {
-    padding-left: 0em;
+    padding-left: 1em;
     margin-top: 1em;
     margin-bottom: 2em;
     font-size: 30px;
@@ -762,6 +764,8 @@ textarea:required {
   }
 
   .skill-stack {
+    padding-left: 0em;
+    padding-right: 0.5em;
     padding-top: 0em;
     padding-bottom: 1em;
     margin-bottom: 1em;
