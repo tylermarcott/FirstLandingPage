@@ -255,11 +255,45 @@
             </div>
           </div>
 
-          <!-- Keepr section -->
+          <!-- RWA section -->
 
           <div class="row pb-3 justify-content-center">
             <div class="col-12 col-md-7 project-spacing ls-margin">
               <div class="row me-3 ms-1">
+                <h3 class="fst-italic">
+                  RWA
+                </h3>
+                <p class="ms-2">
+                  Real world abs description
+                </p>
+                <p class="ms-2">
+                  More RWA desc, Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ex provident doloremque dolore quisquam, ipsam suscipit neque distinctio cupiditate optio assumenda? Explicabo dolores cupiditate distinctio consequuntur delectus expedita enim debitis!
+                  Modi dolorum possimus corporis? Fugiat quos perspiciatis blanditiis, earum nam debitis voluptate doloribus sapiente cumque, provident pariatur. Veritatis ab itaque totam, vero ipsam tempore, eaque aliquid animi iste earum commodi!
+                </p>
+              </div>
+              <div class="row ms-5 link-adjust">
+                <div class="col-1 text-center github-links">
+                  <a href="https://github.com/tylermarcott/KeeprFinalCheckpoint" target="_blank" rel="noopener noreferrer">
+                    <i class="mdi mdi-github icon-color" title="Link to Keepr on GitHub!"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-10 col-md-5 relative-container d-flex justify-content-center">
+              <div class="project-image-right absolute-right RWA-img margin-adjust">
+              </div>
+            </div>
+          </div>
+
+          <!-- Keepr section -->
+
+          <div class="row pt-5 project-flip justify-content-center ls-margin">
+            <div class="col-12 col-md-5 relative-container d-flex justify-content-center">
+              <div class="absolute-left-altered keepr-img">
+              </div>
+            </div>
+            <div class="col-12 col-md-7 project-spacing">
+              <div class="row ms-3 margin-adjust-tower">
                 <h3 class="fst-italic">
                   Keepr
                 </h3>
@@ -277,40 +311,6 @@
                 <div class="col-1 text-center github-links">
                   <a href="https://github.com/tylermarcott/KeeprFinalCheckpoint" target="_blank" rel="noopener noreferrer">
                     <i class="mdi mdi-github icon-color" title="Link to Keepr on GitHub!"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-10 col-md-5 relative-container d-flex justify-content-center">
-              <div class="project-image-right absolute-right keepr-img margin-adjust">
-              </div>
-            </div>
-          </div>
-
-          <!-- Tower section -->
-
-          <div class="row pt-5 project-flip justify-content-center ls-margin">
-            <div class="col-12 col-md-5 relative-container d-flex justify-content-center">
-              <div class="absolute-left-altered tower-img">
-              </div>
-            </div>
-            <div class="col-12 col-md-7 project-spacing">
-              <div class="row ms-3 margin-adjust-tower">
-                <h3 class="fst-italic">
-                  Tower
-                </h3>
-                <p class="ms-2">
-                  Tower is a full-stack independently built event based application, where users can create and manage
-                  events, as well as purchase tickets to other people's events.
-                </p>
-                <p class="ms-2">
-                  Tower uses a Vue.js front end and a Node.js backend with a MongoDB database.
-                </p>
-              </div>
-              <div class="row ms-5 link-adjust">
-                <div class="col-1 text-center github-links">
-                  <a href="https://github.com/tylermarcott/TowerCheckpoint" target="_blank" rel="noopener noreferrer">
-                    <i class="mdi mdi-github icon-color" title="Link to Tower on GitHub!"></i>
                   </a>
                 </div>
               </div>
@@ -585,8 +585,8 @@ export default {
   border-radius: 3px;
 }
 
-.tower-img {
-  background-image: url('../assets/img/TowerSnapshot.png');
+.RWA-img {
+  background-image: url('../assets/img/RWASnapshot.png');
   background-position: center;
   background-size: cover;
   height: 35vh;
