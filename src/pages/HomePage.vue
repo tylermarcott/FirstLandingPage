@@ -263,6 +263,7 @@
                 <h3 class="fst-italic">
                   RWA
                 </h3>
+                <!-- FIXME: add a real description for RWA -->
                 <p class="ms-2">
                   Real world abs description
                 </p>
@@ -272,9 +273,17 @@
                 </p>
               </div>
               <div class="row ms-5 link-adjust">
-                <div class="col-1 text-center github-links">
+                <!-- NOTE: rwa repo is still private -->
+                <!-- <div class="col-1 text-center github-links">
                   <a href="https://github.com/tylermarcott/KeeprFinalCheckpoint" target="_blank" rel="noopener noreferrer">
                     <i class="mdi mdi-github icon-color" title="Link to Keepr on GitHub!"></i>
+                  </a>
+                </div> -->
+                <div class="col-6 mt-3">
+                  <a href="https://realworldabs.io/" target="_blank" rel="noopener noreferrer">
+                    <p class="btn btn-default live-site-button" title="View the site live!">
+                      View Live Site
+                    </p>
                   </a>
                 </div>
               </div>
