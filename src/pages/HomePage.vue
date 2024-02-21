@@ -1,5 +1,8 @@
 
 <template>
+
+  <!-- Header section -->
+
   <div class="overflow-correction">
     <section class="header-img">
       <div class="row">
@@ -35,7 +38,7 @@
       </div>
     </section>
 
-
+    <!-- Personal summary section -->
 
     <section>
       <div class="row summary-background justify-content-center align-items-center">
@@ -81,6 +84,7 @@
       </div>
     </section>
 
+    <!-- Skill section -->
 
     <section>
       <div class="row skill-stack justify-content-between">
@@ -200,7 +204,7 @@
       </div>
     </section>
 
-<!-- NOTE: d-flex justify-content-center fixed issue with alignment, forces d-flex on non rows, works for columns, interesting.. -->
+    <!-- Portfolio section -->
 
     <section>
       <div class="row project-background justify-content-center">
@@ -208,11 +212,14 @@
           My Portfolio
         </div>
         <div class="col-12 col-md-10 project-card">
-          <div class="row mt-5 mb-5 align-items-center project-flip">
+          <div class="row mt-5 mb-5 align-items-center project-flip ls-margin">
             <div class="col-7 col-md-5 relative-container d-flex justify-content-center">
               <div class="absolute-left stackify-img">
               </div>
             </div>
+
+            <!-- Stackify Section -->
+
             <div class="col-12 col-md-7 project-spacing">
               <div class="row ms-3 me-1 margin-adjust">
                 <h3 class="fst-italic">
@@ -248,9 +255,10 @@
             </div>
           </div>
 
+          <!-- Keepr section -->
 
           <div class="row pb-3 justify-content-center">
-            <div class="col-12 col-md-7 project-spacing">
+            <div class="col-12 col-md-7 project-spacing ls-margin">
               <div class="row me-3 ms-1">
                 <h3 class="fst-italic">
                   Keepr
@@ -279,8 +287,9 @@
             </div>
           </div>
 
+          <!-- Tower section -->
 
-          <div class="row pt-5 project-flip justify-content-center">
+          <div class="row pt-5 project-flip justify-content-center ls-margin">
             <div class="col-12 col-md-5 relative-container d-flex justify-content-center">
               <div class="absolute-left-altered tower-img">
               </div>
@@ -310,6 +319,8 @@
         </div>
       </div>
     </section>
+
+    <!-- Contact section -->
 
     <section>
       <div class="row contact-background justify-content-center">
@@ -662,36 +673,12 @@ textarea:required {
 
 
 // NOTE: media queries, just like in plain css, have to be AFTER the styles that they are changing.
-@media (max-width: 1440px) {
+@media screen and (min-width: 1720px) {
 
-  .project-image-left {
-    max-height: 40vh;
-    max-width: 70vh;
+  .ls-margin{
+    margin-bottom: 8em !important;
   }
 
-  .project-image-right {
-    max-height: 40vh;
-    max-width: 70vh;
-  }
-
-  .project-image-left-ss {
-    max-height: 40vh;
-    max-width: 70vh;
-  }
-
-  .project-image-right {
-    max-height: 40vh;
-    max-width: 70vh;
-  }
-
-  .contact-title {
-    margin-top: 3.5em;
-    margin-left: 4.5em;
-  }
-
-  .contact-title {
-    margin-top: 3em;
-  }
 }
 
 
