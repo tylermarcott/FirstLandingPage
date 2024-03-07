@@ -265,11 +265,10 @@
                 </h3>
                 <!-- FIXME: add a real description for RWA -->
                 <p class="ms-2">
-                  Real world abs description
+                  The $RWA Ethereum linked currency was built and launched to promote Frax Finance’s (multi-billion $ TVL Protocol) new layer 2, modular blockchain. Our main goal is to aid in onboarding new users during this active launch phase and provide people with a risk-free way to test the network. On day 1 of Frax Chain and $RWA’s launch, $RWA was involved in settling over 70% of the ledger’s total volume.
                 </p>
                 <p class="ms-2">
-                  More RWA desc, Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ex provident doloremque dolore quisquam, ipsam suscipit neque distinctio cupiditate optio assumenda? Explicabo dolores cupiditate distinctio consequuntur delectus expedita enim debitis!
-                  Modi dolorum possimus corporis? Fugiat quos perspiciatis blanditiis, earum nam debitis voluptate doloribus sapiente cumque, provident pariatur. Veritatis ab itaque totam, vero ipsam tempore, eaque aliquid animi iste earum commodi!
+                  $RWA was built using a React front end, integrating Web3 Modal v3/ Wagmi v2 for wallet connect, on top of Solidity smart contract framework. This application is hosted through Namecheap using C-Panel file manager.
                 </p>
               </div>
               <div class="row ms-5 link-adjust">
