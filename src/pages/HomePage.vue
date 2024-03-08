@@ -255,6 +255,8 @@
             </div>
           </div>
 
+          <!-- FIXME: have to figure out what stylings I need to add back in, image is WAY too big on mobile -->
+
           <!-- RWA section -->
 
           <div class="row pb-3 justify-content-center">
